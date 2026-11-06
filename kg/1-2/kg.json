@@ -1,0 +1,966 @@
+{
+ "version": "1.0",
+ "page": "1-2_machine_learning",
+ "nodes": [
+  {
+   "id": "lab:concept/rule-based",
+   "type": "Concept",
+   "label": {
+    "ko": "규칙 기반",
+    "en": "Rule-based system"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:concept/machine-learning",
+   "type": "Concept",
+   "label": {
+    "ko": "머신러닝",
+    "en": "Machine learning"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "판단의 경계(눈금)를 사람 대신 데이터에서 찾는 방법."
+   }
+  },
+  {
+   "id": "lab:concept/probabilistic-thinking",
+   "type": "Concept",
+   "label": {
+    "ko": "결정론에서 확률로",
+    "en": "From determinism to probability"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "math"
+  },
+  {
+   "id": "lab:dataset/fish-market",
+   "type": "Dataset",
+   "label": {
+    "ko": "물고기 159마리 데이터",
+    "en": "Fish market dataset (159 fish)"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s3",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:method/logistic-regression",
+   "type": "Method",
+   "label": {
+    "ko": "로지스틱 회귀",
+    "en": "Logistic regression"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "classical",
+   "definition": {
+    "ko": "특징의 가중합을 시그모이드로 확률로 바꾸는 분류 모델."
+   }
+  },
+  {
+   "id": "lab:concept/sigmoid",
+   "type": "Concept",
+   "label": {
+    "ko": "시그모이드",
+    "en": "Sigmoid function"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "nn-basics"
+  },
+  {
+   "id": "lab:method/gradient-descent",
+   "type": "Method",
+   "label": {
+    "ko": "경사하강법",
+    "en": "Gradient descent"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "optimization",
+   "definition": {
+    "ko": "손실이 줄어드는 방향으로 가중치를 조금씩 고치는 방법."
+   }
+  },
+  {
+   "id": "lab:concept/loss-function",
+   "type": "Concept",
+   "label": {
+    "ko": "손실 함수",
+    "en": "Loss function"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "nn-basics"
+  },
+  {
+   "id": "lab:method/decision-tree",
+   "type": "Method",
+   "label": {
+    "ko": "결정트리",
+    "en": "Decision tree"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "classical",
+   "definition": {
+    "ko": "데이터를 보고 기계가 스스로 쓴 플로우차트."
+   }
+  },
+  {
+   "id": "lab:concept/overfitting",
+   "type": "Concept",
+   "label": {
+    "ko": "과적합",
+    "en": "Overfitting"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s8",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "훈련 데이터의 우연한 특징까지 외워 새 데이터에서 틀리는 상태."
+   }
+  },
+  {
+   "id": "lab:concept/train-test-split",
+   "type": "Concept",
+   "label": {
+    "ko": "훈련·시험 데이터 나누기",
+    "en": "Train/test split"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s7",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:metric/accuracy",
+   "type": "Metric",
+   "label": {
+    "ko": "정확도",
+    "en": "Accuracy"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s7",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "evaluation"
+  },
+  {
+   "id": "lab:limitation/survivorship-bias",
+   "type": "Limitation",
+   "label": {
+    "ko": "생존자 편향",
+    "en": "Survivorship bias"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:claim/hand-rule-50",
+   "type": "Claim",
+   "label": {
+    "ko": "1장의 손 규칙은 물고기 159마리에서 정확도 50.3%였다.",
+    "en": "Hand rule accuracy was 50.3% on 159 fish."
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "fishcatchdata",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/logreg-82",
+   "type": "Claim",
+   "label": {
+    "ko": "로지스틱 회귀는 시험 데이터에서 82.5%를 맞혔다.",
+    "en": "Logistic regression scored 82.5% on test data."
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s7",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "park2020honja",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/samuel-1959",
+   "type": "Claim",
+   "label": {
+    "ko": "새뮤얼은 1959년 체커 게임으로 머신러닝이라는 말을 썼다.",
+    "en": "Samuel used checkers to coin machine learning."
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "samuel1959studies",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/mitchell-definition",
+   "type": "Claim",
+   "label": {
+    "ko": "미첼은 경험으로 성능이 나아지는 프로그램을 머신러닝으로 정의했다.",
+    "en": "Mitchell's definition of machine learning."
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mitchell1997machine",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/wald-armor",
+   "type": "Claim",
+   "label": {
+    "ko": "왈드는 돌아온 비행기만 본 데이터의 편향을 지적했다.",
+    "en": "Wald pointed out survivorship bias."
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "wald1943method",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/sklearn",
+   "type": "Claim",
+   "label": {
+    "ko": "실험은 scikit-learn으로 했다.",
+    "en": "Experiments used scikit-learn."
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s7",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "pedregosa2011scikit",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/gd-scale",
+   "type": "Simulation",
+   "label": {
+    "ko": "눈금이 움직이는 경사하강법",
+    "en": "Gradient descent animation"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/fish-tree",
+   "type": "Simulation",
+   "label": {
+    "ko": "기계가 쓴 플로우차트",
+    "en": "Learned decision tree"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-2-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "머신러닝이 1장의 규칙 기반과 가장 크게 다른 점은?",
+    "en": ""
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-2-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "물고기 159마리 실험에서 손 규칙과 로지스틱 회귀(시험 데이터)의 정확도는?",
+    "en": ""
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-2-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "훈련 데이터는 거의 다 맞히는데 새 데이터에서 자주 틀린다. 무엇을 의심해야 하나?",
+    "en": ""
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/samuel1959studies",
+   "type": "Work",
+   "label": {
+    "ko": "Some Studies in Machine Learning Using the Game of Checkers",
+    "en": "Some Studies in Machine Learning Using the Game of Checkers"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mitchell1997machine",
+   "type": "Work",
+   "label": {
+    "ko": "Machine Learning",
+    "en": "Machine Learning"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/zadeh1965fuzzy",
+   "type": "Work",
+   "label": {
+    "ko": "Fuzzy Sets",
+    "en": "Fuzzy Sets"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/wald1943method",
+   "type": "Work",
+   "label": {
+    "ko": "A Method of Estimating Plane Vulnerability Based on Damage of Survivors",
+    "en": "A Method of Estimating Plane Vulnerability Based on Damage of Survivors"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/fishcatchdata",
+   "type": "Work",
+   "label": {
+    "ko": "Fish Catch Data Set",
+    "en": "Fish Catch Data Set"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/park2020honja",
+   "type": "Work",
+   "label": {
+    "ko": "혼자 공부하는 머신러닝+딥러닝 (실습 데이터 fish.csv)",
+    "en": "혼자 공부하는 머신러닝+딥러닝 (실습 데이터 fish.csv)"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/pedregosa2011scikit",
+   "type": "Work",
+   "label": {
+    "ko": "Scikit-learn: Machine Learning in Python",
+    "en": "Scikit-learn: Machine Learning in Python"
+   },
+   "page": "1-2_machine_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/machine-learning",
+   "p": "lab:broader",
+   "o": "lab:topic/supervised-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/machine-learning",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/probabilistic-thinking",
+   "p": "lab:broader",
+   "o": "lab:topic/probability-statistics",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/logistic-regression",
+   "p": "lab:broader",
+   "o": "lab:topic/logistic-regression",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/sigmoid",
+   "p": "lab:broader",
+   "o": "lab:topic/activation-function",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gradient-descent",
+   "p": "lab:broader",
+   "o": "lab:topic/gradient-descent",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/loss-function",
+   "p": "lab:broader",
+   "o": "lab:topic/loss-function",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/decision-tree",
+   "p": "lab:broader",
+   "o": "lab:topic/decision-tree",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/overfitting",
+   "p": "lab:broader",
+   "o": "lab:topic/generalization",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/train-test-split",
+   "p": "lab:broader",
+   "o": "lab:topic/data-splitting",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:metric/accuracy",
+   "p": "lab:broader",
+   "o": "lab:topic/accuracy-metrics",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/survivorship-bias",
+   "p": "lab:broader",
+   "o": "lab:topic/generalization",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/machine-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/machine-learning",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/logistic-regression",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/logistic-regression",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/decision-tree",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/probabilistic-thinking",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/machine-learning",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/loss-function",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/gradient-descent",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gradient-descent",
+   "p": "lab:partOf",
+   "o": "lab:method/logistic-regression",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/sigmoid",
+   "p": "lab:partOf",
+   "o": "lab:method/logistic-regression",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/logistic-regression",
+   "p": "lab:contrastsWith",
+   "o": "lab:method/decision-tree",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/logistic-regression",
+   "p": "lab:evaluatedOn",
+   "o": "lab:dataset/fish-market",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/decision-tree",
+   "p": "lab:evaluatedOn",
+   "o": "lab:dataset/fish-market",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/logistic-regression",
+   "p": "lab:evaluatedBy",
+   "o": "lab:metric/accuracy",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/decision-tree",
+   "p": "lab:hasLimitation",
+   "o": "lab:concept/overfitting",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/overfitting",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/train-test-split",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/probabilistic-thinking",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/survivorship-bias",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hand-rule-50",
+   "p": "lab:supports",
+   "o": "lab:concept/rule-based",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hand-rule-50",
+   "p": "lab:assertedIn",
+   "o": "lab:work/fishcatchdata",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/logreg-82",
+   "p": "lab:supports",
+   "o": "lab:method/logistic-regression",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/logreg-82",
+   "p": "lab:assertedIn",
+   "o": "lab:work/park2020honja",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/samuel-1959",
+   "p": "lab:supports",
+   "o": "lab:concept/machine-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/samuel-1959",
+   "p": "lab:assertedIn",
+   "o": "lab:work/samuel1959studies",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mitchell-definition",
+   "p": "lab:supports",
+   "o": "lab:concept/machine-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mitchell-definition",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mitchell1997machine",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/wald-armor",
+   "p": "lab:supports",
+   "o": "lab:limitation/survivorship-bias",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/wald-armor",
+   "p": "lab:assertedIn",
+   "o": "lab:work/wald1943method",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/sklearn",
+   "p": "lab:supports",
+   "o": "lab:method/logistic-regression",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/sklearn",
+   "p": "lab:assertedIn",
+   "o": "lab:work/pedregosa2011scikit",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gradient-descent",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/gd-scale",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/logistic-regression",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/gd-scale",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/decision-tree",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/fish-tree",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-2-check-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/machine-learning",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-2-check-2",
+   "p": "lab:assesses",
+   "o": "lab:method/logistic-regression",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-2-check-3",
+   "p": "lab:assesses",
+   "o": "lab:concept/overfitting",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/probabilistic-thinking",
+   "p": "lab:explainedIn",
+   "o": "lab:work/zadeh1965fuzzy",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,493 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "primary",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "primary",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+  "author": [
+   {
+    "family": "McCulloch",
+    "given": "W. S."
+   },
+   {
+    "family": "Pitts",
+    "given": "W."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1943
+    ]
+   ]
+  },
+  "container-title": "Bulletin of Mathematical Biophysics",
+  "id": "mcculloch1943logical",
+  "lab": {
+   "work": "lab:work/mcculloch1943logical",
+   "role": "background",
+   "supports": [
+    "lab:claim/mcculloch-pitts"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+  "author": [
+   {
+    "family": "Rosenblatt",
+    "given": "F."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1958
+    ]
+   ]
+  },
+  "container-title": "Psychological Review",
+  "id": "rosenblatt1958perceptron",
+  "lab": {
+   "work": "lab:work/rosenblatt1958perceptron",
+   "role": "background",
+   "supports": [
+    "lab:claim/rosenblatt-1958"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "The Tacit Dimension",
+  "author": [
+   {
+    "family": "Polanyi",
+    "given": "M."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1966
+    ]
+   ]
+  },
+  "container-title": "University of Chicago Press",
+  "id": "polanyi1966tacit",
+  "lab": {
+   "work": "lab:work/polanyi1966tacit",
+   "role": "background",
+   "supports": [
+    "lab:claim/tacit"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Perceptrons",
+  "author": [
+   {
+    "family": "Minsky",
+    "given": "M."
+   },
+   {
+    "family": "Papert",
+    "given": "S."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1969
+    ]
+   ]
+  },
+  "container-title": "MIT Press",
+  "id": "minsky1969perceptrons",
+  "lab": {
+   "work": "lab:work/minsky1969perceptrons",
+   "role": "background",
+   "supports": [
+    "lab:claim/minsky-papert-xor"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Learning Representations by Back-propagating Errors",
+  "author": [
+   {
+    "family": "Rumelhart",
+    "given": "D. E."
+   },
+   {
+    "family": "Hinton",
+    "given": "G. E."
+   },
+   {
+    "family": "Williams",
+    "given": "R. J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1986
+    ]
+   ]
+  },
+  "container-title": "Nature",
+  "id": "rumelhart1986learning",
+  "lab": {
+   "work": "lab:work/rumelhart1986learning",
+   "role": "background",
+   "supports": [
+    "lab:claim/backprop-1986"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Gradient-Based Learning Applied to Document Recognition",
+  "author": [
+   {
+    "family": "LeCun",
+    "given": "Y."
+   },
+   {
+    "family": "Bottou",
+    "given": "L."
+   },
+   {
+    "family": "Bengio",
+    "given": "Y."
+   },
+   {
+    "family": "Haffner",
+    "given": "P."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1998
+    ]
+   ]
+  },
+  "container-title": "Proceedings of the IEEE",
+  "id": "lecun1998gradient",
+  "lab": {
+   "work": "lab:work/lecun1998gradient",
+   "role": "background",
+   "supports": [
+    "lab:claim/lenet-cheques"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+  "author": [
+   {
+    "family": "Krizhevsky",
+    "given": "A."
+   },
+   {
+    "family": "Sutskever",
+    "given": "I."
+   },
+   {
+    "family": "Hinton",
+    "given": "G. E."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 25",
+  "id": "krizhevsky2012imagenet",
+  "lab": {
+   "work": "lab:work/krizhevsky2012imagenet",
+   "role": "background",
+   "supports": [
+    "lab:claim/alexnet-15-3"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Building High-level Features Using Large Scale Unsupervised Learning",
+  "author": [
+   {
+    "family": "Le",
+    "given": "Q. V."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2012
+    ]
+   ]
+  },
+  "container-title": "ICML 2012",
+  "id": "le2012building",
+  "lab": {
+   "work": "lab:work/le2012building",
+   "role": "background",
+   "supports": [
+    "lab:claim/cat-neuron"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Visualizing and Understanding Convolutional Networks",
+  "author": [
+   {
+    "family": "Zeiler",
+    "given": "M. D."
+   },
+   {
+    "family": "Fergus",
+    "given": "R."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "ECCV 2014",
+  "id": "zeiler2014visualizing",
+  "lab": {
+   "work": "lab:work/zeiler2014visualizing",
+   "role": "background",
+   "supports": [
+    "lab:claim/visualizing-filters"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Explaining and Harnessing Adversarial Examples",
+  "author": [
+   {
+    "family": "Goodfellow",
+    "given": "I. J."
+   },
+   {
+    "family": "Shlens",
+    "given": "J."
+   },
+   {
+    "family": "Szegedy",
+    "given": "C."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "ICLR 2015",
+  "id": "goodfellow2015explaining",
+  "lab": {
+   "work": "lab:work/goodfellow2015explaining",
+   "role": "background",
+   "supports": [
+    "lab:claim/adversarial"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

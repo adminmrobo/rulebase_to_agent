@@ -1,0 +1,875 @@
+{
+ "version": "1.0",
+ "page": "1-7_scaling",
+ "nodes": [
+  {
+   "id": "lab:concept/five-ingredients",
+   "type": "Concept",
+   "label": {
+    "ko": "갑자기가 아니었던 다섯 가지 재료",
+    "en": "Five ingredients of LLMs"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/gpt-series",
+   "type": "Method",
+   "label": {
+    "ko": "GPT-1에서 ChatGPT까지",
+    "en": "GPT series"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/scaling-law",
+   "type": "Concept",
+   "label": {
+    "ko": "스케일링 법칙",
+    "en": "Scaling laws"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "모델·데이터·계산을 키우면 손실이 예측 가능한 거듭제곱 곡선을 따라 줄어든다는 관찰."
+   }
+  },
+  {
+   "id": "lab:concept/compute-optimal",
+   "type": "Concept",
+   "label": {
+    "ko": "계산 최적 배분(친칠라)",
+    "en": "Compute-optimal training"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/training-compute",
+   "type": "Concept",
+   "label": {
+    "ko": "학습 계산량 C ≈ 6ND",
+    "en": "Training compute estimate"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/emergence",
+   "type": "Concept",
+   "label": {
+    "ko": "창발",
+    "en": "Emergent abilities"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/emergence-mirage",
+   "type": "Concept",
+   "label": {
+    "ko": "채점의 착시(신기루) 주장",
+    "en": "Emergence as metric artifact"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "evaluation"
+  },
+  {
+   "id": "lab:concept/in-context-learning",
+   "type": "Concept",
+   "label": {
+    "ko": "예시로 배우기(문맥 속 학습)",
+    "en": "In-context learning"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s7",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:claim/kaplan-alpha",
+   "type": "Claim",
+   "label": {
+    "ko": "카플란 법칙에서 모델 크기 지수는 약 0.076이다.",
+    "en": "Kaplan alpha_N about 0.076."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "kaplan2020scaling",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/gpt3-compute",
+   "type": "Claim",
+   "label": {
+    "ko": "GPT-3 학습 계산은 약 3.15 × 10²³ 연산이다.",
+    "en": "GPT-3 training compute ~3.15e23."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "brown2020language",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/chinchilla-20",
+   "type": "Claim",
+   "label": {
+    "ko": "친칠라: 파라미터 1개당 토큰 약 20개가 균형점이다.",
+    "en": "About 20 tokens per parameter."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "hoffmann2022training",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/emergent-abilities",
+   "type": "Claim",
+   "label": {
+    "ko": "규모가 어느 선을 넘을 때 능력이 갑자기 나타난다는 보고.",
+    "en": "Abilities appear abruptly at scale."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "wei2022emergent",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/mirage",
+   "type": "Claim",
+   "label": {
+    "ko": "갑작스러움은 정답·오답 채점 방식의 착시일 수 있다.",
+    "en": "Emergence may be a metric artifact."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "schaeffer2023emergent",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/few-shot",
+   "type": "Claim",
+   "label": {
+    "ko": "GPT-3는 예시 몇 개만 보고 과제를 따라 했다.",
+    "en": "GPT-3 learns from few examples in context."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s7",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "brown2020language",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/gpt2",
+   "type": "Claim",
+   "label": {
+    "ko": "GPT-2는 과제별 학습 없이 여러 과제를 했다.",
+    "en": "GPT-2 as unsupervised multitask learner."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "radford2019language",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/gpt1-2018",
+   "type": "Claim",
+   "label": {
+    "ko": "GPT-1은 생성 사전학습을 제안했다.",
+    "en": "GPT-1 generative pretraining."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "radford2018improving",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/chatgpt-users",
+   "type": "Claim",
+   "label": {
+    "ko": "ChatGPT는 두 달 만에 월 사용자 1억 명에 이르렀다는 분석이 나왔다.",
+    "en": "ChatGPT reached 100M users in two months."
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "reuters2023chatgpt",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/mini-scaling",
+   "type": "Simulation",
+   "label": {
+    "ko": "우리 실험실의 작은 스케일링 법칙",
+    "en": "Mini scaling law"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/emergence-k",
+   "type": "Simulation",
+   "label": {
+    "ko": "창발 채점 착시 조절",
+    "en": "Emergence metric slider"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-7-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "학습 계산량 어림식 C ≈ 6ND에서 N과 D는?",
+    "en": ""
+   },
+   "page": "1-7_scaling",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-7-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "친칠라 논문이 제시한 균형점은 파라미터 1개당 몇 토큰인가?",
+    "en": ""
+   },
+   "page": "1-7_scaling",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-7-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "'능력이 갑자기 나타난다(창발)'에 대한 반론의 핵심은?",
+    "en": ""
+   },
+   "page": "1-7_scaling",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/radford2018improving",
+   "type": "Work",
+   "label": {
+    "ko": "Improving Language Understanding by Generative Pre-Training",
+    "en": "Improving Language Understanding by Generative Pre-Training"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/radford2019language",
+   "type": "Work",
+   "label": {
+    "ko": "Language Models are Unsupervised Multitask Learners",
+    "en": "Language Models are Unsupervised Multitask Learners"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/kaplan2020scaling",
+   "type": "Work",
+   "label": {
+    "ko": "Scaling Laws for Neural Language Models. arXiv:2001.08361",
+    "en": "Scaling Laws for Neural Language Models. arXiv:2001.08361"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/brown2020language",
+   "type": "Work",
+   "label": {
+    "ko": "Language Models are Few-Shot Learners",
+    "en": "Language Models are Few-Shot Learners"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/hoffmann2022training",
+   "type": "Work",
+   "label": {
+    "ko": "Training Compute-Optimal Large Language Models. arXiv:2203.15556",
+    "en": "Training Compute-Optimal Large Language Models. arXiv:2203.15556"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/wei2022emergent",
+   "type": "Work",
+   "label": {
+    "ko": "Emergent Abilities of Large Language Models",
+    "en": "Emergent Abilities of Large Language Models"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/schaeffer2023emergent",
+   "type": "Work",
+   "label": {
+    "ko": "Are Emergent Abilities of Large Language Models a Mirage?",
+    "en": "Are Emergent Abilities of Large Language Models a Mirage?"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/reuters2023chatgpt",
+   "type": "Work",
+   "label": {
+    "ko": "ChatGPT sets record for fastest-growing user base - analyst note",
+    "en": "ChatGPT sets record for fastest-growing user base - analyst note"
+   },
+   "page": "1-7_scaling",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/five-ingredients",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt-series",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/scaling-law",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/compute-optimal",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/training-compute",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/emergence",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/emergence-mirage",
+   "p": "lab:broader",
+   "o": "lab:topic/accuracy-metrics",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/in-context-learning",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/five-ingredients",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/gpt-series",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt-series",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/scaling-law",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/scaling-law",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/compute-optimal",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/training-compute",
+   "p": "lab:partOf",
+   "o": "lab:concept/scaling-law",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/emergence",
+   "p": "lab:contrastsWith",
+   "o": "lab:concept/emergence-mirage",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/scaling-law",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/emergence",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt-series",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/in-context-learning",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/kaplan-alpha",
+   "p": "lab:supports",
+   "o": "lab:concept/scaling-law",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/kaplan-alpha",
+   "p": "lab:assertedIn",
+   "o": "lab:work/kaplan2020scaling",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gpt3-compute",
+   "p": "lab:supports",
+   "o": "lab:concept/training-compute",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gpt3-compute",
+   "p": "lab:assertedIn",
+   "o": "lab:work/brown2020language",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chinchilla-20",
+   "p": "lab:supports",
+   "o": "lab:concept/compute-optimal",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chinchilla-20",
+   "p": "lab:assertedIn",
+   "o": "lab:work/hoffmann2022training",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/emergent-abilities",
+   "p": "lab:supports",
+   "o": "lab:concept/emergence",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/emergent-abilities",
+   "p": "lab:assertedIn",
+   "o": "lab:work/wei2022emergent",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mirage",
+   "p": "lab:supports",
+   "o": "lab:concept/emergence-mirage",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mirage",
+   "p": "lab:assertedIn",
+   "o": "lab:work/schaeffer2023emergent",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/few-shot",
+   "p": "lab:supports",
+   "o": "lab:concept/in-context-learning",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/few-shot",
+   "p": "lab:assertedIn",
+   "o": "lab:work/brown2020language",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gpt2",
+   "p": "lab:supports",
+   "o": "lab:method/gpt-series",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gpt2",
+   "p": "lab:assertedIn",
+   "o": "lab:work/radford2019language",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gpt1-2018",
+   "p": "lab:supports",
+   "o": "lab:method/gpt-series",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gpt1-2018",
+   "p": "lab:assertedIn",
+   "o": "lab:work/radford2018improving",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chatgpt-users",
+   "p": "lab:supports",
+   "o": "lab:method/gpt-series",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chatgpt-users",
+   "p": "lab:assertedIn",
+   "o": "lab:work/reuters2023chatgpt",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/scaling-law",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/mini-scaling",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/emergence",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/emergence-k",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/emergence-mirage",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/emergence-k",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-7-check-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/training-compute",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-7-check-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/compute-optimal",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-7-check-3",
+   "p": "lab:assesses",
+   "o": "lab:concept/emergence-mirage",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/five-ingredients",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

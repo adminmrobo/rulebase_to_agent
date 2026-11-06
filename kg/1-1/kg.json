@@ -1,0 +1,1904 @@
+{
+ "version": "1.0",
+ "page": "1-1_rulebase",
+ "nodes": [
+  {
+   "id": "lab:concept/rule-based",
+   "type": "Concept",
+   "label": {
+    "ko": "규칙 기반",
+    "en": "Rule-based system"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "사람이 IF-THEN 규칙을 직접 써 넣어 판단하게 하는 방식."
+   }
+  },
+  {
+   "id": "lab:concept/flowchart",
+   "type": "Concept",
+   "label": {
+    "ko": "플로우차트",
+    "en": "Flowchart"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "마름모(조건)와 화살표로 판단 순서를 그린 그림."
+   }
+  },
+  {
+   "id": "lab:concept/dartmouth-ai",
+   "type": "Concept",
+   "label": {
+    "ko": "다트머스 회의와 인공지능의 정의",
+    "en": "Dartmouth proposal"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:method/expert-system",
+   "type": "Method",
+   "label": {
+    "ko": "전문가 시스템",
+    "en": "Expert system"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "전문가의 지식을 규칙으로 모으고 추론 엔진이 차례로 적용하는 시스템."
+   }
+  },
+  {
+   "id": "lab:concept/knowledge-base",
+   "type": "Concept",
+   "label": {
+    "ko": "지식 베이스",
+    "en": "Knowledge base"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:concept/inference-engine",
+   "type": "Concept",
+   "label": {
+    "ko": "추론 엔진",
+    "en": "Inference engine"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "규칙을 사실과 맞춰 보며 결론을 이어 붙이는 장치."
+   }
+  },
+  {
+   "id": "lab:concept/if-then-formula",
+   "type": "Concept",
+   "label": {
+    "ko": "규칙의 수식 표현",
+    "en": "Rules as logic formulas"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:concept/state-space-search",
+   "type": "Concept",
+   "label": {
+    "ko": "상태공간 탐색",
+    "en": "State-space search"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "문제를 상태와 연결선의 그래프로 바꿔 길을 찾는 방법."
+   }
+  },
+  {
+   "id": "lab:method/bfs",
+   "type": "Method",
+   "label": {
+    "ko": "너비우선 탐색",
+    "en": "Breadth-first search"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#trFig",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "오픈 리스트를 큐로 써서 가까운 상태부터 넓게 훑는 탐색."
+   }
+  },
+  {
+   "id": "lab:method/dfs",
+   "type": "Method",
+   "label": {
+    "ko": "깊이우선 탐색",
+    "en": "Depth-first search"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#trFig",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "오픈 리스트를 스택으로 써서 한 길을 끝까지 파고드는 탐색."
+   }
+  },
+  {
+   "id": "lab:method/dijkstra",
+   "type": "Method",
+   "label": {
+    "ko": "다익스트라 알고리즘",
+    "en": "Dijkstra's algorithm"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "통로 길이를 더해 가며 가까운 곳부터 넓혀 실제 최단 경로를 찾는 방법."
+   }
+  },
+  {
+   "id": "lab:method/a-star",
+   "type": "Method",
+   "label": {
+    "ko": "A* 탐색",
+    "en": "A* search"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:term/open-closed-list",
+   "type": "Term",
+   "label": {
+    "ko": "오픈 리스트·클로즈드 리스트",
+    "en": "Open and closed lists"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#trFig",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:limitation/rule-explosion",
+   "type": "Limitation",
+   "label": {
+    "ko": "규칙 폭발",
+    "en": "Combinatorial rule explosion"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s8",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "조건이 n개면 경우의 수가 2ⁿ으로 불어나는 문제."
+   }
+  },
+  {
+   "id": "lab:limitation/search-explosion",
+   "type": "Limitation",
+   "label": {
+    "ko": "탐색 공간 폭발",
+    "en": "Search space explosion"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:limitation/frame-problem",
+   "type": "Limitation",
+   "label": {
+    "ko": "프레임 문제",
+    "en": "Frame problem"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:limitation/knowledge-acquisition-bottleneck",
+   "type": "Limitation",
+   "label": {
+    "ko": "지식 획득 병목",
+    "en": "Knowledge acquisition bottleneck"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s8",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:method/fuzzy-logic",
+   "type": "Method",
+   "label": {
+    "ko": "퍼지 이론",
+    "en": "Fuzzy logic"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics",
+   "definition": {
+    "ko": "\"무겁다\"를 예·아니오 대신 0~1의 정도로 다루는 규칙."
+   }
+  },
+  {
+   "id": "lab:concept/membership-function",
+   "type": "Concept",
+   "label": {
+    "ko": "소속 함수",
+    "en": "Membership function"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:method/fuzzy-control",
+   "type": "Method",
+   "label": {
+    "ko": "퍼지 제어",
+    "en": "Fuzzy control"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:method/neuro-fuzzy",
+   "type": "Method",
+   "label": {
+    "ko": "뉴로-퍼지 (ANFIS)",
+    "en": "Neuro-fuzzy (ANFIS)"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:concept/robot-journalism",
+   "type": "Concept",
+   "label": {
+    "ko": "규칙 기반 문장 생성(로봇 저널리즘)",
+    "en": "Template-based news generation"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s7",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:claim/mycin-600-rules",
+   "type": "Claim",
+   "label": {
+    "ko": "MYCIN은 약 600개의 규칙을 사람이 써 넣었다.",
+    "en": "MYCIN used about 600 hand-written rules."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "buchanan1984rule",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/xcon-2500-rules",
+   "type": "Claim",
+   "label": {
+    "ko": "XCON은 약 2,500개의 규칙으로 컴퓨터 구성을 자동화했다.",
+    "en": "XCON automated configuration with about 2,500 rules."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mcdermott1982r1",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/dartmouth-1956",
+   "type": "Claim",
+   "label": {
+    "ko": "1956년 다트머스 회의 제안서가 \"인공지능\"이라는 이름을 붙였다.",
+    "en": "The Dartmouth proposal named artificial intelligence."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mccarthy1955proposal",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/symbols-and-search",
+   "type": "Claim",
+   "label": {
+    "ko": "고전 AI는 지능을 기호와 탐색으로 보았다.",
+    "en": "Classical AI viewed intelligence as symbols and search."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "newell1976computer",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/frame-problem-robots",
+   "type": "Claim",
+   "label": {
+    "ko": "데닛은 로봇 R1·R1D1·R2D1 이야기로 프레임 문제를 보였다.",
+    "en": "Dennett illustrated the frame problem with three robots."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "dennett1984cognitive",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/frame-problem-named",
+   "type": "Claim",
+   "label": {
+    "ko": "프레임 문제라는 이름은 McCarthy와 Hayes(1969)에서 나왔다.",
+    "en": "The frame problem was named by McCarthy and Hayes."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mccarthy1969philosophical",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/dijkstra-1959",
+   "type": "Claim",
+   "label": {
+    "ko": "다익스트라 알고리즘은 실제 거리로 가장 짧은 길을 찾는다.",
+    "en": "Dijkstra finds the shortest path by distance."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "dijkstra1959note",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/astar-1968",
+   "type": "Claim",
+   "label": {
+    "ko": "A*는 남은 거리 어림값으로 살펴볼 상태 수를 줄인다.",
+    "en": "A* uses a heuristic to reduce search."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "hart1968formal",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/fuzzy-sets-1965",
+   "type": "Claim",
+   "label": {
+    "ko": "자데는 1965년 소속 정도가 0~1인 퍼지 집합을 제안했다.",
+    "en": "Zadeh proposed fuzzy sets with degrees of membership."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "zadeh1965fuzzy",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/mamdani-controller",
+   "type": "Claim",
+   "label": {
+    "ko": "맘다니는 퍼지 규칙으로 실험용 증기기관을 제어했다.",
+    "en": "Mamdani controlled a steam engine with fuzzy rules."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mamdani1974application",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/fuzzy-appliances-1990",
+   "type": "Claim",
+   "label": {
+    "ko": "1990년 무렵 일본 가전에 퍼지가 퍼졌다.",
+    "en": "Fuzzy logic spread to Japanese appliances around 1990."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "swinbanks1990fuzzy",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/anfis-1993",
+   "type": "Claim",
+   "label": {
+    "ko": "ANFIS는 신경망으로 소속 함수를 데이터에서 배운다.",
+    "en": "ANFIS learns membership functions from data."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "jang1993anfis",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/sendai-1987",
+   "type": "Claim",
+   "label": {
+    "ko": "센다이 지하철 난보쿠선은 1987년부터 퍼지 제어로 가속·제동했다.",
+    "en": "Sendai subway used fuzzy control from 1987."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "wikipediafuzzycontrol",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/goldstar-1991-ad",
+   "type": "Claim",
+   "label": {
+    "ko": "1991년 금성사는 센서+규칙 제어 세탁기를 \"인공지능 세탁기\"로 광고했다.",
+    "en": "A 1991 ad called a sensor-rule washer AI."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "goldstar1991okwasher",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/mycin-xcon-figures",
+   "type": "Claim",
+   "label": {
+    "ko": "MYCIN·XCON의 규칙 수와 성과 수치.",
+    "en": "Rule counts and results of MYCIN and XCON."
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "wikipediamycinxcon",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/flowchart-loan",
+   "type": "Simulation",
+   "label": {
+    "ko": "직접 돌려보는 대출 심사 플로우차트",
+    "en": "Interactive loan flowchart"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/maze-graph-search",
+   "type": "Simulation",
+   "label": {
+    "ko": "미로 → 그래프 → BFS·DFS·다익스트라",
+    "en": "Maze to graph search"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#mzFig",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/tree-open-closed",
+   "type": "Simulation",
+   "label": {
+    "ko": "A~J 나무의 오픈·클로즈드 리스트",
+    "en": "Open/closed list stepper"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#trFig",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/fuzzy-weight",
+   "type": "Simulation",
+   "label": {
+    "ko": "퍼지 무게 소속 함수",
+    "en": "Fuzzy membership slider"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/fuzzy-washer",
+   "type": "Simulation",
+   "label": {
+    "ko": "퍼지 세탁기 규칙 네 줄",
+    "en": "Fuzzy washer"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:question/uncheckable-rules",
+   "type": "Question",
+   "label": {
+    "ko": "경계가 흐릿한 일을 규칙으로 어디까지 다룰 수 있나",
+    "en": "How far can rules handle fuzzy boundaries?"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#sfz",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-1-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "전문가 시스템을 이루는 두 부품은?",
+    "en": ""
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-1-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "예·아니오 조건이 30개면 따져야 할 경우의 수는 대략 얼마인가?",
+    "en": ""
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-1-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "증권 시황 문장 자동 작성에 규칙 기반이 지금도 잘 맞는 가장 큰 이유는?",
+    "en": ""
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mccarthy1955proposal",
+   "type": "Work",
+   "label": {
+    "ko": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+    "en": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/newell1976computer",
+   "type": "Work",
+   "label": {
+    "ko": "Computer Science as Empirical Inquiry: Symbols and Search",
+    "en": "Computer Science as Empirical Inquiry: Symbols and Search"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/buchanan1984rule",
+   "type": "Work",
+   "label": {
+    "ko": "Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project",
+    "en": "Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mcdermott1982r1",
+   "type": "Work",
+   "label": {
+    "ko": "R1: A Rule-Based Configurer of Computer Systems",
+    "en": "R1: A Rule-Based Configurer of Computer Systems"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mccarthy1969philosophical",
+   "type": "Work",
+   "label": {
+    "ko": "Some Philosophical Problems from the Standpoint of Artificial Intelligence",
+    "en": "Some Philosophical Problems from the Standpoint of Artificial Intelligence"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/dennett1984cognitive",
+   "type": "Work",
+   "label": {
+    "ko": "Cognitive Wheels: The Frame Problem of AI",
+    "en": "Cognitive Wheels: The Frame Problem of AI"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/dijkstra1959note",
+   "type": "Work",
+   "label": {
+    "ko": "A Note on Two Problems in Connexion with Graphs",
+    "en": "A Note on Two Problems in Connexion with Graphs"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/hart1968formal",
+   "type": "Work",
+   "label": {
+    "ko": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+    "en": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/zadeh1965fuzzy",
+   "type": "Work",
+   "label": {
+    "ko": "Fuzzy Sets",
+    "en": "Fuzzy Sets"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mamdani1974application",
+   "type": "Work",
+   "label": {
+    "ko": "Application of Fuzzy Algorithms for Control of Simple Dynamic Plant",
+    "en": "Application of Fuzzy Algorithms for Control of Simple Dynamic Plant"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/swinbanks1990fuzzy",
+   "type": "Work",
+   "label": {
+    "ko": "Fuzzy computers go home",
+    "en": "Fuzzy computers go home"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/jang1993anfis",
+   "type": "Work",
+   "label": {
+    "ko": "ANFIS: Adaptive-Network-Based Fuzzy Inference System",
+    "en": "ANFIS: Adaptive-Network-Based Fuzzy Inference System"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/wikipediafuzzycontrol",
+   "type": "Work",
+   "label": {
+    "ko": "Fuzzy control system",
+    "en": "Fuzzy control system"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/goldstar1991okwasher",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 OK 세탁기(WF-1410Y) 신문 광고",
+    "en": "인공지능 OK 세탁기(WF-1410Y) 신문 광고"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/russell2020artificial",
+   "type": "Work",
+   "label": {
+    "ko": "Artificial Intelligence: A Modern Approach (4th ed.)",
+    "en": "Artificial Intelligence: A Modern Approach (4th ed.)"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/wikipediamycinxcon",
+   "type": "Work",
+   "label": {
+    "ko": "MYCIN · Xcon",
+    "en": "MYCIN · Xcon"
+   },
+   "page": "1-1_rulebase",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/flowchart",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/dartmouth-ai",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/expert-system",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/knowledge-base",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/inference-engine",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/if-then-formula",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/state-space-search",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bfs",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#trFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dfs",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#trFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dijkstra",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/a-star",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:term/open-closed-list",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#trFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/rule-explosion",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/search-explosion",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/frame-problem",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/knowledge-acquisition-bottleneck",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fuzzy-logic",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/membership-function",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fuzzy-control",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/neuro-fuzzy",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/neuro-fuzzy",
+   "p": "lab:broader",
+   "o": "lab:topic/supervised-learning",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/robot-journalism",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/flowchart",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/rule-based",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/expert-system",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/expert-system",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/state-space-search",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/knowledge-base",
+   "p": "lab:partOf",
+   "o": "lab:method/expert-system",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/inference-engine",
+   "p": "lab:partOf",
+   "o": "lab:method/expert-system",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/if-then-formula",
+   "p": "lab:partOf",
+   "o": "lab:method/expert-system",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bfs",
+   "p": "lab:partOf",
+   "o": "lab:concept/state-space-search",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dfs",
+   "p": "lab:partOf",
+   "o": "lab:concept/state-space-search",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dijkstra",
+   "p": "lab:partOf",
+   "o": "lab:concept/state-space-search",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:term/open-closed-list",
+   "p": "lab:partOf",
+   "o": "lab:concept/state-space-search",
+   "anchor": "#trFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bfs",
+   "p": "lab:contrastsWith",
+   "o": "lab:method/dfs",
+   "anchor": "#trFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/a-star",
+   "p": "lab:partOf",
+   "o": "lab:concept/state-space-search",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/state-space-search",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/search-explosion",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/search-explosion",
+   "p": "lab:addressedBy",
+   "o": "lab:method/dijkstra",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/search-explosion",
+   "p": "lab:addressedBy",
+   "o": "lab:method/a-star",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/rule-explosion",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/frame-problem",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/knowledge-acquisition-bottleneck",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/rule-explosion",
+   "p": "lab:addressedBy",
+   "o": "lab:method/fuzzy-logic",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/membership-function",
+   "p": "lab:partOf",
+   "o": "lab:method/fuzzy-logic",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fuzzy-logic",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/fuzzy-control",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fuzzy-logic",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/neuro-fuzzy",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/robot-journalism",
+   "p": "lab:partOf",
+   "o": "lab:concept/rule-based",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/dartmouth-ai",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/rule-based",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mycin-600-rules",
+   "p": "lab:supports",
+   "o": "lab:method/expert-system",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mycin-600-rules",
+   "p": "lab:assertedIn",
+   "o": "lab:work/buchanan1984rule",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/xcon-2500-rules",
+   "p": "lab:supports",
+   "o": "lab:method/expert-system",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/xcon-2500-rules",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mcdermott1982r1",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dartmouth-1956",
+   "p": "lab:supports",
+   "o": "lab:concept/dartmouth-ai",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dartmouth-1956",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mccarthy1955proposal",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/symbols-and-search",
+   "p": "lab:supports",
+   "o": "lab:concept/state-space-search",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/symbols-and-search",
+   "p": "lab:assertedIn",
+   "o": "lab:work/newell1976computer",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/frame-problem-robots",
+   "p": "lab:supports",
+   "o": "lab:limitation/frame-problem",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/frame-problem-robots",
+   "p": "lab:assertedIn",
+   "o": "lab:work/dennett1984cognitive",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/frame-problem-named",
+   "p": "lab:supports",
+   "o": "lab:limitation/frame-problem",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/frame-problem-named",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mccarthy1969philosophical",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dijkstra-1959",
+   "p": "lab:supports",
+   "o": "lab:method/dijkstra",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dijkstra-1959",
+   "p": "lab:assertedIn",
+   "o": "lab:work/dijkstra1959note",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/astar-1968",
+   "p": "lab:supports",
+   "o": "lab:method/a-star",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/astar-1968",
+   "p": "lab:assertedIn",
+   "o": "lab:work/hart1968formal",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fuzzy-sets-1965",
+   "p": "lab:supports",
+   "o": "lab:method/fuzzy-logic",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fuzzy-sets-1965",
+   "p": "lab:assertedIn",
+   "o": "lab:work/zadeh1965fuzzy",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mamdani-controller",
+   "p": "lab:supports",
+   "o": "lab:method/fuzzy-control",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mamdani-controller",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mamdani1974application",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fuzzy-appliances-1990",
+   "p": "lab:supports",
+   "o": "lab:method/fuzzy-control",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/fuzzy-appliances-1990",
+   "p": "lab:assertedIn",
+   "o": "lab:work/swinbanks1990fuzzy",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/anfis-1993",
+   "p": "lab:supports",
+   "o": "lab:method/neuro-fuzzy",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/anfis-1993",
+   "p": "lab:assertedIn",
+   "o": "lab:work/jang1993anfis",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/sendai-1987",
+   "p": "lab:supports",
+   "o": "lab:method/fuzzy-control",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/sendai-1987",
+   "p": "lab:assertedIn",
+   "o": "lab:work/wikipediafuzzycontrol",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/goldstar-1991-ad",
+   "p": "lab:supports",
+   "o": "lab:method/fuzzy-control",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/goldstar-1991-ad",
+   "p": "lab:assertedIn",
+   "o": "lab:work/goldstar1991okwasher",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mycin-xcon-figures",
+   "p": "lab:supports",
+   "o": "lab:method/expert-system",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mycin-xcon-figures",
+   "p": "lab:assertedIn",
+   "o": "lab:work/wikipediamycinxcon",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/flowchart",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/flowchart-loan",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/flowchart-loan",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/state-space-search",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/maze-graph-search",
+   "anchor": "#mzFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bfs",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/maze-graph-search",
+   "anchor": "#mzFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dfs",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/maze-graph-search",
+   "anchor": "#mzFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dijkstra",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/maze-graph-search",
+   "anchor": "#mzFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:term/open-closed-list",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/tree-open-closed",
+   "anchor": "#trFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bfs",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/tree-open-closed",
+   "anchor": "#trFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dfs",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/tree-open-closed",
+   "anchor": "#trFig",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/membership-function",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/fuzzy-weight",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fuzzy-control",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/fuzzy-washer",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/fuzzy-logic",
+   "p": "lab:raises",
+   "o": "lab:question/uncheckable-rules",
+   "anchor": "#sfz",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-1-check-1",
+   "p": "lab:assesses",
+   "o": "lab:method/expert-system",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-1-check-2",
+   "p": "lab:assesses",
+   "o": "lab:limitation/rule-explosion",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-1-check-3",
+   "p": "lab:assesses",
+   "o": "lab:concept/rule-based",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/state-space-search",
+   "p": "lab:explainedIn",
+   "o": "lab:work/russell2020artificial",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

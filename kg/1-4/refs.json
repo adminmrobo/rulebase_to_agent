@@ -1,0 +1,311 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "thesis",
+  "title": "Learning from Delayed Rewards",
+  "author": [
+   {
+    "family": "Watkins",
+    "given": "C. J. C. H."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1989
+    ]
+   ]
+  },
+  "container-title": "PhD thesis, University of Cambridge",
+  "id": "watkins1989learning",
+  "lab": {
+   "work": "lab:work/watkins1989learning",
+   "role": "background",
+   "supports": [
+    "lab:claim/q-learning-1989"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Reinforcement Learning: An Introduction (2nd ed.)",
+  "author": [
+   {
+    "family": "Sutton",
+    "given": "R. S."
+   },
+   {
+    "family": "Barto",
+    "given": "A. G."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "MIT Press",
+  "id": "sutton2018reinforcement",
+  "lab": {
+   "work": "lab:work/sutton2018reinforcement",
+   "role": "primary",
+   "supports": [
+    "lab:claim/rl-textbook"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Human-level Control through Deep Reinforcement Learning",
+  "author": [
+   {
+    "family": "Mnih",
+    "given": "V."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2015
+    ]
+   ]
+  },
+  "container-title": "Nature",
+  "id": "mnih2015human",
+  "lab": {
+   "work": "lab:work/mnih2015human",
+   "role": "background",
+   "supports": [
+    "lab:claim/dqn-atari"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+  "author": [
+   {
+    "family": "Silver",
+    "given": "D."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "container-title": "Nature",
+  "id": "silver2016mastering",
+  "lab": {
+   "work": "lab:work/silver2016mastering",
+   "role": "background",
+   "supports": [
+    "lab:claim/alphago-2016"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Mastering the Game of Go without Human Knowledge",
+  "author": [
+   {
+    "family": "Silver",
+    "given": "D."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "Nature",
+  "id": "silver2017mastering",
+  "lab": {
+   "work": "lab:work/silver2017mastering",
+   "role": "background",
+   "supports": [
+    "lab:claim/alphago-zero"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Faulty Reward Functions in the Wild",
+  "author": [
+   {
+    "family": "Clark",
+    "given": "J."
+   },
+   {
+    "family": "Amodei",
+    "given": "D."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2016
+    ]
+   ]
+  },
+  "container-title": "OpenAI",
+  "id": "clark2016faulty",
+  "lab": {
+   "work": "lab:work/clark2016faulty",
+   "role": "background",
+   "supports": [
+    "lab:claim/coastrunners"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

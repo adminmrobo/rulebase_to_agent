@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ja"><head><meta charset="utf-8"><!-- i18n:switcher --><style data-i18n-sw>.i18n-pick{display:inline-flex;align-items:center;gap:4px;margin:0 8px;font:inherit;font-size:13px;white-space:nowrap}.i18n-pick select{font:inherit;font-size:13px;padding:3px 6px;border-radius:8px;border:1px solid var(--rule,rgba(128,128,128,.5));background:var(--panel,Canvas);color:var(--text,CanvasText)}.i18n-pick.float{position:fixed;top:calc(8px + env(safe-area-inset-top,0px));right:max(8px,env(safe-area-inset-right,0px));z-index:9998}#i18nBanner{position:fixed;right:max(14px,env(safe-area-inset-right,0px));bottom:max(14px,env(safe-area-inset-bottom,0px));z-index:9999;font:14px/1.3 var(--font,system-ui,sans-serif)}#i18nBanner>button{border-radius:999px;padding:9px 14px;border:1px solid var(--rule,#363a52);background:var(--panel,#1c1e2d);color:var(--text,#eceaf3);box-shadow:0 4px 14px rgba(0,0,0,.35);cursor:pointer;font:inherit}#i18nBanner ul{position:absolute;right:0;bottom:calc(100% + 8px);margin:0;padding:6px;list-style:none;min-width:150px;border-radius:12px;border:1px solid var(--rule,#363a52);background:var(--panel,#1c1e2d);box-shadow:0 8px 24px rgba(0,0,0,.4)}#i18nBanner ul[hidden]{display:none}#i18nBanner a{display:block;padding:7px 10px;border-radius:8px;color:var(--text,#eceaf3);text-decoration:none}#i18nBanner a:hover,#i18nBanner a:focus-visible{background:var(--panel2,#25283a)}#i18nBanner a[aria-current]{color:var(--amber,#f1b646);font-weight:700}@media print{#i18nBanner,.i18n-pick{display:none!important}}</style><script data-i18n-skip>(function(){var C={"langs": [["ko", "한국어"], ["en", "English"], ["zh", "中文"], ["ja", "日本語"], ["uz", "Oʻzbekcha"], ["ru", "Русский"], ["vi", "Tiếng Việt"]], "urls": {"ko": "index.html", "en": "index.en.html", "zh": "index.zh.html", "ja": "index.ja.html", "uz": "index.uz.html", "ru": "index.ru.html", "vi": "index.vi.html"}, "cur": "ja", "auto": true, "key": "r2a_lang", "hosts": [["#langSw", "append"], [".series", "append"], ["nav.top .brand", "after"], ["nav", "append"]], "banner": true, "select": true},cur=C.cur,ok={},de=document.documentElement;C.langs.forEach(function(l){ok[l[0]]=1});
+function U(l){return C.urls[l]}
+function save(l){try{localStorage.setItem(C.key,l)}catch(e){}}
+function saved(){try{return localStorage.getItem(C.key)}catch(e){return null}}
+function go(l){location.replace(U(l)+'?lang='+l+location.hash)}
+var shown=function(){de.style.visibility=''};
+function tryGo(l){if(location.protocol==='file:'){go(l);return}
+ de.style.visibility='hidden';var t=setTimeout(shown,2500);
+ try{fetch(U(l),{method:'HEAD',cache:'no-store'}).then(function(r){if(r.ok)go(l);else{clearTimeout(t);shown()}},function(){clearTimeout(t);shown()})}catch(e){clearTimeout(t);shown()}}
+var q=null;try{q=new URLSearchParams(location.search).get('lang')}catch(e){}
+if(q&&ok[q]){save(q);if(q!==cur){tryGo(q);}}
+else if(cur==='ko'&&C.auto){var s=saved(),to=null;
+ if(s&&ok[s]){if(s!=='ko')to=s;}
+ else if(location.protocol!=='file:'){var same=false;try{same=!!document.referrer&&new URL(document.referrer).origin===location.origin}catch(e){}
+  if(!same){var nav=(navigator.languages||[navigator.language||'']).map(function(x){return String(x).slice(0,2).toLowerCase()});
+   for(var i=0;i<nav.length;i++){if(nav[i]==='ko')break;if(ok[nav[i]]){to=nav[i];break;}}}}
+ if(to)tryGo(to);}
+function pick(l){save(l);location.href=U(l)+'?lang='+l+location.hash;}
+function name(l){for(var i=0;i<C.langs.length;i++)if(C.langs[i][0]===l)return C.langs[i][1];return l}
+function mount(){if(document.getElementById('i18nSel'))return;
+ if(C.select){var w=document.createElement('span');w.className='i18n-pick';w.innerHTML='<span aria-hidden="true">🌐</span>';
+  var s=document.createElement('select');s.id='i18nSel';s.setAttribute('aria-label','Language');
+  C.langs.forEach(function(l){var o=document.createElement('option');o.value=l[0];o.textContent=l[1];if(l[0]===cur)o.selected=true;s.appendChild(o);});
+  s.addEventListener('change',function(){pick(s.value)});w.appendChild(s);var put=false;
+  for(var i=0;i<C.hosts.length&&!put;i++){var h=document.querySelector(C.hosts[i][0]);if(!h)continue;var m=C.hosts[i][1];
+   if(m==='after')h.insertAdjacentElement('afterend',w);else if(m==='before')h.insertAdjacentElement('beforebegin',w);else h.appendChild(w);put=true;}
+  if(!put){w.classList.add('float');document.body.appendChild(w);}}
+ if(C.banner&&!document.getElementById('i18nBanner')){var b=document.createElement('div');b.id='i18nBanner';
+  var bt=document.createElement('button');bt.type='button';bt.setAttribute('aria-haspopup','true');bt.setAttribute('aria-expanded','false');bt.textContent='🌐 '+name(cur);
+  var ul=document.createElement('ul');ul.hidden=true;ul.setAttribute('role','menu');
+  C.langs.forEach(function(l){var li=document.createElement('li'),a=document.createElement('a');a.href=U(l[0])+'?lang='+l[0];a.textContent=l[1];a.lang=l[0];a.setAttribute('role','menuitem');
+   if(l[0]===cur)a.setAttribute('aria-current','true');a.addEventListener('click',function(e){e.preventDefault();pick(l[0])});li.appendChild(a);ul.appendChild(li);});
+  function close(){ul.hidden=true;bt.setAttribute('aria-expanded','false')}
+  bt.addEventListener('click',function(e){e.stopPropagation();ul.hidden=!ul.hidden;bt.setAttribute('aria-expanded',String(!ul.hidden))});
+  document.addEventListener('click',function(e){if(!b.contains(e.target))close()});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'){close();bt.focus&&!ul.hidden&&bt.focus()}});
+  b.appendChild(ul);b.appendChild(bt);document.body.appendChild(b);}}
+if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',mount);else mount();})();</script><!-- /i18n:switcher --><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>rule baseから働くAIまで</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;700;800&family=IBM+Plex+Sans+KR:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* layout: 실험 노트(모눈종이) 위에 펼친 한 장의 해설 — 좁은 본문 칼럼 + 넓은 도판 */
+:root{
+  --paper:#F2F6F6; --grid:rgba(30,110,115,.07); --card:#FFFFFF; --ink:#14232A; --muted:#4D5F64;
+  --teal:#1E6E73; --teal-soft:#DCEDEE; --amber:#9A6A12; --amber-soft:#F6EAD0; --line:#C9D7D8;
+  --code-bg:#122126; --code-fg:#DDE9EA; --code-dim:#7FA2A6; --code-key:#7FD3D8; --code-str:#E8C27A;
+  --display:"Noto Sans JP","Hahmlet","Nanum Myeongjo",Georgia,serif;
+  --body:"Noto Sans JP","IBM Plex Sans KR","Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0D1618; --grid:rgba(95,193,198,.06); --card:#132125; --ink:#E2ECEC; --muted:#9BB0B3;
+  --teal:#62C3C8; --teal-soft:#173338; --amber:#E2B65C; --amber-soft:#33291A; --line:#28393D;
+  --code-bg:#081114; --code-fg:#D6E5E6; --code-dim:#6E8E92; --code-key:#7FD3D8; --code-str:#E8C27A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0D1618; --grid:rgba(95,193,198,.06); --card:#132125; --ink:#E2ECEC; --muted:#9BB0B3;
+  --teal:#62C3C8; --teal-soft:#173338; --amber:#E2B65C; --amber-soft:#33291A; --line:#28393D;
+  --code-bg:#081114; --code-fg:#D6E5E6; --code-dim:#6E8E92; --code-key:#7FD3D8; --code-str:#E8C27A; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16.5px;line-height:1.75;
+  background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
+  background-size:24px 24px;}
+.wrap{max-width:820px;margin:0 auto;padding-block:40px 80px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;line-height:1.3;margin:0}
+h1{font-size:clamp(30px,6vw,46px);font-weight:800;letter-spacing:-.01em}
+h2{font-size:clamp(22px,4vw,28px);font-weight:700;margin-bottom:14px}
+h3{font-size:19px;font-weight:700}
+p{margin:0 0 14px}
+a{color:var(--teal)}
+.eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.08em;color:var(--teal);text-transform:uppercase}
+.series{display:flex;flex-direction:column;gap:6px;padding-bottom:18px;border-bottom:2px solid var(--ink);margin-bottom:22px}
+.series .s-name{font-size:14px;color:var(--muted)}
+.lede{font-size:18px;color:var(--muted);max-width:62ch;margin-top:14px}
+.byline{font-size:14px;color:var(--muted);margin-top:10px}
+.cast{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:26px 0 8px}
+.cast figure{margin:0;text-align:center;font-size:13px;color:var(--muted)}
+.cast img{width:84px;height:84px;image-rendering:pixelated;display:block;margin:0 auto 4px}
+.cast b{display:block;color:var(--ink);font-weight:600;font-size:14px}
+section{margin-top:56px}
+.sec-head{display:flex;gap:12px;align-items:baseline;margin-bottom:6px}
+.sec-no{font-family:var(--mono);font-size:13px;color:var(--amber);font-weight:600}
+.toc{margin-top:26px;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px}
+.toc ol{margin:6px 0 0;padding-left:22px;columns:2;column-gap:28px;font-size:15px}
+.toc li{break-inside:avoid;margin-bottom:2px}
+@media (max-width:560px){.toc ol{columns:1}.cast img{width:64px;height:64px}}
+/* dialogue */
+.talk{display:flex;flex-direction:column;gap:14px;margin:18px 0 22px}
+.line{display:grid;grid-template-columns:60px minmax(0,1fr);gap:12px;align-items:start}
+.line img{width:60px;height:60px;image-rendering:pixelated}
+.bubble{background:var(--card);border:1px solid var(--line);border-radius:4px 14px 14px 14px;padding:10px 14px;font-size:15.5px}
+.bubble .who{display:block;font-size:12.5px;font-weight:600;color:var(--teal);margin-bottom:2px}
+.line.doubt .who{color:var(--amber)}
+/* boxes */
+.formula{background:var(--card);border:1px solid var(--line);border-left:0;border-right:0;padding:16px 4px;margin:18px 0;text-align:center}
+.formula .eq{font-family:var(--display);font-size:clamp(17px,3.4vw,22px);font-weight:500;overflow-x:auto;white-space:nowrap}
+.formula .cap{font-size:13.5px;color:var(--muted);margin-top:6px}
+.var{font-style:italic}
+.note{background:var(--teal-soft);border-radius:10px;padding:14px 18px;font-size:15.5px;margin:18px 0}
+.warn{background:var(--amber-soft);border-radius:10px;padding:14px 18px;font-size:15.5px;margin:18px 0}
+.note b,.warn b{font-weight:600}
+.cite{font-size:12.5px;color:var(--muted);display:block;margin-top:6px}
+.cases{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:18px 0}
+@media (max-width:720px){.cases{grid-template-columns:1fr}}
+.case{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;min-width:0}
+.case .yr{font-family:var(--mono);font-size:12px;color:var(--amber)}
+.case h3{margin:2px 0 6px}
+.case p{font-size:14.5px;margin:0 0 6px}
+.case .stat{font-family:var(--mono);font-size:13px;color:var(--teal)}
+figure.plate{margin:20px 0;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px}
+figure.plate figcaption{font-size:13.5px;color:var(--muted);margin-top:8px}
+.scroll{overflow-x:auto}
+svg text{font-family:var(--body)}
+/* flowchart interactive */
+.lab{display:grid;grid-template-columns:minmax(0,1fr);gap:12px}
+.ctrls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+@media (max-width:560px){.ctrls{grid-template-columns:1fr}}
+.ctrls label{font-size:14px;color:var(--muted);display:flex;justify-content:space-between}
+.ctrls output{font-family:var(--mono);color:var(--ink);font-variant-numeric:tabular-nums}
+.ctrls input[type=range]{width:100%;accent-color:var(--teal)}
+.presets{display:flex;flex-wrap:wrap;gap:8px}
+.presets button{font:500 13.5px var(--body);border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:6px 12px;cursor:pointer}
+.presets button:hover{border-color:var(--teal)}
+.presets button:focus-visible,.ctrls input:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.verdict{font-size:15px;min-height:1.6em}
+.fc .node{fill:var(--paper);stroke:var(--line);stroke-width:1.2}
+.fc .edge{stroke:var(--line);stroke-width:2;fill:none}
+.fc .lbl{fill:var(--muted);font-size:12px}
+.fc .txt{fill:var(--ink);font-size:13px}
+.fc .on .node{fill:var(--teal-soft);stroke:var(--teal);stroke-width:2}
+.fc .edge.on{stroke:var(--teal);stroke-width:3}
+.fc .leaf.on .node{fill:var(--amber-soft);stroke:var(--amber)}
+.fc .node,.fc .edge{transition:fill .2s,stroke .2s}
+@media (prefers-reduced-motion:reduce){.fc .node,.fc .edge{transition:none}}
+/* code */
+.code{background:var(--code-bg);color:var(--code-fg);border-radius:10px;margin:14px 0;overflow:hidden}
+.code .bar{font-family:var(--mono);font-size:12px;color:var(--code-dim);padding:8px 14px;border-bottom:1px solid rgba(255,255,255,.07);display:flex;justify-content:space-between;gap:10px}
+.code pre{margin:0;padding:14px;overflow-x:auto;font-family:var(--mono);font-size:13.5px;line-height:1.6}
+.code .k{color:var(--code-key)} .code .s{color:var(--code-str)} .code .c{color:var(--code-dim)}
+.out{background:var(--card);border:1px dashed var(--line);border-radius:10px;margin:-4px 0 18px;overflow:hidden}
+.out .bar{font-family:var(--mono);font-size:12px;color:var(--muted);padding:6px 14px;border-bottom:1px dashed var(--line)}
+.out pre{margin:0;padding:12px 14px;overflow-x:auto;font-family:var(--mono);font-size:13px;line-height:1.6;color:var(--ink)}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;font-size:13.5px;color:var(--muted)}
+td.num{font-family:var(--mono);font-variant-numeric:tabular-nums;text-align:right;white-space:nowrap}
+.bridge{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:18px 0}
+@media (max-width:620px){.bridge{grid-template-columns:1fr}}
+.bridge div{border:1px solid var(--line);border-radius:10px;padding:14px 16px;background:var(--card)}
+.bridge .yr{font-family:var(--mono);font-size:12px;color:var(--amber)}
+.refs ol{padding-left:20px;font-size:14px;color:var(--muted)}
+.refs li{margin-bottom:6px}
+.refs h3{font-size:16px;margin:16px 0 6px}
+footer{margin-top:48px;padding-top:16px;border-top:2px solid var(--ink);font-size:14px;color:var(--muted)}
+.hero{position:relative;margin:4px 0 0;border-radius:12px;overflow:hidden;background:#0B1416}
+.hero img{display:block;width:100%;height:auto;max-width:100%}
+.hero h1{color:#EAF4F4;position:absolute;left:12%;right:42%;top:8%;text-align:center;font-size:clamp(20px,3.6vw,38px);word-break:keep-all;line-height:1.3;text-shadow:0 0 14px rgba(0,0,0,.9)}
+@media (max-width:640px){.hero{background:transparent;overflow:visible}.hero img{border-radius:12px}.hero h1{position:static;color:var(--ink);text-shadow:none;text-align:left;margin-top:18px;font-size:clamp(26px,6vw,34px)}.hero h1 br{display:none}}
+.chnav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:48px}
+@media (max-width:640px){.chnav{grid-template-columns:1fr}}
+.chnav a{display:block;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 14px;text-decoration:none;color:var(--ink);min-width:0}
+.chnav a:hover,.chnav a:focus-visible{border-color:var(--teal);outline:none}
+.chnav span{display:block;font-family:var(--mono);font-size:12px;color:var(--teal)}
+.chnav b{display:block;font-weight:600;font-size:14.5px;line-height:1.4;word-break:keep-all}
+.chnav .mid{text-align:center}.chnav .nx{text-align:right}
+.ckq{margin-top:56px}
+.ckq .qi{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}
+.ckq .qi p{margin:0 0 10px;font-weight:600}
+.ckq .qi .kind{display:block;font-family:var(--mono);font-size:12px;color:var(--amber);font-weight:400;margin-bottom:2px}
+.ckq .opts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+@media (max-width:640px){.ckq .opts{grid-template-columns:1fr}}
+.ckq .opts button{font:400 14.5px var(--body);text-align:left;border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:8px;padding:8px 12px;cursor:pointer;min-width:0}
+.ckq .opts button:hover{border-color:var(--teal)}
+.ckq .opts button:focus-visible{outline:2px solid var(--teal);outline-offset:2px}
+.ckq .opts button.ok{border-color:var(--teal);background:var(--teal-soft);font-weight:600}
+.ckq .opts button.no{border-color:var(--amber);background:var(--amber-soft)}
+.ckq .why{font-size:14.5px;margin-top:10px;color:var(--muted)}
+.ckq .why b{color:var(--ink)}
+.ckq .score{font-size:14px;color:var(--muted)}
+.fast{margin-top:12px;font-size:14.5px;color:var(--muted);background:var(--amber-soft);border-radius:10px;padding:10px 16px}
+.fast b{color:var(--ink);font-weight:600}
+.fast a{white-space:nowrap}
+.lists{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;font-size:14.5px}
+.lists div{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 12px;min-width:0}
+.lists b{display:block;font-family:var(--mono);font-weight:600;font-size:14px;margin-top:2px;word-break:break-all}
+.fzpair{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.fzout{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.fzout div{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 12px;text-align:center}
+.fzout b{display:block;font-family:var(--mono);font-size:22px;font-weight:600}
+@media (max-width:560px){.lists,.fzpair{grid-template-columns:1fr}}
+.fzad img{display:block;width:100%;max-width:420px;height:auto;margin:0 auto;border-radius:6px}
+#mzFig .presets button[aria-pressed="true"],#trFig .presets button[aria-pressed="true"]{background:var(--teal);color:var(--card);border-color:var(--teal)}
+
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:16px}
+@media (max-width:760px){.grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:480px){.grid{grid-template-columns:1fr}}
+.cardx{display:flex;flex-direction:column;gap:4px;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden;text-decoration:none;color:var(--ink);padding-bottom:12px;min-width:0}
+.cardx:hover,.cardx:focus-visible{border-color:var(--teal);outline:none}
+.cardx img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;margin-bottom:6px}
+.cardx .eyebrow,.cardx b,.cardx .l{padding:0 12px}
+.cardx b{font-weight:600;font-size:15.5px;line-height:1.4;word-break:keep-all}
+.cardx .l{font-size:13.5px;color:var(--muted);line-height:1.5}
+</style><link rel="alternate" hreflang="ko" href="index.html"><link rel="alternate" hreflang="en" href="index.en.html"><link rel="alternate" hreflang="zh-CN" href="index.zh.html"><link rel="alternate" hreflang="ja" href="index.ja.html"><link rel="alternate" hreflang="uz" href="index.uz.html"><link rel="alternate" hreflang="ru" href="index.ru.html"><link rel="alternate" hreflang="vi" href="index.vi.html"><link rel="alternate" hreflang="x-default" href="index.html"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"><style data-i18n-font>body,button,input,select,textarea{font-family:"Noto Sans JP",system-ui,sans-serif}</style><style data-i18n-cjk>*{word-break:normal!important;line-break:strict}h1,h2,h3{word-break:auto-phrase!important}</style>
+<style>.fast a{white-space:normal;overflow-wrap:anywhere}</style></head><body><div class="wrap">
+<header><div class="series"><span class="eyebrow">解説シリーズ · 2編15章</span><span class="s-name">ショウジョウバエ研究室 · 博士 · 助手（ハル） · ショウジョウバエ研究員 · アバボット</span></div>
+<h1>フローチャートのrule baseから<br>働くAIまで</h1>
+<p class="lede">人がIF-THENを書き込んでいたフローチャートが、どのようにしてLLM推論モデルになり（1編）、そのモデルがどのようにツールを握って自ら働くAIになったか（2編）を、十五章にわたって追います。各章には、数式、直接操作する図版、実際に動かしたPythonコード、確認問題が入っています。</p>
+<p class="byline">執筆 · Ahn Sangsun（株式会社M-Robo 代表）</p></header>
+<section><div class="sec-head"><span class="sec-no">1編</span><h2>フローチャートのrule baseがLLM推論モデルになるまで</h2></div><p class="lede" style="margin-top:4px">ルールを誰が書くのか: 人 → データ → 報酬 → 文章と人の好み</p><div class="grid"><a class="cardx" href="1-1_rulebase.html"><img src="covers/1-1_rulebase.webp" alt="" loading="lazy"><span class="eyebrow">1編 1章</span><b>ゼンマイ機械: フローチャートとrule base</b><span class="l">人がすべての歯車を削って組み込んだ機械。電源を入れると決められた道筋でしか動かず、設計図にない事態に出会うと止まります。1950~80年代の人工知能は、このように&quot;考え&quot;ていました…</span></a><a class="cardx" href="1-2_machine_learning.html"><img src="covers/1-2_machine_learning.webp" alt="" loading="lazy"><span class="eyebrow">1編 2章</span><b>目盛りを自ら合わせる秤: 機械学習</b><span class="l">何を測るかは相変わらず人が決めます。しかし、どこに目盛りを引くかは、今や機械がデータを見て自ら合わせます。ルールの時代から学習の時代へ移る最初の一歩です…</span></a><a class="cardx" href="1-3_deep_learning.html"><img src="covers/1-3_deep_learning.webp" alt="" loading="lazy"><span class="eyebrow">1編 3章</span><b>見る方法そのものを学ぶ機械: ディープラーニング</b><span class="l">2章の秤は、人が何を測るかを決めておく必要がありました。3章の機械はピクセルそのままを受け取り、何を見るべきかまで自分で見つけます。その秘訣は2章の一行の学習…</span></a><a class="cardx" href="1-4_reinforcement_learning.html"><img src="covers/1-4_reinforcement_learning.webp" alt="" loading="lazy"><span class="eyebrow">1編 4章</span><b>ニンジンとムチの訓練所: 強化学習</b><span class="l">正解を誰も知らない問題があります。囲碁の次の一手、初めて入る迷路の出口。このとき機械に与えられるのは正解ではなく、&quot;よくやった、だめだった&quot;という点数です…</span></a><a class="cardx" href="1-5_word_vectors.html"><img src="covers/1-5_word_vectors.webp" alt="" loading="lazy"><span class="eyebrow">1編 5章</span><b>言葉を数字に変える</b><span class="l">言語モデルの正体は驚くほど単純です。&quot;次に来る単語を当てる。&quot;この章では、そのゲームのルールと、単語を機械が計算できる数字に変える二つの方法を…</span></a><a class="cardx" href="1-6_transformer.html"><img src="covers/1-6_transformer.webp" alt="" loading="lazy"><span class="eyebrow">1編 6章</span><b>一度にすべての単語を見る目: Transformer</b><span class="l">5章は二つの宿題を残しました。文の前の方を最後まで覚えておく方法、そして同じ&quot;bank&quot;でも川岸と銀行で異なる数字を与える方法。2017年にGoogleの研究…</span></a><a class="cardx" href="1-7_scaling.html"><img src="covers/1-7_scaling.webp" alt="" loading="lazy"><span class="eyebrow">1編 7章</span><b>&quot;突然&quot;の正体: スケーリング</b><span class="l">2022年11月30日にChatGPTが公開されると、世の中はAIが突然現れたと感じました。二か月で月間利用者1億人。しかしその中に入っていた部品は…</span></a><a class="cardx" href="1-8_rlhf.html"><img src="covers/1-8_rlhf.webp" alt="" loading="lazy"><span class="eyebrow">1編 8章</span><b>ChatGPTの瞬間: 人の好みで仕込む</b><span class="l">GPT-3は賢かったものの、会話の相手ではありませんでした。質問されると質問を続けて書き、もっともらしく間違え、頼まれていないことを言いました。4章でショウジョウバエ研究員が問うた質…</span></a><a class="cardx" href="1-9_reasoning_model.html"><img src="covers/1-9_reasoning_model.webp" alt="" loading="lazy"><span class="eyebrow">1編 9章</span><b>考える時間を買う: 推論モデル</b><span class="l">1章の推論エンジンは、人が書いたルールを照合しながら結論をつなぎました。2024年の推論モデルは、自ら解法を長く書き進め、誤った箇所を振り返り、複数の道を…</span></a></div></section>
+<section><div class="sec-head"><span class="sec-no">2編</span><h2>LLM推論モデルが働くAIになるまで</h2></div><p class="lede" style="margin-top:4px">何を任せ、どんなルールで確認し、いつ止まるのか</p><div class="grid"><a class="cardx" href="2-1_agent.html"><img src="covers/2-1_agent.webp" alt="" loading="lazy"><span class="eyebrow">2編 1章</span><b>エージェントモデル: 行動を学んだAI</b><span class="l">1編の終わりでAIは考えることを学びました。解法を書き、検算し、複数の道を試しました。しかしどれほどうまく考えても、銀行金利を直接照会したりファイルを…</span></a><a class="cardx" href="2-2_context_harness.html"><img src="covers/2-2_context_harness.webp" alt="" loading="lazy"><span class="eyebrow">2編 2章</span><b>プロンプト → コンテキスト → ハーネス</b><span class="l">1章でエージェントは&quot;電卓[式]&quot;と書くだけで、実際に電卓を回したのは外側のプログラムでした。この章は、その外側を設計する仕事がどのように三段階で広がってきたかを…</span></a><a class="cardx" href="2-3_loop_engineering.html"><img src="covers/2-3_loop_engineering.webp" alt="" loading="lazy"><span class="eyebrow">2編 3章</span><b>ループエンジニアリング: いつ繰り返し、いつ止まるか</b><span class="l">2章のハーネスはエージェントが働く環境を作りました。しかし仕事を回し続けるのは、依然として人でした。結果を見て、次の指示を書き、もう一度回す。…</span></a><a class="cardx" href="2-4_orchestration.html"><img src="covers/2-4_orchestration.webp" alt="" loading="lazy"><span class="eyebrow">2編 4章</span><b>オーケストレーション: 指揮者エージェントとサブエージェント</b><span class="l">オーケストラの指揮者は自分で楽器を演奏しません。曲をパートに分けて任せ、拍を合わせ、全体の音を聴きます。3章まではエージェント一つがループを回していました…</span></a><a class="cardx" href="2-5_self_improving_loop.html"><img src="covers/2-5_self_improving_loop.webp" alt="" loading="lazy"><span class="eyebrow">2編 5章</span><b>ヘルメスに見る自己改善ループ</b><span class="l">1章から4章まで、エージェント、ハーネス、ループ、オーケストレーションという部品を一つずつ見てきました。この章は、それらの部品が実際の製品一つにどう組み立てられているか、そして…</span></a><a class="cardx" href="2-6_reinforcement_thread.html"><img src="covers/2-6_reinforcement_thread.webp" alt="" loading="lazy"><span class="eyebrow">2編 6章</span><b>強化学習が貫く糸</b><span class="l">1編の9章と2編の5章を通ってきました。フローチャートの一枚から出発し、自ら働き、自ら要領を蓄えるエージェントまで来ました。この最後の章は、新しい技術を…</span></a></div></section>
+<footer>初めて読むなら1編1章から、忙しいなら各章の目次の下にある「近道」をたどってください。用語集と現場導入のチェックリストは<a href="2-6_reinforcement_thread.html#s10">2編6章</a>にあります。授業で使われる場合は<a href="guide/INSTRUCTOR_GUIDE.md">講師向け案内</a>、実験コードは<a href="code/">codeフォルダ</a>をご覧ください。<br>出典表記: Ahn Sangsun、韓国能率協会・フィンテック支援センター 2021 フィンテックリーダーズアカデミー モジュール5「人工知能とディープラーニング」講義資料、および各章の出典節。</footer>
+</div></body></html>

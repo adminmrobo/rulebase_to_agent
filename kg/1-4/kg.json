@@ -1,0 +1,809 @@
+{
+ "version": "1.0",
+ "page": "1-4_reinforcement_learning",
+ "nodes": [
+  {
+   "id": "lab:concept/reinforcement-learning",
+   "type": "Concept",
+   "label": {
+    "ko": "강화학습",
+    "en": "Reinforcement learning"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl",
+   "definition": {
+    "ko": "정답 대신 보상(점수)을 보고 행동을 고쳐 가는 학습."
+   }
+  },
+  {
+   "id": "lab:concept/reward",
+   "type": "Concept",
+   "label": {
+    "ko": "보상",
+    "en": "Reward"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:concept/mdp",
+   "type": "Concept",
+   "label": {
+    "ko": "상태·행동·보상의 순환",
+    "en": "Agent–environment loop (MDP)"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:method/q-learning",
+   "type": "Method",
+   "label": {
+    "ko": "Q러닝",
+    "en": "Q-learning"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl",
+   "definition": {
+    "ko": "칸마다 행동의 점수표 Q를 보상과 다음 칸 점수로 고쳐 가는 방법."
+   }
+  },
+  {
+   "id": "lab:method/epsilon-greedy",
+   "type": "Method",
+   "label": {
+    "ko": "ε-탐욕 정책",
+    "en": "Epsilon-greedy"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl",
+   "definition": {
+    "ko": "확률 ε만큼은 일부러 아무 방향이나 골라 탐험하는 전략."
+   }
+  },
+  {
+   "id": "lab:concept/explore-exploit",
+   "type": "Concept",
+   "label": {
+    "ko": "탐험과 활용",
+    "en": "Exploration vs exploitation"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:method/dqn",
+   "type": "Method",
+   "label": {
+    "ko": "DQN",
+    "en": "Deep Q-Network"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:method/alphago",
+   "type": "Method",
+   "label": {
+    "ko": "알파고·알파고 제로",
+    "en": "AlphaGo / AlphaGo Zero"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:limitation/reward-hacking",
+   "type": "Limitation",
+   "label": {
+    "ko": "보상 해킹",
+    "en": "Reward hacking"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s7",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible",
+   "definition": {
+    "ko": "보상의 빈틈을 파고들어 점수만 높이고 원래 목적은 이루지 못하는 현상."
+   }
+  },
+  {
+   "id": "lab:claim/q-learning-1989",
+   "type": "Claim",
+   "label": {
+    "ko": "왓킨스가 1989년 Q러닝을 제안했다.",
+    "en": "Watkins proposed Q-learning."
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "watkins1989learning",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/rl-textbook",
+   "type": "Claim",
+   "label": {
+    "ko": "강화학습의 표준 정리.",
+    "en": "Standard RL formulation."
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "sutton2018reinforcement",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/dqn-atari",
+   "type": "Claim",
+   "label": {
+    "ko": "DQN은 화면만 보고 아타리 게임을 사람 수준으로 했다.",
+    "en": "DQN reached human level on Atari."
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mnih2015human",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/alphago-2016",
+   "type": "Claim",
+   "label": {
+    "ko": "알파고는 2016년 사람 기보와 자기 대국으로 바둑을 배웠다.",
+    "en": "AlphaGo combined human games and self-play."
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "silver2016mastering",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/alphago-zero",
+   "type": "Claim",
+   "label": {
+    "ko": "알파고 제로는 사람 기보 없이 자기 대국만으로 배웠다.",
+    "en": "AlphaGo Zero learned without human data."
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "silver2017mastering",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/coastrunners",
+   "type": "Claim",
+   "label": {
+    "ko": "보트 게임 CoastRunners 에이전트가 결승선 대신 점수 아이템 주위를 돌았다.",
+    "en": "CoastRunners agent looped for points."
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s7",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "clark2016faulty",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/maze-q",
+   "type": "Simulation",
+   "label": {
+    "ko": "지도 없는 미로 Q러닝",
+    "en": "Maze Q-learning"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/epsilon-maze",
+   "type": "Simulation",
+   "label": {
+    "ko": "ε을 바꾸며 보물 찾기",
+    "en": "Epsilon exploration demo"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-4-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "강화학습에서 기계가 받는 신호는?",
+    "en": ""
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-4-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "ε-탐욕 정책에서 ε은?",
+    "en": ""
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-4-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "보트 게임 CoastRunners의 에이전트가 결승선 대신 웅덩이를 돈 이유는?",
+    "en": ""
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/watkins1989learning",
+   "type": "Work",
+   "label": {
+    "ko": "Learning from Delayed Rewards",
+    "en": "Learning from Delayed Rewards"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/sutton2018reinforcement",
+   "type": "Work",
+   "label": {
+    "ko": "Reinforcement Learning: An Introduction (2nd ed.)",
+    "en": "Reinforcement Learning: An Introduction (2nd ed.)"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mnih2015human",
+   "type": "Work",
+   "label": {
+    "ko": "Human-level Control through Deep Reinforcement Learning",
+    "en": "Human-level Control through Deep Reinforcement Learning"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/silver2016mastering",
+   "type": "Work",
+   "label": {
+    "ko": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+    "en": "Mastering the Game of Go with Deep Neural Networks and Tree Search"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/silver2017mastering",
+   "type": "Work",
+   "label": {
+    "ko": "Mastering the Game of Go without Human Knowledge",
+    "en": "Mastering the Game of Go without Human Knowledge"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/clark2016faulty",
+   "type": "Work",
+   "label": {
+    "ko": "Faulty Reward Functions in the Wild",
+    "en": "Faulty Reward Functions in the Wild"
+   },
+   "page": "1-4_reinforcement_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/reinforcement-learning",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/reward",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/mdp",
+   "p": "lab:broader",
+   "o": "lab:topic/mdp",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/q-learning",
+   "p": "lab:broader",
+   "o": "lab:topic/q-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/epsilon-greedy",
+   "p": "lab:broader",
+   "o": "lab:topic/exploration",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/explore-exploit",
+   "p": "lab:broader",
+   "o": "lab:topic/exploration",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dqn",
+   "p": "lab:broader",
+   "o": "lab:topic/q-learning",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/alphago",
+   "p": "lab:broader",
+   "o": "lab:topic/policy-gradient",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/reward-hacking",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/reward-hacking",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/reward",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/reinforcement-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/reinforcement-learning",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/mdp",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/mdp",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/q-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/explore-exploit",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/epsilon-greedy",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/epsilon-greedy",
+   "p": "lab:partOf",
+   "o": "lab:method/q-learning",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/q-learning",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/dqn",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dqn",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/alphago",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/reinforcement-learning",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/reward-hacking",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/q-learning-1989",
+   "p": "lab:supports",
+   "o": "lab:method/q-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/q-learning-1989",
+   "p": "lab:assertedIn",
+   "o": "lab:work/watkins1989learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rl-textbook",
+   "p": "lab:supports",
+   "o": "lab:concept/mdp",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rl-textbook",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sutton2018reinforcement",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dqn-atari",
+   "p": "lab:supports",
+   "o": "lab:method/dqn",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dqn-atari",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mnih2015human",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/alphago-2016",
+   "p": "lab:supports",
+   "o": "lab:method/alphago",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/alphago-2016",
+   "p": "lab:assertedIn",
+   "o": "lab:work/silver2016mastering",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/alphago-zero",
+   "p": "lab:supports",
+   "o": "lab:method/alphago",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/alphago-zero",
+   "p": "lab:assertedIn",
+   "o": "lab:work/silver2017mastering",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/coastrunners",
+   "p": "lab:supports",
+   "o": "lab:limitation/reward-hacking",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/coastrunners",
+   "p": "lab:assertedIn",
+   "o": "lab:work/clark2016faulty",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/q-learning",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/maze-q",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/mdp",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/maze-q",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/epsilon-greedy",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/epsilon-maze",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/explore-exploit",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/epsilon-maze",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-4-check-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/reinforcement-learning",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-4-check-2",
+   "p": "lab:assesses",
+   "o": "lab:method/epsilon-greedy",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-4-check-3",
+   "p": "lab:assesses",
+   "o": "lab:limitation/reward-hacking",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/reinforcement-learning",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/reinforcement-learning",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "An Introduction to Loop Engineering",
+  "author": [
+   {
+    "literal": "Machine Learning Mastery"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "mlmastery2026loop",
+  "lab": {
+   "work": "lab:work/mlmastery2026loop",
+   "role": "background",
+   "supports": [
+    "lab:claim/loop-failure-modes"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Loop Engineering: Designing loops that prompt coding agents. addyosmani.com; O'Reilly Radar 재게재(2026.6.22)",
+  "author": [
+   {
+    "family": "Osmani",
+    "given": "A."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "(요약: AI Builder Club)",
+  "id": "osmani2026loop",
+  "lab": {
+   "work": "lab:work/osmani2026loop",
+   "role": "primary",
+   "supports": [
+    "lab:claim/steinberger-osmani"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "What is Loop Engineering?",
+  "author": [
+   {
+    "literal": "unimon"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "unimon2026what",
+  "lab": {
+   "work": "lab:work/unimon2026what",
+   "role": "background",
+   "supports": [
+    "lab:claim/loop-what-is"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "author": [
+   {
+    "family": "Shinn",
+    "given": "N."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2023",
+  "id": "shinn2023reflexion",
+  "lab": {
+   "work": "lab:work/shinn2023reflexion",
+   "role": "background",
+   "supports": [
+    "lab:claim/reflexion-91"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "OpenClaw VS Hermes Agent",
+  "author": [
+   {
+    "literal": "브런치"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "brunch2026openclaw",
+  "lab": {
+   "work": "lab:work/brunch2026openclaw",
+   "role": "background",
+   "supports": [
+    "lab:claim/hermes-cron"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Reinforcement Learning: An Introduction (2nd ed.)",
+  "author": [
+   {
+    "family": "Sutton",
+    "given": "R. S."
+   },
+   {
+    "family": "Barto",
+    "given": "A. G."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "MIT Press",
+  "id": "sutton2018reinforcement",
+  "lab": {
+   "work": "lab:work/sutton2018reinforcement",
+   "role": "background",
+   "supports": [
+    "lab:claim/rl-loop"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

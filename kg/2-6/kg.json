@@ -1,0 +1,1014 @@
+{
+ "version": "1.0",
+ "page": "2-6_reinforcement_thread",
+ "nodes": [
+  {
+   "id": "lab:concept/rl-thread",
+   "type": "Concept",
+   "label": {
+    "ko": "강화학습이라는 실(시도 → 평가 → 수정)",
+    "en": "Try–evaluate–improve loop"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:concept/rule-journey",
+   "type": "Concept",
+   "label": {
+    "ko": "규칙의 여정(판단→채점→문지기→검증기→기억의 문)",
+    "en": "The rule's journey"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:concept/rule-based",
+   "type": "Concept",
+   "label": {
+    "ko": "규칙 기반",
+    "en": "Rule-based system"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s3",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "ml-basics"
+  },
+  {
+   "id": "lab:concept/rule-based-reward",
+   "type": "Concept",
+   "label": {
+    "ko": "규칙 채점 보상",
+    "en": "Rule-based reward"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:concept/permission-gate",
+   "type": "Concept",
+   "label": {
+    "ko": "권한 문지기",
+    "en": "Permission gate"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:concept/verifier",
+   "type": "Concept",
+   "label": {
+    "ko": "외부 검증기",
+    "en": "External verifier"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "evaluation"
+  },
+  {
+   "id": "lab:concept/verified-saving",
+   "type": "Concept",
+   "label": {
+    "ko": "검증 후 저장",
+    "en": "Save only after verification"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "evaluation"
+  },
+  {
+   "id": "lab:concept/three-layers",
+   "type": "Concept",
+   "label": {
+    "ko": "구조·훈련·운용 세 층",
+    "en": "Architecture, training, operation layers"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:concept/human-role-shift",
+   "type": "Concept",
+   "label": {
+    "ko": "사람의 자리 이동",
+    "en": "Shifting human role"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:concept/deployment-checklist",
+   "type": "Concept",
+   "label": {
+    "ko": "현장 도입 체크리스트",
+    "en": "Deployment checklist"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s11",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:limitation/operational-reward-hacking",
+   "type": "Limitation",
+   "label": {
+    "ko": "운용 중의 보상 해킹",
+    "en": "Reward hacking in operation"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:question/unverifiable-reward",
+   "type": "Question",
+   "label": {
+    "ko": "확인할 수 없는 일의 점수는?",
+    "en": "Rewards for unverifiable tasks?"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:claim/rl-def",
+   "type": "Claim",
+   "label": {
+    "ko": "시도 → 평가 → 수정은 강화학습의 기본 고리다.",
+    "en": "RL basic loop."
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "sutton2018reinforcement",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/az-self-play",
+   "type": "Claim",
+   "label": {
+    "ko": "알파고 제로는 바둑 규칙의 승패만 보고 배웠다.",
+    "en": "AlphaGo Zero learned from game outcomes."
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "silver2017mastering",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/rlhf-human",
+   "type": "Claim",
+   "label": {
+    "ko": "RLHF는 사람의 선호를 배운 보상모델로 고친다.",
+    "en": "RLHF uses learned reward."
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "ouyang2022training",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/r1-rule",
+   "type": "Claim",
+   "label": {
+    "ko": "DeepSeek-R1은 규칙 채점으로 보상했다.",
+    "en": "R1 rule-based reward."
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "deepseekai2025deepseek",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/react-loop",
+   "type": "Claim",
+   "label": {
+    "ko": "ReAct는 생각·행동·관찰의 루프다.",
+    "en": "ReAct loop."
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "yao2023react",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/reflexion-verbal",
+   "type": "Claim",
+   "label": {
+    "ko": "Reflexion은 언어적 강화학습이다.",
+    "en": "Reflexion is verbal RL."
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "shinn2023reflexion",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/metr-horizon",
+   "type": "Claim",
+   "label": {
+    "ko": "맡기는 일의 길이는 약 7개월마다 두 배로 늘었다.",
+    "en": "Task horizon doubling."
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "kwa2025measuring",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/hermes-skills",
+   "type": "Claim",
+   "label": {
+    "ko": "스킬을 스스로 저장하는 에이전트.",
+    "en": "Agent that saves skills."
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "nousresearchhermesreadme",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/rule-journey",
+   "type": "Simulation",
+   "label": {
+    "ko": "규칙의 여정 따라가기",
+    "en": "Rule journey stepper"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/capstone",
+   "type": "Simulation",
+   "label": {
+    "ko": "마무리 실험: 대출 상담 에이전트",
+    "en": "Capstone loan agent"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p2-6-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "시리즈 내내 규칙(IF-THEN)이 옮겨 간 자리의 순서로 맞는 것은?",
+    "en": ""
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-6-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "마무리 실험의 고객 C는 연체 확률이 27%로 낮은데도 왜 막혔나?",
+    "en": ""
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-6-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "세 층(구조·훈련·운용) 가운데 대부분의 기업이 직접 손댈 수 있는 층은?",
+    "en": ""
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/sutton2018reinforcement",
+   "type": "Work",
+   "label": {
+    "ko": "Reinforcement Learning: An Introduction (2nd ed.)",
+    "en": "Reinforcement Learning: An Introduction (2nd ed.)"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/silver2017mastering",
+   "type": "Work",
+   "label": {
+    "ko": "Mastering the game of Go without human knowledge",
+    "en": "Mastering the game of Go without human knowledge"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ouyang2022training",
+   "type": "Work",
+   "label": {
+    "ko": "Training language models to follow instructions with human feedback",
+    "en": "Training language models to follow instructions with human feedback"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/deepseekai2025deepseek",
+   "type": "Work",
+   "label": {
+    "ko": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. arXiv:2501.12948",
+    "en": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. arXiv:2501.12948"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/yao2023react",
+   "type": "Work",
+   "label": {
+    "ko": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "en": "ReAct: Synergizing Reasoning and Acting in Language Models"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/shinn2023reflexion",
+   "type": "Work",
+   "label": {
+    "ko": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "en": "Reflexion: Language Agents with Verbal Reinforcement Learning"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/kwa2025measuring",
+   "type": "Work",
+   "label": {
+    "ko": "Measuring AI Ability to Complete Long Tasks. arXiv:2503.14499",
+    "en": "Measuring AI Ability to Complete Long Tasks. arXiv:2503.14499"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/nousresearchhermesreadme",
+   "type": "Work",
+   "label": {
+    "ko": "hermes-agent 저장소 README",
+    "en": "hermes-agent 저장소 README"
+   },
+   "page": "2-6_reinforcement_thread",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/rl-thread",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-journey",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verifier",
+   "p": "lab:broader",
+   "o": "lab:topic/accuracy-metrics",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verified-saving",
+   "p": "lab:broader",
+   "o": "lab:topic/accuracy-metrics",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/three-layers",
+   "p": "lab:broader",
+   "o": "lab:topic/deployment",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/human-role-shift",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/deployment-checklist",
+   "p": "lab:broader",
+   "o": "lab:topic/deployment",
+   "anchor": "#s11",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/operational-reward-hacking",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/operational-reward-hacking",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/rule-based-reward",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/permission-gate",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/verifier",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verifier",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/verified-saving",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:partOf",
+   "o": "lab:concept/rule-journey",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:partOf",
+   "o": "lab:concept/rule-journey",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:partOf",
+   "o": "lab:concept/rule-journey",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verifier",
+   "p": "lab:partOf",
+   "o": "lab:concept/rule-journey",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verified-saving",
+   "p": "lab:partOf",
+   "o": "lab:concept/rule-journey",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rl-thread",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/rule-journey",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/three-layers",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/human-role-shift",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/human-role-shift",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/deployment-checklist",
+   "anchor": "#s11",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rl-thread",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/operational-reward-hacking",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/operational-reward-hacking",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/verifier",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rl-thread",
+   "p": "lab:raises",
+   "o": "lab:question/unverifiable-reward",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rl-def",
+   "p": "lab:supports",
+   "o": "lab:concept/rl-thread",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rl-def",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sutton2018reinforcement",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/az-self-play",
+   "p": "lab:supports",
+   "o": "lab:concept/rl-thread",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/az-self-play",
+   "p": "lab:assertedIn",
+   "o": "lab:work/silver2017mastering",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rlhf-human",
+   "p": "lab:supports",
+   "o": "lab:concept/rl-thread",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rlhf-human",
+   "p": "lab:assertedIn",
+   "o": "lab:work/ouyang2022training",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/r1-rule",
+   "p": "lab:supports",
+   "o": "lab:concept/rule-based-reward",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/r1-rule",
+   "p": "lab:assertedIn",
+   "o": "lab:work/deepseekai2025deepseek",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/react-loop",
+   "p": "lab:supports",
+   "o": "lab:concept/rl-thread",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/react-loop",
+   "p": "lab:assertedIn",
+   "o": "lab:work/yao2023react",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/reflexion-verbal",
+   "p": "lab:supports",
+   "o": "lab:concept/verifier",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/reflexion-verbal",
+   "p": "lab:assertedIn",
+   "o": "lab:work/shinn2023reflexion",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/metr-horizon",
+   "p": "lab:supports",
+   "o": "lab:concept/human-role-shift",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/metr-horizon",
+   "p": "lab:assertedIn",
+   "o": "lab:work/kwa2025measuring",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hermes-skills",
+   "p": "lab:supports",
+   "o": "lab:concept/verified-saving",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hermes-skills",
+   "p": "lab:assertedIn",
+   "o": "lab:work/nousresearchhermesreadme",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-journey",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/rule-journey",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verified-saving",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/capstone",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/capstone",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verifier",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/capstone",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-6-check-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/rule-journey",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-6-check-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/permission-gate",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-6-check-3",
+   "p": "lab:assesses",
+   "o": "lab:concept/three-layers",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

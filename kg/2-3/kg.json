@@ -1,0 +1,700 @@
+{
+ "version": "1.0",
+ "page": "2-3_loop_engineering",
+ "nodes": [
+  {
+   "id": "lab:method/loop-engineering",
+   "type": "Method",
+   "label": {
+    "ko": "루프 엔지니어링",
+    "en": "Loop engineering"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems",
+   "definition": {
+    "ko": "에이전트에게 일을 시키고 확인하고 다시 시키는 반복 구조를 설계하는 일(업계 용어)."
+   }
+  },
+  {
+   "id": "lab:concept/verifier",
+   "type": "Concept",
+   "label": {
+    "ko": "외부 검증기",
+    "en": "External verifier"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "evaluation",
+   "definition": {
+    "ko": "일이 끝났는지 에이전트 말이 아니라 테스트·계산으로 판정하는 장치."
+   }
+  },
+  {
+   "id": "lab:concept/stop-conditions",
+   "type": "Concept",
+   "label": {
+    "ko": "멈춤 조건",
+    "en": "Stop conditions"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems",
+   "definition": {
+    "ko": "검증 통과면 완료, 반복 한도·비용 예산·진전 없음이면 사람에게 넘기는 규칙."
+   }
+  },
+  {
+   "id": "lab:concept/loop-cost",
+   "type": "Concept",
+   "label": {
+    "ko": "누적 비용",
+    "en": "Cumulative loop cost"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:method/reflexion",
+   "type": "Method",
+   "label": {
+    "ko": "Reflexion(반성 메모)",
+    "en": "Reflexion"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:limitation/false-completion",
+   "type": "Limitation",
+   "label": {
+    "ko": "거짓 완료",
+    "en": "False completion"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:limitation/loop-stall",
+   "type": "Limitation",
+   "label": {
+    "ko": "같은 실패 반복(정체)",
+    "en": "Loop stall"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:claim/steinberger-osmani",
+   "type": "Claim",
+   "label": {
+    "ko": "2026년 6월 스타인버거의 글과 오스마니의 정리로 루프 엔지니어링이 퍼졌다.",
+    "en": "Loop engineering spread in June 2026."
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "osmani2026loop",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/loop-failure-modes",
+   "type": "Claim",
+   "label": {
+    "ko": "루프가 망가지는 방식의 정리.",
+    "en": "Loop failure modes."
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mlmastery2026loop",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/reflexion-91",
+   "type": "Claim",
+   "label": {
+    "ko": "Reflexion은 가중치를 바꾸지 않고 HumanEval에서 91%를 기록했다.",
+    "en": "Reflexion 91% on HumanEval."
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "shinn2023reflexion",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/loop-what-is",
+   "type": "Claim",
+   "label": {
+    "ko": "루프 엔지니어링의 개념 소개.",
+    "en": "What is loop engineering."
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "unimon2026what",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/hermes-cron",
+   "type": "Claim",
+   "label": {
+    "ko": "예약 실행 루프 사례.",
+    "en": "Scheduled loop example."
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "brunch2026openclaw",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/rl-loop",
+   "type": "Claim",
+   "label": {
+    "ko": "시도 → 평가 → 수정은 강화학습의 고리와 같은 구조다.",
+    "en": "Same structure as RL loop."
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s9",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "sutton2018reinforcement",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/loop-runner",
+   "type": "Simulation",
+   "label": {
+    "ko": "직접 돌려 보는 루프",
+    "en": "Loop simulator"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p2-3-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "에이전트의 '다 됐어요'를 멈춤 조건으로 삼으면 안 되는 이유는?",
+    "en": ""
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-3-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "멈춤 조건 중 '사람에게 넘김'으로 끝나는 것이 아닌 것은?",
+    "en": ""
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-3-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "Reflexion이 가중치를 바꾸지 않고 HumanEval에서 기록한 점수는?",
+    "en": ""
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mlmastery2026loop",
+   "type": "Work",
+   "label": {
+    "ko": "An Introduction to Loop Engineering",
+    "en": "An Introduction to Loop Engineering"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/osmani2026loop",
+   "type": "Work",
+   "label": {
+    "ko": "Loop Engineering: Designing loops that prompt coding agents. addyosmani.com; O'Reilly Radar 재게재(2026.6.22)",
+    "en": "Loop Engineering: Designing loops that prompt coding agents. addyosmani.com; O'Reilly Radar 재게재(2026.6.22)"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/unimon2026what",
+   "type": "Work",
+   "label": {
+    "ko": "What is Loop Engineering?",
+    "en": "What is Loop Engineering?"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/shinn2023reflexion",
+   "type": "Work",
+   "label": {
+    "ko": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+    "en": "Reflexion: Language Agents with Verbal Reinforcement Learning"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/brunch2026openclaw",
+   "type": "Work",
+   "label": {
+    "ko": "OpenClaw VS Hermes Agent",
+    "en": "OpenClaw VS Hermes Agent"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/sutton2018reinforcement",
+   "type": "Work",
+   "label": {
+    "ko": "Reinforcement Learning: An Introduction (2nd ed.)",
+    "en": "Reinforcement Learning: An Introduction (2nd ed.)"
+   },
+   "page": "2-3_loop_engineering",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:method/loop-engineering",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verifier",
+   "p": "lab:broader",
+   "o": "lab:topic/accuracy-metrics",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/stop-conditions",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/loop-cost",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/reflexion",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/false-completion",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/loop-stall",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verifier",
+   "p": "lab:partOf",
+   "o": "lab:method/loop-engineering",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/stop-conditions",
+   "p": "lab:partOf",
+   "o": "lab:method/loop-engineering",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/loop-cost",
+   "p": "lab:partOf",
+   "o": "lab:concept/stop-conditions",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/loop-engineering",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/false-completion",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/false-completion",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/verifier",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/loop-engineering",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/loop-stall",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/loop-stall",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/stop-conditions",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/reflexion",
+   "p": "lab:partOf",
+   "o": "lab:method/loop-engineering",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/steinberger-osmani",
+   "p": "lab:supports",
+   "o": "lab:method/loop-engineering",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/steinberger-osmani",
+   "p": "lab:assertedIn",
+   "o": "lab:work/osmani2026loop",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/loop-failure-modes",
+   "p": "lab:supports",
+   "o": "lab:limitation/false-completion",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/loop-failure-modes",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mlmastery2026loop",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/reflexion-91",
+   "p": "lab:supports",
+   "o": "lab:method/reflexion",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/reflexion-91",
+   "p": "lab:assertedIn",
+   "o": "lab:work/shinn2023reflexion",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/loop-what-is",
+   "p": "lab:supports",
+   "o": "lab:method/loop-engineering",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/loop-what-is",
+   "p": "lab:assertedIn",
+   "o": "lab:work/unimon2026what",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hermes-cron",
+   "p": "lab:supports",
+   "o": "lab:method/loop-engineering",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hermes-cron",
+   "p": "lab:assertedIn",
+   "o": "lab:work/brunch2026openclaw",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rl-loop",
+   "p": "lab:supports",
+   "o": "lab:method/loop-engineering",
+   "anchor": "#s9",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rl-loop",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sutton2018reinforcement",
+   "anchor": "#s9",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/verifier",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/loop-runner",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/stop-conditions",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/loop-runner",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/false-completion",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/loop-runner",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-3-check-1",
+   "p": "lab:assesses",
+   "o": "lab:limitation/false-completion",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-3-check-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/stop-conditions",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-3-check-3",
+   "p": "lab:assesses",
+   "o": "lab:method/reflexion",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/loop-engineering",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

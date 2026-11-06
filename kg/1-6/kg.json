@@ -1,0 +1,1046 @@
+{
+ "version": "1.0",
+ "page": "1-6_transformer",
+ "nodes": [
+  {
+   "id": "lab:method/rnn",
+   "type": "Method",
+   "label": {
+    "ko": "순환 신경망(RNN)",
+    "en": "Recurrent neural network"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "sequence"
+  },
+  {
+   "id": "lab:method/lstm",
+   "type": "Method",
+   "label": {
+    "ko": "LSTM",
+    "en": "Long short-term memory"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "sequence"
+  },
+  {
+   "id": "lab:limitation/long-range-forgetting",
+   "type": "Limitation",
+   "label": {
+    "ko": "긴 문장의 건망증",
+    "en": "Long-range forgetting"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "sequence"
+  },
+  {
+   "id": "lab:method/attention",
+   "type": "Method",
+   "label": {
+    "ko": "어텐션",
+    "en": "Attention"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "attention",
+   "definition": {
+    "ko": "문장 속 모든 단어가 서로를 보고 필요한 단어에 가중치를 주는 장치."
+   }
+  },
+  {
+   "id": "lab:concept/qkv",
+   "type": "Concept",
+   "label": {
+    "ko": "Q·K·V",
+    "en": "Query, key, value"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "attention",
+   "definition": {
+    "ko": "질문(Q)으로 꼬리표(K)와 맞춰 보고 맞는 만큼 내용(V)을 가져오는 구조."
+   }
+  },
+  {
+   "id": "lab:concept/contextual-embedding",
+   "type": "Concept",
+   "label": {
+    "ko": "문맥에 따라 바뀌는 단어 벡터",
+    "en": "Contextual embedding"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/transformer",
+   "type": "Method",
+   "label": {
+    "ko": "트랜스포머",
+    "en": "Transformer"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "attention",
+   "definition": {
+    "ko": "어텐션 층을 쌓은 2017년의 신경망 구조."
+   }
+  },
+  {
+   "id": "lab:concept/positional-encoding",
+   "type": "Concept",
+   "label": {
+    "ko": "위치 정보",
+    "en": "Positional encoding"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "attention"
+  },
+  {
+   "id": "lab:concept/multi-head",
+   "type": "Concept",
+   "label": {
+    "ko": "여러 갈래 어텐션",
+    "en": "Multi-head attention"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "attention"
+  },
+  {
+   "id": "lab:concept/causal-mask",
+   "type": "Concept",
+   "label": {
+    "ko": "미래 가리기(인과 마스크)",
+    "en": "Causal mask"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "attention"
+  },
+  {
+   "id": "lab:method/gpt",
+   "type": "Method",
+   "label": {
+    "ko": "GPT",
+    "en": "GPT"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/bert",
+   "type": "Method",
+   "label": {
+    "ko": "BERT",
+    "en": "BERT"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:claim/lstm-1997",
+   "type": "Claim",
+   "label": {
+    "ko": "LSTM은 기억 칸으로 긴 의존을 다뤘다.",
+    "en": "LSTM handled long dependencies."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "hochreiter1997long",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/bahdanau-attention",
+   "type": "Claim",
+   "label": {
+    "ko": "번역에서 필요한 단어를 골라 보는 어텐션이 나왔다.",
+    "en": "Attention for translation alignment."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "bahdanau2014neural",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/attention-is-all",
+   "type": "Claim",
+   "label": {
+    "ko": "2017년 어텐션만으로 된 트랜스포머가 발표됐다.",
+    "en": "Transformer uses attention only."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "vaswani2017attention",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/google-blog",
+   "type": "Claim",
+   "label": {
+    "ko": "구글은 트랜스포머를 번역에 적용했다고 소개했다.",
+    "en": "Google introduced the transformer."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "uszkoreit2017transformer",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/bert-2018",
+   "type": "Claim",
+   "label": {
+    "ko": "BERT는 양쪽 문맥을 함께 보는 사전학습 모델이다.",
+    "en": "BERT is bidirectional pretraining."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "devlin2018bert",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/gpt1",
+   "type": "Claim",
+   "label": {
+    "ko": "GPT는 다음 단어 예측으로 사전학습했다.",
+    "en": "GPT pretrained on next-word prediction."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "radford2018improving",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/bert-search",
+   "type": "Claim",
+   "label": {
+    "ko": "구글 검색이 BERT로 질문을 더 잘 이해하게 됐다.",
+    "en": "Google Search adopted BERT."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "nayak2019understanding",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/finbert",
+   "type": "Claim",
+   "label": {
+    "ko": "FinBERT는 금융 문장 감성 분석에 쓰였다.",
+    "en": "FinBERT for financial sentiment."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "araci2019finbert",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/bank-0160",
+   "type": "Claim",
+   "label": {
+    "ko": "내용어에 집중한 어텐션을 거치자 강가 문장의 bank가 +0.160으로 강가 쪽으로 움직였다.",
+    "en": "Attention moved bank toward river (+0.160)."
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "pennington2014glove",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/bank-attention",
+   "type": "Simulation",
+   "label": {
+    "ko": "bank의 두 얼굴 어텐션",
+    "en": "Bank attention demo"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-6-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "어텐션의 Q·K·V를 비유한 말로 맞는 것은?",
+    "en": ""
+   },
+   "page": "1-6_transformer",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-6-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "강가 문장에서 bank의 'river 유사도 − money 유사도'가 +0.160이 된 것은 무엇을 뜻하나?",
+    "en": ""
+   },
+   "page": "1-6_transformer",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-6-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "트랜스포머에서 '미래를 가리는' 마스크를 쓰면?",
+    "en": ""
+   },
+   "page": "1-6_transformer",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/hochreiter1997long",
+   "type": "Work",
+   "label": {
+    "ko": "Long Short-Term Memory",
+    "en": "Long Short-Term Memory"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/bahdanau2014neural",
+   "type": "Work",
+   "label": {
+    "ko": "Neural Machine Translation by Jointly Learning to Align and Translate. arXiv:1409.0473 (ICLR 2015)",
+    "en": "Neural Machine Translation by Jointly Learning to Align and Translate. arXiv:1409.0473 (ICLR 2015)"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/vaswani2017attention",
+   "type": "Work",
+   "label": {
+    "ko": "Attention Is All You Need",
+    "en": "Attention Is All You Need"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/uszkoreit2017transformer",
+   "type": "Work",
+   "label": {
+    "ko": "Transformer: A Novel Neural Network Architecture for Language Understanding",
+    "en": "Transformer: A Novel Neural Network Architecture for Language Understanding"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/devlin2018bert",
+   "type": "Work",
+   "label": {
+    "ko": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805",
+    "en": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/radford2018improving",
+   "type": "Work",
+   "label": {
+    "ko": "Improving Language Understanding by Generative Pre-Training",
+    "en": "Improving Language Understanding by Generative Pre-Training"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/nayak2019understanding",
+   "type": "Work",
+   "label": {
+    "ko": "Understanding searches better than ever before",
+    "en": "Understanding searches better than ever before"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/araci2019finbert",
+   "type": "Work",
+   "label": {
+    "ko": "FinBERT: Financial Sentiment Analysis with Pre-trained Language Models. arXiv:1908.10063",
+    "en": "FinBERT: Financial Sentiment Analysis with Pre-trained Language Models. arXiv:1908.10063"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/pennington2014glove",
+   "type": "Work",
+   "label": {
+    "ko": "GloVe: Global Vectors for Word Representation",
+    "en": "GloVe: Global Vectors for Word Representation"
+   },
+   "page": "1-6_transformer",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:method/rnn",
+   "p": "lab:broader",
+   "o": "lab:topic/rnn",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/lstm",
+   "p": "lab:broader",
+   "o": "lab:topic/lstm-gru",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/long-range-forgetting",
+   "p": "lab:broader",
+   "o": "lab:topic/rnn",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/attention",
+   "p": "lab:broader",
+   "o": "lab:topic/attention-mechanism",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/qkv",
+   "p": "lab:broader",
+   "o": "lab:topic/self-attention",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/contextual-embedding",
+   "p": "lab:broader",
+   "o": "lab:topic/embedding-space",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/transformer",
+   "p": "lab:broader",
+   "o": "lab:topic/transformer",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/positional-encoding",
+   "p": "lab:broader",
+   "o": "lab:topic/positional-encoding",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/multi-head",
+   "p": "lab:broader",
+   "o": "lab:topic/multi-head-attention",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/causal-mask",
+   "p": "lab:broader",
+   "o": "lab:topic/self-attention",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt",
+   "p": "lab:broader",
+   "o": "lab:topic/autoregressive-generation",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bert",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rnn",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/long-range-forgetting",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/lstm",
+   "p": "lab:partOf",
+   "o": "lab:method/rnn",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/long-range-forgetting",
+   "p": "lab:addressedBy",
+   "o": "lab:method/attention",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/qkv",
+   "p": "lab:partOf",
+   "o": "lab:method/attention",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/attention",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/transformer",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/transformer",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/gpt",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/attention",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/contextual-embedding",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/positional-encoding",
+   "p": "lab:partOf",
+   "o": "lab:method/transformer",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/multi-head",
+   "p": "lab:partOf",
+   "o": "lab:method/transformer",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/causal-mask",
+   "p": "lab:partOf",
+   "o": "lab:method/gpt",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/gpt",
+   "p": "lab:contrastsWith",
+   "o": "lab:method/bert",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/transformer",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/bert",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/lstm-1997",
+   "p": "lab:supports",
+   "o": "lab:method/lstm",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/lstm-1997",
+   "p": "lab:assertedIn",
+   "o": "lab:work/hochreiter1997long",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bahdanau-attention",
+   "p": "lab:supports",
+   "o": "lab:method/attention",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bahdanau-attention",
+   "p": "lab:assertedIn",
+   "o": "lab:work/bahdanau2014neural",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/attention-is-all",
+   "p": "lab:supports",
+   "o": "lab:method/transformer",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/attention-is-all",
+   "p": "lab:assertedIn",
+   "o": "lab:work/vaswani2017attention",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/google-blog",
+   "p": "lab:supports",
+   "o": "lab:method/transformer",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/google-blog",
+   "p": "lab:assertedIn",
+   "o": "lab:work/uszkoreit2017transformer",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bert-2018",
+   "p": "lab:supports",
+   "o": "lab:method/bert",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bert-2018",
+   "p": "lab:assertedIn",
+   "o": "lab:work/devlin2018bert",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gpt1",
+   "p": "lab:supports",
+   "o": "lab:method/gpt",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/gpt1",
+   "p": "lab:assertedIn",
+   "o": "lab:work/radford2018improving",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bert-search",
+   "p": "lab:supports",
+   "o": "lab:method/bert",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bert-search",
+   "p": "lab:assertedIn",
+   "o": "lab:work/nayak2019understanding",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/finbert",
+   "p": "lab:supports",
+   "o": "lab:method/bert",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/finbert",
+   "p": "lab:assertedIn",
+   "o": "lab:work/araci2019finbert",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bank-0160",
+   "p": "lab:supports",
+   "o": "lab:concept/contextual-embedding",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bank-0160",
+   "p": "lab:assertedIn",
+   "o": "lab:work/pennington2014glove",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/attention",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/bank-attention",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/contextual-embedding",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/bank-attention",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/qkv",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/bank-attention",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-6-check-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/qkv",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-6-check-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/contextual-embedding",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-6-check-3",
+   "p": "lab:assesses",
+   "o": "lab:concept/causal-mask",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/attention",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/attention",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

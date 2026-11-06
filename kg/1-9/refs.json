@@ -1,0 +1,342 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+  "author": [
+   {
+    "family": "Wei",
+    "given": "J."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2022",
+  "id": "wei2022chain",
+  "lab": {
+   "work": "lab:work/wei2022chain",
+   "role": "background",
+   "supports": [
+    "lab:claim/cot-2022"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Large Language Models are Zero-Shot Reasoners",
+  "author": [
+   {
+    "family": "Kojima",
+    "given": "T."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2022",
+  "id": "kojima2022large",
+  "lab": {
+   "work": "lab:work/kojima2022large",
+   "role": "background",
+   "supports": [
+    "lab:claim/step-by-step-787"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models. arXiv:2203.11171 (ICLR 2023)",
+  "author": [
+   {
+    "family": "Wang",
+    "given": "X."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "id": "wang2022self",
+  "lab": {
+   "work": "lab:work/wang2022self",
+   "role": "background",
+   "supports": [
+    "lab:claim/self-consistency"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+  "author": [
+   {
+    "family": "Turpin",
+    "given": "M."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2023",
+  "id": "turpin2023language",
+  "lab": {
+   "work": "lab:work/turpin2023language",
+   "role": "background",
+   "supports": [
+    "lab:claim/unfaithful"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models. arXiv:2402.03300",
+  "author": [
+   {
+    "family": "Shao",
+    "given": "Z."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "(GRPO)",
+  "id": "shao2024deepseekmath",
+  "lab": {
+   "work": "lab:work/shao2024deepseekmath",
+   "role": "background",
+   "supports": [
+    "lab:claim/grpo-2024"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Learning to Reason with LLMs",
+  "author": [
+   {
+    "literal": "OpenAI"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "id": "openai2024learning",
+  "lab": {
+   "work": "lab:work/openai2024learning",
+   "role": "background",
+   "supports": [
+    "lab:claim/o1-aime"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. arXiv:2501.12948",
+  "author": [
+   {
+    "literal": "DeepSeek-AI"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "(해설: Hugging Face 블로그, 보상 설계 노트)",
+  "id": "deepseekai2025deepseek",
+  "lab": {
+   "work": "lab:work/deepseekai2025deepseek",
+   "role": "primary",
+   "supports": [
+    "lab:claim/r1-rule-reward"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

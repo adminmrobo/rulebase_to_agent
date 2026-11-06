@@ -1,0 +1,315 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+  "author": [
+   {
+    "family": "Lewis",
+    "given": "P."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2020",
+  "id": "lewis2020retrieval",
+  "lab": {
+   "work": "lab:work/lewis2020retrieval",
+   "role": "background",
+   "supports": [
+    "lab:claim/rag-2020"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Lost in the Middle: How Language Models Use Long Contexts",
+  "author": [
+   {
+    "family": "Liu",
+    "given": "N. F."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "TACL 2024",
+  "id": "liu2023lost",
+  "lab": {
+   "work": "lab:work/liu2023lost",
+   "role": "primary",
+   "supports": [
+    "lab:claim/lost-middle-538"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Karpathy Puts Context at the Core of AI Coding",
+  "author": [
+   {
+    "literal": "Pure AI"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "id": "pureai2025karpathy",
+  "lab": {
+   "work": "lab:work/pureai2025karpathy",
+   "role": "background",
+   "supports": [
+    "lab:claim/karpathy-context"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "OpenAI 하네스 엔지니어링 보도",
+  "author": [
+   {
+    "literal": "InfoQ"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "infoq2026openai",
+  "lab": {
+   "work": "lab:work/infoq2026openai",
+   "role": "background",
+   "supports": [
+    "lab:claim/openai-harness-2026"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Harness vs Agent Harness: 기업용 AI 에이전트 운영 레이어",
+  "author": [
+   {
+    "literal": "PuppyOne"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "puppyone2026hermes",
+  "lab": {
+   "work": "lab:work/puppyone2026hermes",
+   "role": "background",
+   "supports": [
+    "lab:claim/enterprise-harness"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Agent: 성장하는 AI 에이전트 실전 가이드, 01-2",
+  "container-title": "왜 Hermes Agent인가",
+  "id": "wikidocshermesguide",
+  "author": [
+   {
+    "literal": "위키독스"
+   }
+  ],
+  "lab": {
+   "work": "lab:work/wikidocshermesguide",
+   "role": "background",
+   "supports": [
+    "lab:claim/hermes-guide"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "An Introduction to Loop Engineering",
+  "container-title": "An Introduction to Loop Engineering",
+  "id": "mlmastery2026loop",
+  "author": [
+   {
+    "literal": "Machine Learning Mastery"
+   }
+  ],
+  "lab": {
+   "work": "lab:work/mlmastery2026loop",
+   "role": "background",
+   "supports": [
+    "lab:claim/loop-intro"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "헤르메스, 신규 기여자 수에서 오픈클로 역전…'하네스' 최적화의 승리",
+  "author": [
+   {
+    "literal": "AI타임스"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "aitimes2026hermes",
+  "lab": {
+   "work": "lab:work/aitimes2026hermes",
+   "role": "background",
+   "supports": [
+    "lab:claim/harness-matters"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

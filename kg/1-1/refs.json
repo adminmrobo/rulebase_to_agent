@@ -1,0 +1,669 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "primary",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "primary",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence",
+  "author": [
+   {
+    "family": "McCarthy",
+    "given": "J."
+   },
+   {
+    "family": "Minsky",
+    "given": "M."
+   },
+   {
+    "family": "Rochester",
+    "given": "N."
+   },
+   {
+    "family": "Shannon",
+    "given": "C."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1955
+    ]
+   ]
+  },
+  "id": "mccarthy1955proposal",
+  "lab": {
+   "work": "lab:work/mccarthy1955proposal",
+   "role": "background",
+   "supports": [
+    "lab:claim/dartmouth-1956"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Computer Science as Empirical Inquiry: Symbols and Search",
+  "author": [
+   {
+    "family": "Newell",
+    "given": "A."
+   },
+   {
+    "family": "Simon",
+    "given": "H. A."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1976
+    ]
+   ]
+  },
+  "container-title": "Communications of the ACM",
+  "id": "newell1976computer",
+  "lab": {
+   "work": "lab:work/newell1976computer",
+   "role": "background",
+   "supports": [
+    "lab:claim/symbols-and-search"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Rule-Based Expert Systems: The MYCIN Experiments of the Stanford Heuristic Programming Project",
+  "author": [
+   {
+    "family": "Buchanan",
+    "given": "B. G."
+   },
+   {
+    "family": "Shortliffe",
+    "given": "E. H."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1984
+    ]
+   ]
+  },
+  "container-title": "Addison-Wesley",
+  "id": "buchanan1984rule",
+  "lab": {
+   "work": "lab:work/buchanan1984rule",
+   "role": "background",
+   "supports": [
+    "lab:claim/mycin-600-rules"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "R1: A Rule-Based Configurer of Computer Systems",
+  "author": [
+   {
+    "family": "McDermott",
+    "given": "J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1982
+    ]
+   ]
+  },
+  "container-title": "Artificial Intelligence",
+  "id": "mcdermott1982r1",
+  "lab": {
+   "work": "lab:work/mcdermott1982r1",
+   "role": "background",
+   "supports": [
+    "lab:claim/xcon-2500-rules"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Some Philosophical Problems from the Standpoint of Artificial Intelligence",
+  "author": [
+   {
+    "family": "McCarthy",
+    "given": "J."
+   },
+   {
+    "family": "Hayes",
+    "given": "P. J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1969
+    ]
+   ]
+  },
+  "container-title": "Machine Intelligence 4",
+  "id": "mccarthy1969philosophical",
+  "lab": {
+   "work": "lab:work/mccarthy1969philosophical",
+   "role": "background",
+   "supports": [
+    "lab:claim/frame-problem-named"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Cognitive Wheels: The Frame Problem of AI",
+  "author": [
+   {
+    "family": "Dennett",
+    "given": "D. C."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1984
+    ]
+   ]
+  },
+  "container-title": "In C",
+  "id": "dennett1984cognitive",
+  "lab": {
+   "work": "lab:work/dennett1984cognitive",
+   "role": "background",
+   "supports": [
+    "lab:claim/frame-problem-robots"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "A Note on Two Problems in Connexion with Graphs",
+  "author": [
+   {
+    "family": "Dijkstra",
+    "given": "E. W."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1959
+    ]
+   ]
+  },
+  "container-title": "Numerische Mathematik",
+  "id": "dijkstra1959note",
+  "lab": {
+   "work": "lab:work/dijkstra1959note",
+   "role": "background",
+   "supports": [
+    "lab:claim/dijkstra-1959"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "A Formal Basis for the Heuristic Determination of Minimum Cost Paths",
+  "author": [
+   {
+    "family": "Hart",
+    "given": "P. E."
+   },
+   {
+    "family": "Nilsson",
+    "given": "N. J."
+   },
+   {
+    "family": "Raphael",
+    "given": "B."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1968
+    ]
+   ]
+  },
+  "container-title": "IEEE Trans",
+  "id": "hart1968formal",
+  "lab": {
+   "work": "lab:work/hart1968formal",
+   "role": "background",
+   "supports": [
+    "lab:claim/astar-1968"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Fuzzy Sets",
+  "author": [
+   {
+    "family": "Zadeh",
+    "given": "L. A."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1965
+    ]
+   ]
+  },
+  "container-title": "Information and Control",
+  "id": "zadeh1965fuzzy",
+  "lab": {
+   "work": "lab:work/zadeh1965fuzzy",
+   "role": "background",
+   "supports": [
+    "lab:claim/fuzzy-sets-1965"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Application of Fuzzy Algorithms for Control of Simple Dynamic Plant",
+  "author": [
+   {
+    "family": "Mamdani",
+    "given": "E. H."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1974
+    ]
+   ]
+  },
+  "container-title": "Proc",
+  "id": "mamdani1974application",
+  "lab": {
+   "work": "lab:work/mamdani1974application",
+   "role": "background",
+   "supports": [
+    "lab:claim/mamdani-controller"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Fuzzy computers go home",
+  "author": [
+   {
+    "family": "Swinbanks",
+    "given": "D."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1990
+    ]
+   ]
+  },
+  "container-title": "Nature",
+  "id": "swinbanks1990fuzzy",
+  "lab": {
+   "work": "lab:work/swinbanks1990fuzzy",
+   "role": "background",
+   "supports": [
+    "lab:claim/fuzzy-appliances-1990"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "ANFIS: Adaptive-Network-Based Fuzzy Inference System",
+  "author": [
+   {
+    "family": "Jang",
+    "given": "J.-S. R."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1993
+    ]
+   ]
+  },
+  "container-title": "IEEE Trans",
+  "id": "jang1993anfis",
+  "lab": {
+   "work": "lab:work/jang1993anfis",
+   "role": "background",
+   "supports": [
+    "lab:claim/anfis-1993"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Fuzzy control system",
+  "id": "wikipediafuzzycontrol",
+  "container-title": "Wikipedia",
+  "lab": {
+   "work": "lab:work/wikipediafuzzycontrol",
+   "role": "background",
+   "supports": [
+    "lab:claim/sendai-1987"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": false,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "인공지능 OK 세탁기(WF-1410Y) 신문 광고",
+  "author": [
+   {
+    "literal": "금성사"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1991
+    ]
+   ]
+  },
+  "id": "goldstar1991okwasher",
+  "lab": {
+   "work": "lab:work/goldstar1991okwasher",
+   "role": "background",
+   "supports": [
+    "lab:claim/goldstar-1991-ad"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Artificial Intelligence: A Modern Approach (4th ed.)",
+  "author": [
+   {
+    "family": "Russell",
+    "given": "S."
+   },
+   {
+    "family": "Norvig",
+    "given": "P."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "Pearson",
+  "id": "russell2020artificial",
+  "lab": {
+   "work": "lab:work/russell2020artificial",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "MYCIN · Xcon",
+  "id": "wikipediamycinxcon",
+  "container-title": "Wikipedia",
+  "lab": {
+   "work": "lab:work/wikipediamycinxcon",
+   "role": "background",
+   "supports": [
+    "lab:claim/mycin-xcon-figures"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": false,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

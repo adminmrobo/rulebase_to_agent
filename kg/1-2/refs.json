@@ -1,0 +1,318 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Some Studies in Machine Learning Using the Game of Checkers",
+  "author": [
+   {
+    "family": "Samuel",
+    "given": "A. L."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1959
+    ]
+   ]
+  },
+  "container-title": "IBM Journal of Research and Development",
+  "id": "samuel1959studies",
+  "lab": {
+   "work": "lab:work/samuel1959studies",
+   "role": "background",
+   "supports": [
+    "lab:claim/samuel-1959"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Machine Learning",
+  "author": [
+   {
+    "family": "Mitchell",
+    "given": "T. M."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "container-title": "McGraw-Hill",
+  "id": "mitchell1997machine",
+  "lab": {
+   "work": "lab:work/mitchell1997machine",
+   "role": "background",
+   "supports": [
+    "lab:claim/mitchell-definition"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Fuzzy Sets",
+  "author": [
+   {
+    "family": "Zadeh",
+    "given": "L. A."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1965
+    ]
+   ]
+  },
+  "container-title": "Information and Control",
+  "id": "zadeh1965fuzzy",
+  "lab": {
+   "work": "lab:work/zadeh1965fuzzy",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "A Method of Estimating Plane Vulnerability Based on Damage of Survivors",
+  "author": [
+   {
+    "family": "Wald",
+    "given": "A."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1943
+    ]
+   ]
+  },
+  "container-title": "Statistical Research Group, Columbia University",
+  "id": "wald1943method",
+  "lab": {
+   "work": "lab:work/wald1943method",
+   "role": "background",
+   "supports": [
+    "lab:claim/wald-armor"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "dataset",
+  "title": "Fish Catch Data Set",
+  "id": "fishcatchdata",
+  "container-title": "Journal of Statistics Education 데이터 아카이브",
+  "lab": {
+   "work": "lab:work/fishcatchdata",
+   "role": "primary",
+   "supports": [
+    "lab:claim/hand-rule-50"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": false,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "혼자 공부하는 머신러닝+딥러닝 (실습 데이터 fish.csv)",
+  "author": [
+   {
+    "literal": "박해선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "id": "park2020honja",
+  "container-title": "한빛미디어",
+  "lab": {
+   "work": "lab:work/park2020honja",
+   "role": "primary",
+   "supports": [
+    "lab:claim/logreg-82"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Scikit-learn: Machine Learning in Python",
+  "author": [
+   {
+    "family": "Pedregosa",
+    "given": "F."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2011
+    ]
+   ]
+  },
+  "container-title": "Journal of Machine Learning Research",
+  "id": "pedregosa2011scikit",
+  "lab": {
+   "work": "lab:work/pedregosa2011scikit",
+   "role": "background",
+   "supports": [
+    "lab:claim/sklearn"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

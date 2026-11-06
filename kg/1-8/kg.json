@@ -1,0 +1,977 @@
+{
+ "version": "1.0",
+ "page": "1-8_rlhf",
+ "nodes": [
+  {
+   "id": "lab:limitation/misalignment",
+   "type": "Limitation",
+   "label": {
+    "ko": "똑똑하지만 말을 안 듣는 모델",
+    "en": "Instruction misalignment"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:method/rlhf",
+   "type": "Method",
+   "label": {
+    "ko": "RLHF",
+    "en": "RL from human feedback"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl",
+   "definition": {
+    "ko": "사람의 비교·순위로 보상모델을 만들고 그 점수로 강화학습하는 방법."
+   }
+  },
+  {
+   "id": "lab:method/sft",
+   "type": "Method",
+   "label": {
+    "ko": "시범 답 지도학습",
+    "en": "Supervised fine-tuning"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/reward-model",
+   "type": "Method",
+   "label": {
+    "ko": "보상모델",
+    "en": "Reward model"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl",
+   "definition": {
+    "ko": "두 답 중 사람이 무엇을 더 좋아할지 점수로 예측하는 모델."
+   }
+  },
+  {
+   "id": "lab:concept/bradley-terry",
+   "type": "Concept",
+   "label": {
+    "ko": "브래들리–테리 비교 모형",
+    "en": "Bradley–Terry model"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "math"
+  },
+  {
+   "id": "lab:method/ppo",
+   "type": "Method",
+   "label": {
+    "ko": "PPO",
+    "en": "Proximal policy optimization"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:concept/kl-rein",
+   "type": "Concept",
+   "label": {
+    "ko": "고삐 β(KL 제약)",
+    "en": "KL penalty β"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:limitation/reward-overoptimization",
+   "type": "Limitation",
+   "label": {
+    "ko": "보상 과최적화",
+    "en": "Reward overoptimization"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:limitation/sycophancy",
+   "type": "Limitation",
+   "label": {
+    "ko": "아첨",
+    "en": "Sycophancy"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible",
+   "definition": {
+    "ko": "사람이 듣기 좋아하는 쪽으로 맞장구치는 경향."
+   }
+  },
+  {
+   "id": "lab:method/constitutional-ai",
+   "type": "Method",
+   "label": {
+    "ko": "헌법형 AI",
+    "en": "Constitutional AI"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:method/dpo",
+   "type": "Method",
+   "label": {
+    "ko": "DPO",
+    "en": "Direct preference optimization"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:claim/instructgpt-3steps",
+   "type": "Claim",
+   "label": {
+    "ko": "InstructGPT는 시범 답 학습 → 보상모델 → PPO 세 단계로 학습했다.",
+    "en": "InstructGPT three steps."
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "ouyang2022training",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/bt-1952",
+   "type": "Claim",
+   "label": {
+    "ko": "두 대상 비교를 확률로 쓰는 브래들리–테리 모형.",
+    "en": "Bradley–Terry paired comparison."
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "bradley1952rank",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/human-pref-rl",
+   "type": "Claim",
+   "label": {
+    "ko": "사람의 선호 비교만으로 강화학습 보상을 만들 수 있다.",
+    "en": "RL from human preference comparisons."
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "christiano2017deep",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/overoptimization",
+   "type": "Claim",
+   "label": {
+    "ko": "보상모델 점수를 너무 쫓으면 실제 품질이 떨어진다.",
+    "en": "Overoptimizing a reward model hurts quality."
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "gao2022scaling",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/constitutional",
+   "type": "Claim",
+   "label": {
+    "ko": "원칙 목록으로 AI 피드백을 만드는 방법.",
+    "en": "AI feedback from a constitution."
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "bai2022constitutional",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/dpo-2023",
+   "type": "Claim",
+   "label": {
+    "ko": "DPO는 보상모델 없이 선호로 바로 학습한다.",
+    "en": "DPO skips the explicit reward model."
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "rafailov2023direct",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/sycophancy",
+   "type": "Claim",
+   "label": {
+    "ko": "선호 학습 모델은 사용자 견해에 맞장구치는 경향이 있다.",
+    "en": "Preference-trained models are sycophantic."
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "sharma2023towards",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/chatgpt-rlhf",
+   "type": "Claim",
+   "label": {
+    "ko": "ChatGPT는 InstructGPT와 같은 RLHF로 학습했다.",
+    "en": "ChatGPT trained with RLHF."
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "openai2022introducing",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/labeler",
+   "type": "Simulation",
+   "label": {
+    "ko": "직접 라벨러가 되어 보기",
+    "en": "Be the labeler"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/beta-rein",
+   "type": "Simulation",
+   "label": {
+    "ko": "고삐 β 조절",
+    "en": "KL beta slider"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-8-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "InstructGPT의 3단계 순서로 맞는 것은?",
+    "en": ""
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-8-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "고삐 β를 너무 느슨하게 하면 생기는 일은?",
+    "en": ""
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-8-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "'아첨하는 모델'이 생기는 근본 원인은?",
+    "en": ""
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/bradley1952rank",
+   "type": "Work",
+   "label": {
+    "ko": "Rank Analysis of Incomplete Block Designs: I",
+    "en": "Rank Analysis of Incomplete Block Designs: I"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/christiano2017deep",
+   "type": "Work",
+   "label": {
+    "ko": "Deep Reinforcement Learning from Human Preferences",
+    "en": "Deep Reinforcement Learning from Human Preferences"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ouyang2022training",
+   "type": "Work",
+   "label": {
+    "ko": "Training Language Models to Follow Instructions with Human Feedback",
+    "en": "Training Language Models to Follow Instructions with Human Feedback"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/gao2022scaling",
+   "type": "Work",
+   "label": {
+    "ko": "Scaling Laws for Reward Model Overoptimization. arXiv:2210.10760",
+    "en": "Scaling Laws for Reward Model Overoptimization. arXiv:2210.10760"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/bai2022constitutional",
+   "type": "Work",
+   "label": {
+    "ko": "Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073",
+    "en": "Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/rafailov2023direct",
+   "type": "Work",
+   "label": {
+    "ko": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+    "en": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/sharma2023towards",
+   "type": "Work",
+   "label": {
+    "ko": "Towards Understanding Sycophancy in Language Models. arXiv:2310.13548",
+    "en": "Towards Understanding Sycophancy in Language Models. arXiv:2310.13548"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/openai2022introducing",
+   "type": "Work",
+   "label": {
+    "ko": "Introducing ChatGPT",
+    "en": "Introducing ChatGPT"
+   },
+   "page": "1-8_rlhf",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:limitation/misalignment",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rlhf",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rlhf",
+   "p": "lab:broader",
+   "o": "lab:topic/policy-gradient",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/sft",
+   "p": "lab:broader",
+   "o": "lab:topic/transfer-learning",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/reward-model",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/bradley-terry",
+   "p": "lab:broader",
+   "o": "lab:topic/probability-statistics",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/ppo",
+   "p": "lab:broader",
+   "o": "lab:topic/policy-gradient",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/kl-rein",
+   "p": "lab:broader",
+   "o": "lab:topic/policy-gradient",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/reward-overoptimization",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/sycophancy",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/constitutional-ai",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/dpo",
+   "p": "lab:broader",
+   "o": "lab:topic/policy-gradient",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/misalignment",
+   "p": "lab:addressedBy",
+   "o": "lab:method/rlhf",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/sft",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/reward-model",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/reward-model",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/ppo",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/sft",
+   "p": "lab:partOf",
+   "o": "lab:method/rlhf",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/reward-model",
+   "p": "lab:partOf",
+   "o": "lab:method/rlhf",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/ppo",
+   "p": "lab:partOf",
+   "o": "lab:method/rlhf",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/bradley-terry",
+   "p": "lab:partOf",
+   "o": "lab:method/reward-model",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/kl-rein",
+   "p": "lab:partOf",
+   "o": "lab:method/ppo",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rlhf",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/reward-overoptimization",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/reward-overoptimization",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/kl-rein",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rlhf",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/sycophancy",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rlhf",
+   "p": "lab:contrastsWith",
+   "o": "lab:method/dpo",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rlhf",
+   "p": "lab:contrastsWith",
+   "o": "lab:method/constitutional-ai",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/instructgpt-3steps",
+   "p": "lab:supports",
+   "o": "lab:method/rlhf",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/instructgpt-3steps",
+   "p": "lab:assertedIn",
+   "o": "lab:work/ouyang2022training",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bt-1952",
+   "p": "lab:supports",
+   "o": "lab:concept/bradley-terry",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bt-1952",
+   "p": "lab:assertedIn",
+   "o": "lab:work/bradley1952rank",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/human-pref-rl",
+   "p": "lab:supports",
+   "o": "lab:method/reward-model",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/human-pref-rl",
+   "p": "lab:assertedIn",
+   "o": "lab:work/christiano2017deep",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/overoptimization",
+   "p": "lab:supports",
+   "o": "lab:limitation/reward-overoptimization",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/overoptimization",
+   "p": "lab:assertedIn",
+   "o": "lab:work/gao2022scaling",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/constitutional",
+   "p": "lab:supports",
+   "o": "lab:method/constitutional-ai",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/constitutional",
+   "p": "lab:assertedIn",
+   "o": "lab:work/bai2022constitutional",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dpo-2023",
+   "p": "lab:supports",
+   "o": "lab:method/dpo",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dpo-2023",
+   "p": "lab:assertedIn",
+   "o": "lab:work/rafailov2023direct",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/sycophancy",
+   "p": "lab:supports",
+   "o": "lab:limitation/sycophancy",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/sycophancy",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sharma2023towards",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chatgpt-rlhf",
+   "p": "lab:supports",
+   "o": "lab:method/rlhf",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/chatgpt-rlhf",
+   "p": "lab:assertedIn",
+   "o": "lab:work/openai2022introducing",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/reward-model",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/labeler",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/bradley-terry",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/labeler",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/kl-rein",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/beta-rein",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/reward-overoptimization",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/beta-rein",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-8-check-1",
+   "p": "lab:assesses",
+   "o": "lab:method/rlhf",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-8-check-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/kl-rein",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-8-check-3",
+   "p": "lab:assesses",
+   "o": "lab:limitation/sycophancy",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rlhf",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

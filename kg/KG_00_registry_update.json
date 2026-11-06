@@ -1,0 +1,1227 @@
+{
+ "registry": "KG_00_registry 0.2",
+ "added": "2026-11-05",
+ "series": "플로우 차트의 rule base에서 일하는 AI까지",
+ "entries": [
+  {
+   "id": "lab:concept/flowchart",
+   "type": "Concept",
+   "label_ko": "플로우차트",
+   "label_en": "Flowchart",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:concept/dartmouth-ai",
+   "type": "Concept",
+   "label_ko": "다트머스 회의와 인공지능의 정의",
+   "label_en": "Dartmouth proposal",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:method/expert-system",
+   "type": "Method",
+   "label_ko": "전문가 시스템",
+   "label_en": "Expert system",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:concept/knowledge-base",
+   "type": "Concept",
+   "label_ko": "지식 베이스",
+   "label_en": "Knowledge base",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:concept/inference-engine",
+   "type": "Concept",
+   "label_ko": "추론 엔진",
+   "label_en": "Inference engine",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:concept/if-then-formula",
+   "type": "Concept",
+   "label_ko": "규칙의 수식 표현",
+   "label_en": "Rules as logic formulas",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:concept/state-space-search",
+   "type": "Concept",
+   "label_ko": "상태공간 탐색",
+   "label_en": "State-space search",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:method/bfs",
+   "type": "Method",
+   "label_ko": "너비우선 탐색",
+   "label_en": "Breadth-first search",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:method/dfs",
+   "type": "Method",
+   "label_ko": "깊이우선 탐색",
+   "label_en": "Depth-first search",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:method/dijkstra",
+   "type": "Method",
+   "label_ko": "다익스트라 알고리즘",
+   "label_en": "Dijkstra's algorithm",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:method/a-star",
+   "type": "Method",
+   "label_ko": "A* 탐색",
+   "label_en": "A* search",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:term/open-closed-list",
+   "type": "Term",
+   "label_ko": "오픈 리스트·클로즈드 리스트",
+   "label_en": "Open and closed lists",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:limitation/rule-explosion",
+   "type": "Limitation",
+   "label_ko": "규칙 폭발",
+   "label_en": "Combinatorial rule explosion",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:limitation/search-explosion",
+   "type": "Limitation",
+   "label_ko": "탐색 공간 폭발",
+   "label_en": "Search space explosion",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:limitation/frame-problem",
+   "type": "Limitation",
+   "label_ko": "프레임 문제",
+   "label_en": "Frame problem",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:limitation/knowledge-acquisition-bottleneck",
+   "type": "Limitation",
+   "label_ko": "지식 획득 병목",
+   "label_en": "Knowledge acquisition bottleneck",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:method/fuzzy-logic",
+   "type": "Method",
+   "label_ko": "퍼지 이론",
+   "label_en": "Fuzzy logic",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:concept/membership-function",
+   "type": "Concept",
+   "label_ko": "소속 함수",
+   "label_en": "Membership function",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:method/fuzzy-control",
+   "type": "Method",
+   "label_ko": "퍼지 제어",
+   "label_en": "Fuzzy control",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:method/neuro-fuzzy",
+   "type": "Method",
+   "label_ko": "뉴로-퍼지 (ANFIS)",
+   "label_en": "Neuro-fuzzy (ANFIS)",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:concept/robot-journalism",
+   "type": "Concept",
+   "label_ko": "규칙 기반 문장 생성(로봇 저널리즘)",
+   "label_en": "Template-based news generation",
+   "pages": [
+    "1-1_rulebase"
+   ]
+  },
+  {
+   "id": "lab:concept/machine-learning",
+   "type": "Concept",
+   "label_ko": "머신러닝",
+   "label_en": "Machine learning",
+   "pages": [
+    "1-2_machine_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/probabilistic-thinking",
+   "type": "Concept",
+   "label_ko": "결정론에서 확률로",
+   "label_en": "From determinism to probability",
+   "pages": [
+    "1-2_machine_learning"
+   ]
+  },
+  {
+   "id": "lab:method/logistic-regression",
+   "type": "Method",
+   "label_ko": "로지스틱 회귀",
+   "label_en": "Logistic regression",
+   "pages": [
+    "1-2_machine_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/loss-function",
+   "type": "Concept",
+   "label_ko": "손실 함수",
+   "label_en": "Loss function",
+   "pages": [
+    "1-2_machine_learning"
+   ]
+  },
+  {
+   "id": "lab:method/decision-tree",
+   "type": "Method",
+   "label_ko": "결정트리",
+   "label_en": "Decision tree",
+   "pages": [
+    "1-2_machine_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/train-test-split",
+   "type": "Concept",
+   "label_ko": "훈련·시험 데이터 나누기",
+   "label_en": "Train/test split",
+   "pages": [
+    "1-2_machine_learning"
+   ]
+  },
+  {
+   "id": "lab:limitation/survivorship-bias",
+   "type": "Limitation",
+   "label_ko": "생존자 편향",
+   "label_en": "Survivorship bias",
+   "pages": [
+    "1-2_machine_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/tacit-knowledge",
+   "type": "Concept",
+   "label_ko": "말로 설명할 수 없는 특징(암묵지)",
+   "label_en": "Tacit knowledge",
+   "pages": [
+    "1-3_deep_learning"
+   ]
+  },
+  {
+   "id": "lab:limitation/xor",
+   "type": "Limitation",
+   "label_ko": "XOR 문제",
+   "label_en": "XOR problem",
+   "pages": [
+    "1-3_deep_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/learned-features",
+   "type": "Concept",
+   "label_ko": "기계가 스스로 만든 특징",
+   "label_en": "Learned features",
+   "pages": [
+    "1-3_deep_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/deep-learning",
+   "type": "Concept",
+   "label_ko": "딥러닝",
+   "label_en": "Deep learning",
+   "pages": [
+    "1-3_deep_learning"
+   ]
+  },
+  {
+   "id": "lab:limitation/adversarial-examples",
+   "type": "Limitation",
+   "label_ko": "적대적 예제",
+   "label_en": "Adversarial examples",
+   "pages": [
+    "1-3_deep_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/reinforcement-learning",
+   "type": "Concept",
+   "label_ko": "강화학습",
+   "label_en": "Reinforcement learning",
+   "pages": [
+    "1-4_reinforcement_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/reward",
+   "type": "Concept",
+   "label_ko": "보상",
+   "label_en": "Reward",
+   "pages": [
+    "1-4_reinforcement_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/mdp",
+   "type": "Concept",
+   "label_ko": "상태·행동·보상의 순환",
+   "label_en": "Agent–environment loop (MDP)",
+   "pages": [
+    "1-4_reinforcement_learning"
+   ]
+  },
+  {
+   "id": "lab:method/q-learning",
+   "type": "Method",
+   "label_ko": "Q러닝",
+   "label_en": "Q-learning",
+   "pages": [
+    "1-4_reinforcement_learning"
+   ]
+  },
+  {
+   "id": "lab:method/epsilon-greedy",
+   "type": "Method",
+   "label_ko": "ε-탐욕 정책",
+   "label_en": "Epsilon-greedy",
+   "pages": [
+    "1-4_reinforcement_learning"
+   ]
+  },
+  {
+   "id": "lab:concept/explore-exploit",
+   "type": "Concept",
+   "label_ko": "탐험과 활용",
+   "label_en": "Exploration vs exploitation",
+   "pages": [
+    "1-4_reinforcement_learning"
+   ]
+  },
+  {
+   "id": "lab:method/dqn",
+   "type": "Method",
+   "label_ko": "DQN",
+   "label_en": "Deep Q-Network",
+   "pages": [
+    "1-4_reinforcement_learning"
+   ]
+  },
+  {
+   "id": "lab:method/alphago",
+   "type": "Method",
+   "label_ko": "알파고·알파고 제로",
+   "label_en": "AlphaGo / AlphaGo Zero",
+   "pages": [
+    "1-4_reinforcement_learning"
+   ]
+  },
+  {
+   "id": "lab:limitation/reward-hacking",
+   "type": "Limitation",
+   "label_ko": "보상 해킹",
+   "label_en": "Reward hacking",
+   "pages": [
+    "1-4_reinforcement_learning",
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:limitation/symbol-grounding",
+   "type": "Limitation",
+   "label_ko": "기호 접지 문제",
+   "label_en": "Symbol grounding problem",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:concept/language-model",
+   "type": "Concept",
+   "label_ko": "언어모델",
+   "label_en": "Language model",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:method/ngram",
+   "type": "Method",
+   "label_ko": "n-그램(바이그램) 모델",
+   "label_en": "N-gram model",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:concept/one-hot",
+   "type": "Concept",
+   "label_ko": "원-핫 표현",
+   "label_en": "One-hot encoding",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:limitation/one-hot-no-similarity",
+   "type": "Limitation",
+   "label_ko": "원-핫은 비슷함을 못 나타냄",
+   "label_en": "One-hot has no similarity",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:concept/distributional-hypothesis",
+   "type": "Concept",
+   "label_ko": "분포 가설",
+   "label_en": "Distributional hypothesis",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:concept/word-embedding",
+   "type": "Concept",
+   "label_ko": "단어 벡터(임베딩)",
+   "label_en": "Word embedding",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:concept/vector-analogy",
+   "type": "Concept",
+   "label_ko": "단어 계산기(벡터 유추)",
+   "label_en": "Vector analogy",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:concept/token",
+   "type": "Concept",
+   "label_ko": "토큰",
+   "label_en": "Token",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:method/bpe",
+   "type": "Method",
+   "label_ko": "BPE(바이트 쌍 인코딩)",
+   "label_en": "Byte-pair encoding",
+   "pages": [
+    "1-5_word_vectors"
+   ]
+  },
+  {
+   "id": "lab:method/rnn",
+   "type": "Method",
+   "label_ko": "순환 신경망(RNN)",
+   "label_en": "Recurrent neural network",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:method/lstm",
+   "type": "Method",
+   "label_ko": "LSTM",
+   "label_en": "Long short-term memory",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:limitation/long-range-forgetting",
+   "type": "Limitation",
+   "label_ko": "긴 문장의 건망증",
+   "label_en": "Long-range forgetting",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:method/attention",
+   "type": "Method",
+   "label_ko": "어텐션",
+   "label_en": "Attention",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:concept/qkv",
+   "type": "Concept",
+   "label_ko": "Q·K·V",
+   "label_en": "Query, key, value",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:concept/contextual-embedding",
+   "type": "Concept",
+   "label_ko": "문맥에 따라 바뀌는 단어 벡터",
+   "label_en": "Contextual embedding",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:method/transformer",
+   "type": "Method",
+   "label_ko": "트랜스포머",
+   "label_en": "Transformer",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:concept/positional-encoding",
+   "type": "Concept",
+   "label_ko": "위치 정보",
+   "label_en": "Positional encoding",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:concept/multi-head",
+   "type": "Concept",
+   "label_ko": "여러 갈래 어텐션",
+   "label_en": "Multi-head attention",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:concept/causal-mask",
+   "type": "Concept",
+   "label_ko": "미래 가리기(인과 마스크)",
+   "label_en": "Causal mask",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:method/gpt",
+   "type": "Method",
+   "label_ko": "GPT",
+   "label_en": "GPT",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:method/bert",
+   "type": "Method",
+   "label_ko": "BERT",
+   "label_en": "BERT",
+   "pages": [
+    "1-6_transformer"
+   ]
+  },
+  {
+   "id": "lab:concept/five-ingredients",
+   "type": "Concept",
+   "label_ko": "갑자기가 아니었던 다섯 가지 재료",
+   "label_en": "Five ingredients of LLMs",
+   "pages": [
+    "1-7_scaling"
+   ]
+  },
+  {
+   "id": "lab:method/gpt-series",
+   "type": "Method",
+   "label_ko": "GPT-1에서 ChatGPT까지",
+   "label_en": "GPT series",
+   "pages": [
+    "1-7_scaling"
+   ]
+  },
+  {
+   "id": "lab:concept/scaling-law",
+   "type": "Concept",
+   "label_ko": "스케일링 법칙",
+   "label_en": "Scaling laws",
+   "pages": [
+    "1-7_scaling"
+   ]
+  },
+  {
+   "id": "lab:concept/compute-optimal",
+   "type": "Concept",
+   "label_ko": "계산 최적 배분(친칠라)",
+   "label_en": "Compute-optimal training",
+   "pages": [
+    "1-7_scaling"
+   ]
+  },
+  {
+   "id": "lab:concept/training-compute",
+   "type": "Concept",
+   "label_ko": "학습 계산량 C ≈ 6ND",
+   "label_en": "Training compute estimate",
+   "pages": [
+    "1-7_scaling"
+   ]
+  },
+  {
+   "id": "lab:concept/emergence",
+   "type": "Concept",
+   "label_ko": "창발",
+   "label_en": "Emergent abilities",
+   "pages": [
+    "1-7_scaling"
+   ]
+  },
+  {
+   "id": "lab:concept/emergence-mirage",
+   "type": "Concept",
+   "label_ko": "채점의 착시(신기루) 주장",
+   "label_en": "Emergence as metric artifact",
+   "pages": [
+    "1-7_scaling"
+   ]
+  },
+  {
+   "id": "lab:concept/in-context-learning",
+   "type": "Concept",
+   "label_ko": "예시로 배우기(문맥 속 학습)",
+   "label_en": "In-context learning",
+   "pages": [
+    "1-7_scaling"
+   ]
+  },
+  {
+   "id": "lab:limitation/misalignment",
+   "type": "Limitation",
+   "label_ko": "똑똑하지만 말을 안 듣는 모델",
+   "label_en": "Instruction misalignment",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:method/rlhf",
+   "type": "Method",
+   "label_ko": "RLHF",
+   "label_en": "RL from human feedback",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:method/sft",
+   "type": "Method",
+   "label_ko": "시범 답 지도학습",
+   "label_en": "Supervised fine-tuning",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:method/reward-model",
+   "type": "Method",
+   "label_ko": "보상모델",
+   "label_en": "Reward model",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:concept/bradley-terry",
+   "type": "Concept",
+   "label_ko": "브래들리–테리 비교 모형",
+   "label_en": "Bradley–Terry model",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:method/ppo",
+   "type": "Method",
+   "label_ko": "PPO",
+   "label_en": "Proximal policy optimization",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:concept/kl-rein",
+   "type": "Concept",
+   "label_ko": "고삐 β(KL 제약)",
+   "label_en": "KL penalty β",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:limitation/reward-overoptimization",
+   "type": "Limitation",
+   "label_ko": "보상 과최적화",
+   "label_en": "Reward overoptimization",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:limitation/sycophancy",
+   "type": "Limitation",
+   "label_ko": "아첨",
+   "label_en": "Sycophancy",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:method/constitutional-ai",
+   "type": "Method",
+   "label_ko": "헌법형 AI",
+   "label_en": "Constitutional AI",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:method/dpo",
+   "type": "Method",
+   "label_ko": "DPO",
+   "label_en": "Direct preference optimization",
+   "pages": [
+    "1-8_rlhf"
+   ]
+  },
+  {
+   "id": "lab:method/chain-of-thought",
+   "type": "Method",
+   "label_ko": "생각의 사슬(CoT)",
+   "label_en": "Chain-of-thought prompting",
+   "pages": [
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:method/zero-shot-cot",
+   "type": "Method",
+   "label_ko": "\"차근차근 생각해 보자\"",
+   "label_en": "Zero-shot CoT (let's think step by step)",
+   "pages": [
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:method/self-consistency",
+   "type": "Method",
+   "label_ko": "자기 일관성(다수결)",
+   "label_en": "Self-consistency",
+   "pages": [
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:concept/reasoning-model",
+   "type": "Concept",
+   "label_ko": "추론 모델",
+   "label_en": "Reasoning model",
+   "pages": [
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:concept/test-time-compute",
+   "type": "Concept",
+   "label_ko": "생각하는 시간(추론 계산) 늘리기",
+   "label_en": "Test-time compute scaling",
+   "pages": [
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:concept/rule-based-reward",
+   "type": "Concept",
+   "label_ko": "규칙 채점 보상",
+   "label_en": "Rule-based reward",
+   "pages": [
+    "1-9_reasoning_model",
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:method/grpo",
+   "type": "Method",
+   "label_ko": "GRPO",
+   "label_en": "Group relative policy optimization",
+   "pages": [
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:concept/aha-moment",
+   "type": "Concept",
+   "label_ko": "\"아하\" 순간",
+   "label_en": "Aha moment",
+   "pages": [
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:limitation/unfaithful-cot",
+   "type": "Limitation",
+   "label_ko": "풀이가 실제 이유를 말하지 않음",
+   "label_en": "Unfaithful chain-of-thought",
+   "pages": [
+    "1-9_reasoning_model"
+   ]
+  },
+  {
+   "id": "lab:concept/llm-agent",
+   "type": "Concept",
+   "label_ko": "에이전트",
+   "label_en": "LLM agent",
+   "pages": [
+    "2-1_agent"
+   ]
+  },
+  {
+   "id": "lab:method/react",
+   "type": "Method",
+   "label_ko": "ReAct",
+   "label_en": "ReAct",
+   "pages": [
+    "2-1_agent"
+   ]
+  },
+  {
+   "id": "lab:method/tool-use",
+   "type": "Method",
+   "label_ko": "도구 호출(function calling)",
+   "label_en": "Tool use / function calling",
+   "pages": [
+    "2-1_agent"
+   ]
+  },
+  {
+   "id": "lab:method/toolformer",
+   "type": "Method",
+   "label_ko": "툴포머",
+   "label_en": "Toolformer",
+   "pages": [
+    "2-1_agent"
+   ]
+  },
+  {
+   "id": "lab:method/computer-use",
+   "type": "Method",
+   "label_ko": "컴퓨터 사용",
+   "label_en": "Computer use",
+   "pages": [
+    "2-1_agent"
+   ]
+  },
+  {
+   "id": "lab:concept/agentic-rl",
+   "type": "Concept",
+   "label_ko": "행동을 강화학습으로 배우기",
+   "label_en": "RL for agent behavior",
+   "pages": [
+    "2-1_agent"
+   ]
+  },
+  {
+   "id": "lab:limitation/compounding-errors",
+   "type": "Limitation",
+   "label_ko": "단계가 길수록 커지는 실수",
+   "label_en": "Compounding errors",
+   "pages": [
+    "2-1_agent"
+   ]
+  },
+  {
+   "id": "lab:concept/real-api-loop",
+   "type": "Concept",
+   "label_ko": "실제 API 에이전트 루프",
+   "label_en": "Real API agent loop",
+   "pages": [
+    "2-1_agent"
+   ]
+  },
+  {
+   "id": "lab:concept/prompt",
+   "type": "Concept",
+   "label_ko": "프롬프트",
+   "label_en": "Prompt",
+   "pages": [
+    "2-2_context_harness"
+   ]
+  },
+  {
+   "id": "lab:concept/context-engineering",
+   "type": "Concept",
+   "label_ko": "컨텍스트",
+   "label_en": "Context (engineering)",
+   "pages": [
+    "2-2_context_harness"
+   ]
+  },
+  {
+   "id": "lab:limitation/lost-in-the-middle",
+   "type": "Limitation",
+   "label_ko": "가운데에 둔 정보를 놓침",
+   "label_en": "Lost in the middle",
+   "pages": [
+    "2-2_context_harness"
+   ]
+  },
+  {
+   "id": "lab:method/rag",
+   "type": "Method",
+   "label_ko": "RAG",
+   "label_en": "Retrieval-augmented generation",
+   "pages": [
+    "2-2_context_harness"
+   ]
+  },
+  {
+   "id": "lab:concept/harness",
+   "type": "Concept",
+   "label_ko": "하네스",
+   "label_en": "Agent harness",
+   "pages": [
+    "2-2_context_harness"
+   ]
+  },
+  {
+   "id": "lab:concept/permission-gate",
+   "type": "Concept",
+   "label_ko": "권한 문지기",
+   "label_en": "Permission gate",
+   "pages": [
+    "2-2_context_harness",
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:limitation/prompt-injection",
+   "type": "Limitation",
+   "label_ko": "프롬프트 인젝션",
+   "label_en": "Prompt injection",
+   "pages": [
+    "2-2_context_harness"
+   ]
+  },
+  {
+   "id": "lab:method/harness-engineering",
+   "type": "Method",
+   "label_ko": "하네스 엔지니어링",
+   "label_en": "Harness engineering",
+   "pages": [
+    "2-2_context_harness"
+   ]
+  },
+  {
+   "id": "lab:method/loop-engineering",
+   "type": "Method",
+   "label_ko": "루프 엔지니어링",
+   "label_en": "Loop engineering",
+   "pages": [
+    "2-3_loop_engineering"
+   ]
+  },
+  {
+   "id": "lab:concept/verifier",
+   "type": "Concept",
+   "label_ko": "외부 검증기",
+   "label_en": "External verifier",
+   "pages": [
+    "2-3_loop_engineering",
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:concept/stop-conditions",
+   "type": "Concept",
+   "label_ko": "멈춤 조건",
+   "label_en": "Stop conditions",
+   "pages": [
+    "2-3_loop_engineering"
+   ]
+  },
+  {
+   "id": "lab:concept/loop-cost",
+   "type": "Concept",
+   "label_ko": "누적 비용",
+   "label_en": "Cumulative loop cost",
+   "pages": [
+    "2-3_loop_engineering"
+   ]
+  },
+  {
+   "id": "lab:method/reflexion",
+   "type": "Method",
+   "label_ko": "Reflexion(반성 메모)",
+   "label_en": "Reflexion",
+   "pages": [
+    "2-3_loop_engineering"
+   ]
+  },
+  {
+   "id": "lab:limitation/false-completion",
+   "type": "Limitation",
+   "label_ko": "거짓 완료",
+   "label_en": "False completion",
+   "pages": [
+    "2-3_loop_engineering"
+   ]
+  },
+  {
+   "id": "lab:limitation/loop-stall",
+   "type": "Limitation",
+   "label_ko": "같은 실패 반복(정체)",
+   "label_en": "Loop stall",
+   "pages": [
+    "2-3_loop_engineering"
+   ]
+  },
+  {
+   "id": "lab:method/orchestration",
+   "type": "Method",
+   "label_ko": "오케스트레이션",
+   "label_en": "Multi-agent orchestration",
+   "pages": [
+    "2-4_orchestration"
+   ]
+  },
+  {
+   "id": "lab:concept/subagent",
+   "type": "Concept",
+   "label_ko": "서브에이전트",
+   "label_en": "Subagent",
+   "pages": [
+    "2-4_orchestration"
+   ]
+  },
+  {
+   "id": "lab:concept/token-cost",
+   "type": "Concept",
+   "label_ko": "토큰 비용",
+   "label_en": "Token cost",
+   "pages": [
+    "2-4_orchestration"
+   ]
+  },
+  {
+   "id": "lab:limitation/context-fragmentation",
+   "type": "Limitation",
+   "label_ko": "맥락이 갈라져 어긋남",
+   "label_en": "Context fragmentation",
+   "pages": [
+    "2-4_orchestration"
+   ]
+  },
+  {
+   "id": "lab:limitation/multi-agent-failures",
+   "type": "Limitation",
+   "label_ko": "여럿이 일할 때 망가지는 방식",
+   "label_en": "Multi-agent failure modes",
+   "pages": [
+    "2-4_orchestration"
+   ]
+  },
+  {
+   "id": "lab:concept/coupling",
+   "type": "Concept",
+   "label_ko": "일의 얽힘",
+   "label_en": "Task coupling",
+   "pages": [
+    "2-4_orchestration"
+   ]
+  },
+  {
+   "id": "lab:concept/self-improving-agent",
+   "type": "Concept",
+   "label_ko": "자가개선 에이전트",
+   "label_en": "Self-improving agent",
+   "pages": [
+    "2-5_self_improving_loop"
+   ]
+  },
+  {
+   "id": "lab:method/hermes-agent",
+   "type": "Method",
+   "label_ko": "헤르메스 에이전트",
+   "label_en": "Hermes Agent",
+   "pages": [
+    "2-5_self_improving_loop"
+   ]
+  },
+  {
+   "id": "lab:concept/closed-learning-loop",
+   "type": "Concept",
+   "label_ko": "닫힌 학습 루프",
+   "label_en": "Closed learning loop",
+   "pages": [
+    "2-5_self_improving_loop"
+   ]
+  },
+  {
+   "id": "lab:concept/skill-file",
+   "type": "Concept",
+   "label_ko": "스킬",
+   "label_en": "Skill file",
+   "pages": [
+    "2-5_self_improving_loop"
+   ]
+  },
+  {
+   "id": "lab:concept/agent-memory",
+   "type": "Concept",
+   "label_ko": "기억 파일",
+   "label_en": "Agent memory file",
+   "pages": [
+    "2-5_self_improving_loop"
+   ]
+  },
+  {
+   "id": "lab:concept/verified-saving",
+   "type": "Concept",
+   "label_ko": "검증 후 저장",
+   "label_en": "Save only after verification",
+   "pages": [
+    "2-5_self_improving_loop",
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:limitation/bad-skill-lock-in",
+   "type": "Limitation",
+   "label_ko": "틀린 습관이 굳음",
+   "label_en": "Bad skill lock-in",
+   "pages": [
+    "2-5_self_improving_loop"
+   ]
+  },
+  {
+   "id": "lab:concept/layered-security",
+   "type": "Concept",
+   "label_ko": "겹겹 보안",
+   "label_en": "Layered security",
+   "pages": [
+    "2-5_self_improving_loop"
+   ]
+  },
+  {
+   "id": "lab:concept/rl-thread",
+   "type": "Concept",
+   "label_ko": "강화학습이라는 실(시도 → 평가 → 수정)",
+   "label_en": "Try–evaluate–improve loop",
+   "pages": [
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:concept/rule-journey",
+   "type": "Concept",
+   "label_ko": "규칙의 여정(판단→채점→문지기→검증기→기억의 문)",
+   "label_en": "The rule's journey",
+   "pages": [
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:concept/three-layers",
+   "type": "Concept",
+   "label_ko": "구조·훈련·운용 세 층",
+   "label_en": "Architecture, training, operation layers",
+   "pages": [
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:concept/human-role-shift",
+   "type": "Concept",
+   "label_ko": "사람의 자리 이동",
+   "label_en": "Shifting human role",
+   "pages": [
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:concept/deployment-checklist",
+   "type": "Concept",
+   "label_ko": "현장 도입 체크리스트",
+   "label_en": "Deployment checklist",
+   "pages": [
+    "2-6_reinforcement_thread"
+   ]
+  },
+  {
+   "id": "lab:limitation/operational-reward-hacking",
+   "type": "Limitation",
+   "label_ko": "운용 중의 보상 해킹",
+   "label_en": "Reward hacking in operation",
+   "pages": [
+    "2-6_reinforcement_thread"
+   ]
+  }
+ ]
+}

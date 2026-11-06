@@ -1,0 +1,449 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Long Short-Term Memory",
+  "author": [
+   {
+    "family": "Hochreiter",
+    "given": "S."
+   },
+   {
+    "family": "Schmidhuber",
+    "given": "J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1997
+    ]
+   ]
+  },
+  "container-title": "Neural Computation",
+  "id": "hochreiter1997long",
+  "lab": {
+   "work": "lab:work/hochreiter1997long",
+   "role": "background",
+   "supports": [
+    "lab:claim/lstm-1997"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Neural Machine Translation by Jointly Learning to Align and Translate. arXiv:1409.0473 (ICLR 2015)",
+  "author": [
+   {
+    "family": "Bahdanau",
+    "given": "D."
+   },
+   {
+    "family": "Cho",
+    "given": "K."
+   },
+   {
+    "family": "Bengio",
+    "given": "Y."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "id": "bahdanau2014neural",
+  "lab": {
+   "work": "lab:work/bahdanau2014neural",
+   "role": "background",
+   "supports": [
+    "lab:claim/bahdanau-attention"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Attention Is All You Need",
+  "author": [
+   {
+    "family": "Vaswani",
+    "given": "A."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2017",
+  "id": "vaswani2017attention",
+  "lab": {
+   "work": "lab:work/vaswani2017attention",
+   "role": "primary",
+   "supports": [
+    "lab:claim/attention-is-all"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Transformer: A Novel Neural Network Architecture for Language Understanding",
+  "author": [
+   {
+    "family": "Uszkoreit",
+    "given": "J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "Google AI Blog",
+  "id": "uszkoreit2017transformer",
+  "lab": {
+   "work": "lab:work/uszkoreit2017transformer",
+   "role": "background",
+   "supports": [
+    "lab:claim/google-blog"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv:1810.04805",
+  "author": [
+   {
+    "family": "Devlin",
+    "given": "J."
+   },
+   {
+    "family": "Chang",
+    "given": "M.-W."
+   },
+   {
+    "family": "Lee",
+    "given": "K."
+   },
+   {
+    "family": "Toutanova",
+    "given": "K."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "id": "devlin2018bert",
+  "lab": {
+   "work": "lab:work/devlin2018bert",
+   "role": "background",
+   "supports": [
+    "lab:claim/bert-2018"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Improving Language Understanding by Generative Pre-Training",
+  "author": [
+   {
+    "family": "Radford",
+    "given": "A."
+   },
+   {
+    "family": "Narasimhan",
+    "given": "K."
+   },
+   {
+    "family": "Salimans",
+    "given": "T."
+   },
+   {
+    "family": "Sutskever",
+    "given": "I."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "OpenAI",
+  "id": "radford2018improving",
+  "lab": {
+   "work": "lab:work/radford2018improving",
+   "role": "background",
+   "supports": [
+    "lab:claim/gpt1"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Understanding searches better than ever before",
+  "author": [
+   {
+    "family": "Nayak",
+    "given": "P."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "Google 블로그",
+  "id": "nayak2019understanding",
+  "lab": {
+   "work": "lab:work/nayak2019understanding",
+   "role": "background",
+   "supports": [
+    "lab:claim/bert-search"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "FinBERT: Financial Sentiment Analysis with Pre-trained Language Models. arXiv:1908.10063",
+  "author": [
+   {
+    "family": "Araci",
+    "given": "D."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "id": "araci2019finbert",
+  "lab": {
+   "work": "lab:work/araci2019finbert",
+   "role": "background",
+   "supports": [
+    "lab:claim/finbert"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "GloVe: Global Vectors for Word Representation",
+  "author": [
+   {
+    "family": "Pennington",
+    "given": "J."
+   },
+   {
+    "family": "Socher",
+    "given": "R."
+   },
+   {
+    "family": "Manning",
+    "given": "C. D."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2014
+    ]
+   ]
+  },
+  "container-title": "EMNLP 2014",
+  "id": "pennington2014glove",
+  "lab": {
+   "work": "lab:work/pennington2014glove",
+   "role": "background",
+   "supports": [
+    "lab:claim/bank-0160"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

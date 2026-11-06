@@ -1,0 +1,341 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "primary",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Reinforcement Learning: An Introduction (2nd ed.)",
+  "author": [
+   {
+    "family": "Sutton",
+    "given": "R. S."
+   },
+   {
+    "family": "Barto",
+    "given": "A. G."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "MIT Press",
+  "id": "sutton2018reinforcement",
+  "lab": {
+   "work": "lab:work/sutton2018reinforcement",
+   "role": "background",
+   "supports": [
+    "lab:claim/rl-def"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Mastering the game of Go without human knowledge",
+  "author": [
+   {
+    "family": "Silver",
+    "given": "D."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "Nature 550",
+  "id": "silver2017mastering",
+  "lab": {
+   "work": "lab:work/silver2017mastering",
+   "role": "background",
+   "supports": [
+    "lab:claim/az-self-play"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Training language models to follow instructions with human feedback",
+  "author": [
+   {
+    "family": "Ouyang",
+    "given": "L."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2022",
+  "id": "ouyang2022training",
+  "lab": {
+   "work": "lab:work/ouyang2022training",
+   "role": "background",
+   "supports": [
+    "lab:claim/rlhf-human"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. arXiv:2501.12948",
+  "author": [
+   {
+    "literal": "DeepSeek-AI"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "id": "deepseekai2025deepseek",
+  "lab": {
+   "work": "lab:work/deepseekai2025deepseek",
+   "role": "background",
+   "supports": [
+    "lab:claim/r1-rule"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "author": [
+   {
+    "family": "Yao",
+    "given": "S."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "ICLR 2023",
+  "id": "yao2023react",
+  "lab": {
+   "work": "lab:work/yao2023react",
+   "role": "background",
+   "supports": [
+    "lab:claim/react-loop"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "author": [
+   {
+    "family": "Shinn",
+    "given": "N."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2023",
+  "id": "shinn2023reflexion",
+  "lab": {
+   "work": "lab:work/shinn2023reflexion",
+   "role": "background",
+   "supports": [
+    "lab:claim/reflexion-verbal"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "Measuring AI Ability to Complete Long Tasks. arXiv:2503.14499",
+  "author": [
+   {
+    "family": "Kwa",
+    "given": "T."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "id": "kwa2025measuring",
+  "lab": {
+   "work": "lab:work/kwa2025measuring",
+   "role": "background",
+   "supports": [
+    "lab:claim/metr-horizon"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "software",
+  "title": "hermes-agent 저장소 README",
+  "id": "nousresearchhermesreadme",
+  "author": [
+   {
+    "literal": "Nous Research"
+   }
+  ],
+  "container-title": "GitHub NousResearch/hermes-agent",
+  "lab": {
+   "work": "lab:work/nousresearchhermesreadme",
+   "role": "background",
+   "supports": [
+    "lab:claim/hermes-skills"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

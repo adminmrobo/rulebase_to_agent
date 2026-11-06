@@ -1,0 +1,898 @@
+{
+ "version": "1.0",
+ "page": "2-1_agent",
+ "nodes": [
+  {
+   "id": "lab:concept/llm-agent",
+   "type": "Concept",
+   "label": {
+    "ko": "에이전트",
+    "en": "LLM agent"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "생각하고 도구로 행동하고 결과를 관찰하며 여러 단계의 일을 해내는 AI."
+   }
+  },
+  {
+   "id": "lab:method/react",
+   "type": "Method",
+   "label": {
+    "ko": "ReAct",
+    "en": "ReAct"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "생각 → 행동 → 관찰을 번갈아 반복하는 에이전트의 기본 틀."
+   }
+  },
+  {
+   "id": "lab:method/tool-use",
+   "type": "Method",
+   "label": {
+    "ko": "도구 호출(function calling)",
+    "en": "Tool use / function calling"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "모델이 정해진 형식으로 함수 이름과 인자를 내면 프로그램이 실행해 주는 방식."
+   }
+  },
+  {
+   "id": "lab:method/toolformer",
+   "type": "Method",
+   "label": {
+    "ko": "툴포머",
+    "en": "Toolformer"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/computer-use",
+   "type": "Method",
+   "label": {
+    "ko": "컴퓨터 사용",
+    "en": "Computer use"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/agentic-rl",
+   "type": "Concept",
+   "label": {
+    "ko": "행동을 강화학습으로 배우기",
+    "en": "RL for agent behavior"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:limitation/compounding-errors",
+   "type": "Limitation",
+   "label": {
+    "ko": "단계가 길수록 커지는 실수",
+    "en": "Compounding errors"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems",
+   "definition": {
+    "ko": "한 단계 성공률 p, 단계 수 k일 때 끝까지 성공할 확률은 pᵏ로 줄어든다."
+   }
+  },
+  {
+   "id": "lab:task/swe-bench",
+   "type": "Task",
+   "label": {
+    "ko": "SWE-bench",
+    "en": "SWE-bench"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "evaluation"
+  },
+  {
+   "id": "lab:metric/task-horizon",
+   "type": "Metric",
+   "label": {
+    "ko": "해낼 수 있는 일의 길이",
+    "en": "Task time horizon"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "evaluation"
+  },
+  {
+   "id": "lab:concept/real-api-loop",
+   "type": "Concept",
+   "label": {
+    "ko": "실제 API 에이전트 루프",
+    "en": "Real API agent loop"
+   },
+   "page": "2-1_agent",
+   "anchor": "#api",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:claim/react-2022",
+   "type": "Claim",
+   "label": {
+    "ko": "ReAct는 생각과 행동을 번갈아 써 질문 답하기와 의사결정 과제를 풀었다.",
+    "en": "ReAct interleaves reasoning and acting."
+   },
+   "page": "2-1_agent",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "yao2022react",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/toolformer",
+   "type": "Claim",
+   "label": {
+    "ko": "모델이 스스로 도구 사용법을 배울 수 있다.",
+    "en": "Models can teach themselves tool use."
+   },
+   "page": "2-1_agent",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "schick2023toolformer",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/function-calling-2023",
+   "type": "Claim",
+   "label": {
+    "ko": "2023년 6월 함수 호출이 API에 들어왔다.",
+    "en": "Function calling added to API in June 2023."
+   },
+   "page": "2-1_agent",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "openai2023function",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/computer-use-2024",
+   "type": "Claim",
+   "label": {
+    "ko": "2024년 10월 화면을 보고 마우스를 쓰는 컴퓨터 사용이 공개됐다.",
+    "en": "Computer use released Oct 2024."
+   },
+   "page": "2-1_agent",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "anthropic2024introducing",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/swe-bench",
+   "type": "Claim",
+   "label": {
+    "ko": "SWE-bench는 실제 GitHub 이슈 2,294개로 에이전트를 평가한다.",
+    "en": "SWE-bench has 2,294 real issues."
+   },
+   "page": "2-1_agent",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "jimenez2023swe",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/metr-7-months",
+   "type": "Claim",
+   "label": {
+    "ko": "AI가 50% 확률로 해내는 일의 길이는 약 7개월마다 두 배로 늘었다.",
+    "en": "Task horizon doubled every ~7 months."
+   },
+   "page": "2-1_agent",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "kwa2025measuring",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/stop-reasons",
+   "type": "Claim",
+   "label": {
+    "ko": "tool_use 응답에는 tool_result를 같은 id로 돌려준다.",
+    "en": "tool_result must match tool_use id."
+   },
+   "page": "2-1_agent",
+   "anchor": "#api",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "anthropicdocsstopreasons",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/rl-agent-env",
+   "type": "Claim",
+   "label": {
+    "ko": "에이전트–환경 순환은 강화학습의 기본 구조다.",
+    "en": "Agent-environment loop from RL."
+   },
+   "page": "2-1_agent",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "sutton2018reinforcement",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/agent-trace",
+   "type": "Simulation",
+   "label": {
+    "ko": "에이전트의 한 걸음 한 걸음",
+    "en": "Agent trace stepper"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/reliability",
+   "type": "Simulation",
+   "label": {
+    "ko": "단계 수와 성공률",
+    "en": "Reliability calculator"
+   },
+   "page": "2-1_agent",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p2-1-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "ReAct 에이전트가 반복하는 순서는?",
+    "en": ""
+   },
+   "page": "2-1_agent",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-1-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "한 단계 성공률이 95%인 일을 20단계 연속으로 끝까지 성공할 확률은?",
+    "en": ""
+   },
+   "page": "2-1_agent",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-1-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "METR 측정에서 AI가 50% 확률로 해내는 일의 길이는 얼마마다 두 배가 됐나?",
+    "en": ""
+   },
+   "page": "2-1_agent",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/yao2022react",
+   "type": "Work",
+   "label": {
+    "ko": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "en": "ReAct: Synergizing Reasoning and Acting in Language Models"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/schick2023toolformer",
+   "type": "Work",
+   "label": {
+    "ko": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "en": "Toolformer: Language Models Can Teach Themselves to Use Tools"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/openai2023function",
+   "type": "Work",
+   "label": {
+    "ko": "Function calling and other API updates",
+    "en": "Function calling and other API updates"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/anthropic2024introducing",
+   "type": "Work",
+   "label": {
+    "ko": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+    "en": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/jimenez2023swe",
+   "type": "Work",
+   "label": {
+    "ko": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "en": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/anthropicdocsstopreasons",
+   "type": "Work",
+   "label": {
+    "ko": "Handling stop reasons",
+    "en": "Handling stop reasons"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/kwa2025measuring",
+   "type": "Work",
+   "label": {
+    "ko": "Measuring AI Ability to Complete Long Tasks",
+    "en": "Measuring AI Ability to Complete Long Tasks"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/sutton2018reinforcement",
+   "type": "Work",
+   "label": {
+    "ko": "Reinforcement Learning: An Introduction (2nd ed.)",
+    "en": "Reinforcement Learning: An Introduction (2nd ed.)"
+   },
+   "page": "2-1_agent",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:broader",
+   "o": "lab:topic/mdp",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/react",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/tool-use",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/toolformer",
+   "p": "lab:broader",
+   "o": "lab:topic/self-supervised",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/computer-use",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/agentic-rl",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/compounding-errors",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/real-api-loop",
+   "p": "lab:broader",
+   "o": "lab:topic/deployment",
+   "anchor": "#api",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/react",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/react",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/tool-use",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/tool-use",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/real-api-loop",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/toolformer",
+   "p": "lab:partOf",
+   "o": "lab:method/tool-use",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/computer-use",
+   "p": "lab:partOf",
+   "o": "lab:method/tool-use",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/agentic-rl",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/llm-agent",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:evaluatedOn",
+   "o": "lab:task/swe-bench",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/compounding-errors",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:evaluatedBy",
+   "o": "lab:metric/task-horizon",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/react-2022",
+   "p": "lab:supports",
+   "o": "lab:method/react",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/react-2022",
+   "p": "lab:assertedIn",
+   "o": "lab:work/yao2022react",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/toolformer",
+   "p": "lab:supports",
+   "o": "lab:method/toolformer",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/toolformer",
+   "p": "lab:assertedIn",
+   "o": "lab:work/schick2023toolformer",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/function-calling-2023",
+   "p": "lab:supports",
+   "o": "lab:method/tool-use",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/function-calling-2023",
+   "p": "lab:assertedIn",
+   "o": "lab:work/openai2023function",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/computer-use-2024",
+   "p": "lab:supports",
+   "o": "lab:method/computer-use",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/computer-use-2024",
+   "p": "lab:assertedIn",
+   "o": "lab:work/anthropic2024introducing",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/swe-bench",
+   "p": "lab:supports",
+   "o": "lab:task/swe-bench",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/swe-bench",
+   "p": "lab:assertedIn",
+   "o": "lab:work/jimenez2023swe",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/metr-7-months",
+   "p": "lab:supports",
+   "o": "lab:metric/task-horizon",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/metr-7-months",
+   "p": "lab:assertedIn",
+   "o": "lab:work/kwa2025measuring",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/stop-reasons",
+   "p": "lab:supports",
+   "o": "lab:concept/real-api-loop",
+   "anchor": "#api",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/stop-reasons",
+   "p": "lab:assertedIn",
+   "o": "lab:work/anthropicdocsstopreasons",
+   "anchor": "#api",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rl-agent-env",
+   "p": "lab:supports",
+   "o": "lab:concept/llm-agent",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rl-agent-env",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sutton2018reinforcement",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/react",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/agent-trace",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/compounding-errors",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/reliability",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-1-check-1",
+   "p": "lab:assesses",
+   "o": "lab:method/react",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-1-check-2",
+   "p": "lab:assesses",
+   "o": "lab:limitation/compounding-errors",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-1-check-3",
+   "p": "lab:assesses",
+   "o": "lab:metric/task-horizon",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/llm-agent",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

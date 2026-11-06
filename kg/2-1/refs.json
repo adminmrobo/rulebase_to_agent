@@ -1,0 +1,337 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+  "author": [
+   {
+    "family": "Yao",
+    "given": "S."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "ICLR 2023",
+  "id": "yao2022react",
+  "lab": {
+   "work": "lab:work/yao2022react",
+   "role": "primary",
+   "supports": [
+    "lab:claim/react-2022"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+  "author": [
+   {
+    "family": "Schick",
+    "given": "T."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2023",
+  "id": "schick2023toolformer",
+  "lab": {
+   "work": "lab:work/schick2023toolformer",
+   "role": "background",
+   "supports": [
+    "lab:claim/toolformer"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Function calling and other API updates",
+  "author": [
+   {
+    "literal": "OpenAI"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "id": "openai2023function",
+  "lab": {
+   "work": "lab:work/openai2023function",
+   "role": "background",
+   "supports": [
+    "lab:claim/function-calling-2023"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Introducing computer use, a new Claude 3.5 Sonnet, and Claude 3.5 Haiku",
+  "author": [
+   {
+    "literal": "Anthropic"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "id": "anthropic2024introducing",
+  "lab": {
+   "work": "lab:work/anthropic2024introducing",
+   "role": "background",
+   "supports": [
+    "lab:claim/computer-use-2024"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+  "author": [
+   {
+    "family": "Jimenez",
+    "given": "C. E."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "ICLR 2024",
+  "id": "jimenez2023swe",
+  "lab": {
+   "work": "lab:work/jimenez2023swe",
+   "role": "background",
+   "supports": [
+    "lab:claim/swe-bench"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Handling stop reasons",
+  "container-title": "Claude Platform Docs",
+  "id": "anthropicdocsstopreasons",
+  "author": [
+   {
+    "literal": "Anthropic"
+   }
+  ],
+  "lab": {
+   "work": "lab:work/anthropicdocsstopreasons",
+   "role": "background",
+   "supports": [
+    "lab:claim/stop-reasons"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Measuring AI Ability to Complete Long Tasks",
+  "author": [
+   {
+    "family": "Kwa",
+    "given": "T."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "METR",
+  "id": "kwa2025measuring",
+  "lab": {
+   "work": "lab:work/kwa2025measuring",
+   "role": "background",
+   "supports": [
+    "lab:claim/metr-7-months"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "book",
+  "title": "Reinforcement Learning: An Introduction (2nd ed.)",
+  "author": [
+   {
+    "family": "Sutton",
+    "given": "R. S."
+   },
+   {
+    "family": "Barto",
+    "given": "A. G."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "MIT Press",
+  "id": "sutton2018reinforcement",
+  "lab": {
+   "work": "lab:work/sutton2018reinforcement",
+   "role": "background",
+   "supports": [
+    "lab:claim/rl-agent-env"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

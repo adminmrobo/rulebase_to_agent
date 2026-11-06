@@ -1,0 +1,895 @@
+{
+ "version": "1.0",
+ "page": "1-9_reasoning_model",
+ "nodes": [
+  {
+   "id": "lab:method/chain-of-thought",
+   "type": "Method",
+   "label": {
+    "ko": "생각의 사슬(CoT)",
+    "en": "Chain-of-thought prompting"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "답 전에 풀이 과정을 글로 쓰게 해 정답률을 높이는 방법."
+   }
+  },
+  {
+   "id": "lab:method/zero-shot-cot",
+   "type": "Method",
+   "label": {
+    "ko": "\"차근차근 생각해 보자\"",
+    "en": "Zero-shot CoT (let's think step by step)"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/self-consistency",
+   "type": "Method",
+   "label": {
+    "ko": "자기 일관성(다수결)",
+    "en": "Self-consistency"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/reasoning-model",
+   "type": "Concept",
+   "label": {
+    "ko": "추론 모델",
+    "en": "Reasoning model"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "풀이를 길게 쓰고 검산하도록 강화학습으로 훈련한 모델."
+   }
+  },
+  {
+   "id": "lab:concept/test-time-compute",
+   "type": "Concept",
+   "label": {
+    "ko": "생각하는 시간(추론 계산) 늘리기",
+    "en": "Test-time compute scaling"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/rule-based-reward",
+   "type": "Concept",
+   "label": {
+    "ko": "규칙 채점 보상",
+    "en": "Rule-based reward"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl",
+   "definition": {
+    "ko": "정답 일치·형식 같은 규칙으로 채점해 보상을 주는 방식."
+   }
+  },
+  {
+   "id": "lab:method/grpo",
+   "type": "Method",
+   "label": {
+    "ko": "GRPO",
+    "en": "Group relative policy optimization"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl",
+   "definition": {
+    "ko": "같은 문제의 여러 답을 비교해 평균보다 나은 답을 강화하는 방법."
+   }
+  },
+  {
+   "id": "lab:concept/aha-moment",
+   "type": "Concept",
+   "label": {
+    "ko": "\"아하\" 순간",
+    "en": "Aha moment"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "rl"
+  },
+  {
+   "id": "lab:limitation/unfaithful-cot",
+   "type": "Limitation",
+   "label": {
+    "ko": "풀이가 실제 이유를 말하지 않음",
+    "en": "Unfaithful chain-of-thought"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:limitation/reward-hacking",
+   "type": "Limitation",
+   "label": {
+    "ko": "보상 해킹",
+    "en": "Reward hacking"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s8",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:claim/cot-2022",
+   "type": "Claim",
+   "label": {
+    "ko": "풀이 예시를 보여 주면 큰 모델의 산수 정답률이 오른다.",
+    "en": "CoT prompting improves reasoning."
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "wei2022chain",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/step-by-step-787",
+   "type": "Claim",
+   "label": {
+    "ko": "\"차근차근\" 한 줄로 MultiArith 정답률이 17.7%에서 78.7%로 올랐다.",
+    "en": "Zero-shot CoT 17.7% to 78.7%."
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "kojima2022large",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/self-consistency",
+   "type": "Claim",
+   "label": {
+    "ko": "여러 풀이의 다수결이 정답률을 높인다.",
+    "en": "Majority vote over samples helps."
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "wang2022self",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/o1-aime",
+   "type": "Claim",
+   "label": {
+    "ko": "o1은 생각하는 시간을 늘릴수록 AIME 정답률이 올랐다.",
+    "en": "o1 improves with more thinking time."
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "openai2024learning",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/r1-rule-reward",
+   "type": "Claim",
+   "label": {
+    "ko": "DeepSeek-R1은 신경망 보상모델 대신 규칙 채점을 썼다(보상 해킹 우려).",
+    "en": "R1 used rule-based rewards."
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "deepseekai2025deepseek",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/grpo-2024",
+   "type": "Claim",
+   "label": {
+    "ko": "GRPO는 DeepSeekMath에서 제안됐다.",
+    "en": "GRPO introduced in DeepSeekMath."
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "shao2024deepseekmath",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/unfaithful",
+   "type": "Claim",
+   "label": {
+    "ko": "풀이는 답을 바꾼 진짜 이유를 말하지 않을 수 있다.",
+    "en": "CoT explanations can be unfaithful."
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "turpin2023language",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/vote",
+   "type": "Simulation",
+   "label": {
+    "ko": "여러 번 풀고 다수결",
+    "en": "Majority vote simulator"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/grpo-aha",
+   "type": "Simulation",
+   "label": {
+    "ko": "직접 보는 아하 순간",
+    "en": "GRPO aha simulator"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-9-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "'차근차근 생각해 보자' 한 줄을 붙였을 때 MultiArith 정답률 변화는?",
+    "en": ""
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-9-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "DeepSeek-R1이 신경망 보상모델 대신 규칙 채점을 쓴 이유로 논문이 밝힌 것은?",
+    "en": ""
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-9-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "'자기 일관성(여러 번 풀고 다수결)'이 정답률을 올리는 원리는?",
+    "en": ""
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/wei2022chain",
+   "type": "Work",
+   "label": {
+    "ko": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models",
+    "en": "Chain-of-Thought Prompting Elicits Reasoning in Large Language Models"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/kojima2022large",
+   "type": "Work",
+   "label": {
+    "ko": "Large Language Models are Zero-Shot Reasoners",
+    "en": "Large Language Models are Zero-Shot Reasoners"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/wang2022self",
+   "type": "Work",
+   "label": {
+    "ko": "Self-Consistency Improves Chain of Thought Reasoning in Language Models. arXiv:2203.11171 (ICLR 2023)",
+    "en": "Self-Consistency Improves Chain of Thought Reasoning in Language Models. arXiv:2203.11171 (ICLR 2023)"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/turpin2023language",
+   "type": "Work",
+   "label": {
+    "ko": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting",
+    "en": "Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/shao2024deepseekmath",
+   "type": "Work",
+   "label": {
+    "ko": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models. arXiv:2402.03300",
+    "en": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models. arXiv:2402.03300"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/openai2024learning",
+   "type": "Work",
+   "label": {
+    "ko": "Learning to Reason with LLMs",
+    "en": "Learning to Reason with LLMs"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/deepseekai2025deepseek",
+   "type": "Work",
+   "label": {
+    "ko": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. arXiv:2501.12948",
+    "en": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. arXiv:2501.12948"
+   },
+   "page": "1-9_reasoning_model",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:method/chain-of-thought",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/zero-shot-cot",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/self-consistency",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/reasoning-model",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/test-time-compute",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/grpo",
+   "p": "lab:broader",
+   "o": "lab:topic/policy-gradient",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/aha-moment",
+   "p": "lab:broader",
+   "o": "lab:topic/policy-gradient",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/unfaithful-cot",
+   "p": "lab:broader",
+   "o": "lab:topic/interpretability",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/reward-hacking",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/reward-hacking",
+   "p": "lab:broader",
+   "o": "lab:topic/reward",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/zero-shot-cot",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/chain-of-thought",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/chain-of-thought",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/self-consistency",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/self-consistency",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/test-time-compute",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/test-time-compute",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/reasoning-model",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:partOf",
+   "o": "lab:method/grpo",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/grpo",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/reasoning-model",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/grpo",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/aha-moment",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/chain-of-thought",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/unfaithful-cot",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/reward-hacking",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/cot-2022",
+   "p": "lab:supports",
+   "o": "lab:method/chain-of-thought",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/cot-2022",
+   "p": "lab:assertedIn",
+   "o": "lab:work/wei2022chain",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/step-by-step-787",
+   "p": "lab:supports",
+   "o": "lab:method/zero-shot-cot",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/step-by-step-787",
+   "p": "lab:assertedIn",
+   "o": "lab:work/kojima2022large",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/self-consistency",
+   "p": "lab:supports",
+   "o": "lab:method/self-consistency",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/self-consistency",
+   "p": "lab:assertedIn",
+   "o": "lab:work/wang2022self",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/o1-aime",
+   "p": "lab:supports",
+   "o": "lab:concept/test-time-compute",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/o1-aime",
+   "p": "lab:assertedIn",
+   "o": "lab:work/openai2024learning",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/r1-rule-reward",
+   "p": "lab:supports",
+   "o": "lab:concept/rule-based-reward",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/r1-rule-reward",
+   "p": "lab:assertedIn",
+   "o": "lab:work/deepseekai2025deepseek",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/grpo-2024",
+   "p": "lab:supports",
+   "o": "lab:method/grpo",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/grpo-2024",
+   "p": "lab:assertedIn",
+   "o": "lab:work/shao2024deepseekmath",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/unfaithful",
+   "p": "lab:supports",
+   "o": "lab:limitation/unfaithful-cot",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/unfaithful",
+   "p": "lab:assertedIn",
+   "o": "lab:work/turpin2023language",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/self-consistency",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/vote",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/grpo",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/grpo-aha",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/aha-moment",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/grpo-aha",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-9-check-1",
+   "p": "lab:assesses",
+   "o": "lab:method/zero-shot-cot",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-9-check-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/rule-based-reward",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-9-check-3",
+   "p": "lab:assesses",
+   "o": "lab:method/self-consistency",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/rule-based-reward",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

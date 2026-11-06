@@ -1,0 +1,39 @@
+{
+ "title": "보는 법 자체를 배우는 기계: 딥러닝",
+ "number": "1-3",
+ "series": "플로우 차트의 rule base에서 일하는 AI까지",
+ "about": [
+  "lab:method/perceptron",
+  "lab:limitation/xor",
+  "lab:method/backpropagation",
+  "lab:concept/deep-learning",
+  "lab:concept/learned-features"
+ ],
+ "basedOn": [
+  "ahn2021lecture1"
+ ],
+ "educationalLevel": "입문~중급",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "date": "2026-11-05",
+ "version": "1.1",
+ "language": [
+  "ko"
+ ],
+ "license": "",
+ "url": "",
+ "registry": "KG_00_registry 0.2",
+ "learningResourceType": "interactive explainer",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). 보는 법 자체를 배우는 기계: 딥러닝. 플로우 차트의 rule base에서 일하는 AI까지 1-3, v1.1."
+}

@@ -1,0 +1,625 @@
+{
+ "version": "1.0",
+ "page": "2-4_orchestration",
+ "nodes": [
+  {
+   "id": "lab:method/orchestration",
+   "type": "Method",
+   "label": {
+    "ko": "오케스트레이션",
+    "en": "Multi-agent orchestration"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems",
+   "definition": {
+    "ko": "지휘자 에이전트가 일을 나눠 서브에이전트에게 맡기고 결과를 모으는 구조."
+   }
+  },
+  {
+   "id": "lab:concept/subagent",
+   "type": "Concept",
+   "label": {
+    "ko": "서브에이전트",
+    "en": "Subagent"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s2",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:concept/token-cost",
+   "type": "Concept",
+   "label": {
+    "ko": "토큰 비용",
+    "en": "Token cost"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:limitation/context-fragmentation",
+   "type": "Limitation",
+   "label": {
+    "ko": "맥락이 갈라져 어긋남",
+    "en": "Context fragmentation"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:limitation/multi-agent-failures",
+   "type": "Limitation",
+   "label": {
+    "ko": "여럿이 일할 때 망가지는 방식",
+    "en": "Multi-agent failure modes"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:concept/coupling",
+   "type": "Concept",
+   "label": {
+    "ko": "일의 얽힘",
+    "en": "Task coupling"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:claim/anthropic-902",
+   "type": "Claim",
+   "label": {
+    "ko": "멀티에이전트 연구 시스템은 단일 에이전트보다 90.2% 나았고 토큰은 약 15배 썼다.",
+    "en": "+90.2% with ~15x tokens."
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "anthropic2025how",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/dont-build",
+   "type": "Claim",
+   "label": {
+    "ko": "Cognition은 맥락을 공유 못 하는 서브에이전트가 어긋난다며 멀티에이전트를 경계했다.",
+    "en": "Don't build multi-agents."
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "yan2025dont",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/mast",
+   "type": "Claim",
+   "label": {
+    "ko": "멀티에이전트 실패는 14가지 유형, 세 묶음으로 정리됐다.",
+    "en": "14 failure modes in 3 groups."
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "cemri2025why",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/effective-agents",
+   "type": "Claim",
+   "label": {
+    "ko": "단순한 패턴부터 쓰라는 에이전트 설계 지침.",
+    "en": "Start with simple agent patterns."
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "schluntz2024building",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/subagent-verify",
+   "type": "Claim",
+   "label": {
+    "ko": "서브에이전트 결과도 검증하라는 루프 원칙.",
+    "en": "Verify subagent outputs."
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "osmani2026loop",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/hermes-subagents",
+   "type": "Claim",
+   "label": {
+    "ko": "격리된 서브에이전트로 병렬 작업하는 사례.",
+    "en": "Isolated subagents in practice."
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "gpters2026hermes",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/solo-vs-team",
+   "type": "Simulation",
+   "label": {
+    "ko": "혼자 vs 나눠 하기",
+    "en": "Solo vs team simulator"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p2-4-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "Anthropic의 멀티에이전트 연구 시스템이 단일 에이전트보다 나은 대신 치른 비용은?",
+    "en": ""
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-4-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "Cognition이 '멀티에이전트를 만들지 마라'고 한 핵심 이유는?",
+    "en": ""
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-4-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "이 장의 결론에 가장 가까운 것은?",
+    "en": ""
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/schluntz2024building",
+   "type": "Work",
+   "label": {
+    "ko": "Building Effective Agents",
+    "en": "Building Effective Agents"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/anthropic2025how",
+   "type": "Work",
+   "label": {
+    "ko": "How we built our multi-agent research system",
+    "en": "How we built our multi-agent research system"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/yan2025dont",
+   "type": "Work",
+   "label": {
+    "ko": "Don't Build Multi-Agents",
+    "en": "Don't Build Multi-Agents"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/cemri2025why",
+   "type": "Work",
+   "label": {
+    "ko": "Why Do Multi-Agent LLM Systems Fail? arXiv:2503.13657",
+    "en": "Why Do Multi-Agent LLM Systems Fail? arXiv:2503.13657"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/osmani2026loop",
+   "type": "Work",
+   "label": {
+    "ko": "Loop Engineering",
+    "en": "Loop Engineering"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/gpters2026hermes",
+   "type": "Work",
+   "label": {
+    "ko": "Hermes Agent 완벽 정리 — Hermes vs OpenClaw 비교",
+    "en": "Hermes Agent 완벽 정리 — Hermes vs OpenClaw 비교"
+   },
+   "page": "2-4_orchestration",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:method/orchestration",
+   "p": "lab:broader",
+   "o": "lab:topic/deployment",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/subagent",
+   "p": "lab:broader",
+   "o": "lab:topic/deployment",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/token-cost",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/context-fragmentation",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/multi-agent-failures",
+   "p": "lab:broader",
+   "o": "lab:topic/monitoring",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/coupling",
+   "p": "lab:broader",
+   "o": "lab:topic/deployment",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/subagent",
+   "p": "lab:partOf",
+   "o": "lab:method/orchestration",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/orchestration",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/context-fragmentation",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/orchestration",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/multi-agent-failures",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/coupling",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/orchestration",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/orchestration",
+   "p": "lab:evaluatedBy",
+   "o": "lab:concept/token-cost",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/anthropic-902",
+   "p": "lab:supports",
+   "o": "lab:method/orchestration",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/anthropic-902",
+   "p": "lab:assertedIn",
+   "o": "lab:work/anthropic2025how",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dont-build",
+   "p": "lab:supports",
+   "o": "lab:limitation/context-fragmentation",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/dont-build",
+   "p": "lab:assertedIn",
+   "o": "lab:work/yan2025dont",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mast",
+   "p": "lab:supports",
+   "o": "lab:limitation/multi-agent-failures",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mast",
+   "p": "lab:assertedIn",
+   "o": "lab:work/cemri2025why",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/effective-agents",
+   "p": "lab:supports",
+   "o": "lab:method/orchestration",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/effective-agents",
+   "p": "lab:assertedIn",
+   "o": "lab:work/schluntz2024building",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/subagent-verify",
+   "p": "lab:supports",
+   "o": "lab:concept/subagent",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/subagent-verify",
+   "p": "lab:assertedIn",
+   "o": "lab:work/osmani2026loop",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hermes-subagents",
+   "p": "lab:supports",
+   "o": "lab:concept/subagent",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hermes-subagents",
+   "p": "lab:assertedIn",
+   "o": "lab:work/gpters2026hermes",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/coupling",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/solo-vs-team",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/orchestration",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/solo-vs-team",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/token-cost",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/solo-vs-team",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-4-check-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/token-cost",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-4-check-2",
+   "p": "lab:assesses",
+   "o": "lab:limitation/context-fragmentation",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-4-check-3",
+   "p": "lab:assesses",
+   "o": "lab:concept/coupling",
+   "anchor": "#check",
+   "confidence": "high"
+  }
+ ]
+}

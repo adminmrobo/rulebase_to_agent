@@ -1,0 +1,1036 @@
+{
+ "version": "1.0",
+ "page": "1-3_deep_learning",
+ "nodes": [
+  {
+   "id": "lab:concept/tacit-knowledge",
+   "type": "Concept",
+   "label": {
+    "ko": "말로 설명할 수 없는 특징(암묵지)",
+    "en": "Tacit knowledge"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s1",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "representation"
+  },
+  {
+   "id": "lab:method/perceptron",
+   "type": "Method",
+   "label": {
+    "ko": "퍼셉트론",
+    "en": "Perceptron"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "nn-basics",
+   "definition": {
+    "ko": "입력에 가중치를 곱해 더한 뒤 문턱을 넘는지로 답하는 가장 단순한 인공 뉴런."
+   }
+  },
+  {
+   "id": "lab:limitation/xor",
+   "type": "Limitation",
+   "label": {
+    "ko": "XOR 문제",
+    "en": "XOR problem"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "nn-basics",
+   "definition": {
+    "ko": "직선 하나로는 두 무리를 나눌 수 없는 문제."
+   }
+  },
+  {
+   "id": "lab:method/mlp",
+   "type": "Method",
+   "label": {
+    "ko": "다층 퍼셉트론",
+    "en": "Multilayer perceptron"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "nn-basics"
+  },
+  {
+   "id": "lab:method/backpropagation",
+   "type": "Method",
+   "label": {
+    "ko": "역전파",
+    "en": "Backpropagation"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "nn-basics",
+   "definition": {
+    "ko": "출력의 오차를 뒤쪽 층부터 거꾸로 나눠 주며 가중치를 고치는 학습법."
+   }
+  },
+  {
+   "id": "lab:concept/learned-features",
+   "type": "Concept",
+   "label": {
+    "ko": "기계가 스스로 만든 특징",
+    "en": "Learned features"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "representation"
+  },
+  {
+   "id": "lab:method/cnn",
+   "type": "Method",
+   "label": {
+    "ko": "합성곱 신경망",
+    "en": "Convolutional neural network"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s7",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "vision"
+  },
+  {
+   "id": "lab:concept/deep-learning",
+   "type": "Concept",
+   "label": {
+    "ko": "딥러닝",
+    "en": "Deep learning"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s7",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "nn-basics"
+  },
+  {
+   "id": "lab:limitation/adversarial-examples",
+   "type": "Limitation",
+   "label": {
+    "ko": "적대적 예제",
+    "en": "Adversarial examples"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "mentioned",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:claim/mcculloch-pitts",
+   "type": "Claim",
+   "label": {
+    "ko": "1943년 매컬러·피츠가 논리 뉴런 모형을 제안했다.",
+    "en": "McCulloch and Pitts proposed a logical neuron."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mcculloch1943logical",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/rosenblatt-1958",
+   "type": "Claim",
+   "label": {
+    "ko": "1958년 로젠블랫이 퍼셉트론을 발표했다.",
+    "en": "Rosenblatt introduced the perceptron."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "rosenblatt1958perceptron",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/minsky-papert-xor",
+   "type": "Claim",
+   "label": {
+    "ko": "민스키·패퍼트는 단층 퍼셉트론이 XOR을 못 푼다고 보였다.",
+    "en": "Minsky and Papert showed XOR limit."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "minsky1969perceptrons",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/backprop-1986",
+   "type": "Claim",
+   "label": {
+    "ko": "1986년 역전파 논문이 다층 신경망 학습을 보였다.",
+    "en": "Backprop paper of 1986."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s4",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "rumelhart1986learning",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/lenet-cheques",
+   "type": "Claim",
+   "label": {
+    "ko": "르쿤의 합성곱 신경망이 수표 숫자 인식에 쓰였다.",
+    "en": "LeNet read handwritten digits on cheques."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s7",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "lecun1998gradient",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/alexnet-15-3",
+   "type": "Claim",
+   "label": {
+    "ko": "AlexNet은 2012년 상위 5개 오류율 15.3%로 2위(26.2%)를 크게 앞섰다.",
+    "en": "AlexNet top-5 error 15.3% vs 26.2%."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s7",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "krizhevsky2012imagenet",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/cat-neuron",
+   "type": "Claim",
+   "label": {
+    "ko": "이름표 없이 본 영상으로 고양이 얼굴에 반응하는 뉴런이 생겼다.",
+    "en": "A cat-detecting neuron emerged unsupervised."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s7",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "le2012building",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/visualizing-filters",
+   "type": "Claim",
+   "label": {
+    "ko": "합성곱 층이 만든 특징을 그림으로 볼 수 있다.",
+    "en": "Learned conv features can be visualized."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "zeiler2014visualizing",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/adversarial",
+   "type": "Claim",
+   "label": {
+    "ko": "사람 눈에 안 보이는 잡음으로 분류가 뒤집힌다.",
+    "en": "Imperceptible noise flips classifications."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "goodfellow2015explaining",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/tacit",
+   "type": "Claim",
+   "label": {
+    "ko": "\"우리는 말할 수 있는 것보다 더 많이 안다.\"",
+    "en": "We know more than we can tell."
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "polanyi1966tacit",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/xor-plane",
+   "type": "Simulation",
+   "label": {
+    "ko": "XOR 점과 직선",
+    "en": "XOR separation demo"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/digit-filters",
+   "type": "Simulation",
+   "label": {
+    "ko": "기계가 만든 필터",
+    "en": "Learned filter viewer"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/chihuahua-muffin",
+   "type": "Simulation",
+   "label": {
+    "ko": "치와와·머핀 16칸 퀴즈",
+    "en": "Chihuahua or muffin quiz"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#s1",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-3-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "퍼셉트론 하나로 XOR을 풀 수 없는 이유는?",
+    "en": ""
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-3-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "2012년 AlexNet의 상위 5개 후보 오류율과 2위의 오류율은?",
+    "en": ""
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-3-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "역전파가 하는 일을 가장 잘 설명한 것은?",
+    "en": ""
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mcculloch1943logical",
+   "type": "Work",
+   "label": {
+    "ko": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+    "en": "A Logical Calculus of the Ideas Immanent in Nervous Activity"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/rosenblatt1958perceptron",
+   "type": "Work",
+   "label": {
+    "ko": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain",
+    "en": "The Perceptron: A Probabilistic Model for Information Storage and Organization in the Brain"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/polanyi1966tacit",
+   "type": "Work",
+   "label": {
+    "ko": "The Tacit Dimension",
+    "en": "The Tacit Dimension"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/minsky1969perceptrons",
+   "type": "Work",
+   "label": {
+    "ko": "Perceptrons",
+    "en": "Perceptrons"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/rumelhart1986learning",
+   "type": "Work",
+   "label": {
+    "ko": "Learning Representations by Back-propagating Errors",
+    "en": "Learning Representations by Back-propagating Errors"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/lecun1998gradient",
+   "type": "Work",
+   "label": {
+    "ko": "Gradient-Based Learning Applied to Document Recognition",
+    "en": "Gradient-Based Learning Applied to Document Recognition"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/krizhevsky2012imagenet",
+   "type": "Work",
+   "label": {
+    "ko": "ImageNet Classification with Deep Convolutional Neural Networks",
+    "en": "ImageNet Classification with Deep Convolutional Neural Networks"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/le2012building",
+   "type": "Work",
+   "label": {
+    "ko": "Building High-level Features Using Large Scale Unsupervised Learning",
+    "en": "Building High-level Features Using Large Scale Unsupervised Learning"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/zeiler2014visualizing",
+   "type": "Work",
+   "label": {
+    "ko": "Visualizing and Understanding Convolutional Networks",
+    "en": "Visualizing and Understanding Convolutional Networks"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/goodfellow2015explaining",
+   "type": "Work",
+   "label": {
+    "ko": "Explaining and Harnessing Adversarial Examples",
+    "en": "Explaining and Harnessing Adversarial Examples"
+   },
+   "page": "1-3_deep_learning",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/tacit-knowledge",
+   "p": "lab:broader",
+   "o": "lab:topic/feature-engineering",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/perceptron",
+   "p": "lab:broader",
+   "o": "lab:topic/perceptron",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/xor",
+   "p": "lab:broader",
+   "o": "lab:topic/perceptron",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/mlp",
+   "p": "lab:broader",
+   "o": "lab:topic/mlp",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/backpropagation",
+   "p": "lab:broader",
+   "o": "lab:topic/backpropagation",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/learned-features",
+   "p": "lab:broader",
+   "o": "lab:topic/embedding-space",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/cnn",
+   "p": "lab:broader",
+   "o": "lab:topic/convolution",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/deep-learning",
+   "p": "lab:broader",
+   "o": "lab:topic/mlp",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/adversarial-examples",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/perceptron",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/mlp",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/mlp",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/deep-learning",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/tacit-knowledge",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/learned-features",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/perceptron",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/xor",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/xor",
+   "p": "lab:addressedBy",
+   "o": "lab:method/mlp",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/backpropagation",
+   "p": "lab:partOf",
+   "o": "lab:method/mlp",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/learned-features",
+   "p": "lab:partOf",
+   "o": "lab:concept/deep-learning",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/cnn",
+   "p": "lab:partOf",
+   "o": "lab:concept/deep-learning",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/deep-learning",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/adversarial-examples",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mcculloch-pitts",
+   "p": "lab:supports",
+   "o": "lab:method/perceptron",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/mcculloch-pitts",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mcculloch1943logical",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rosenblatt-1958",
+   "p": "lab:supports",
+   "o": "lab:method/perceptron",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rosenblatt-1958",
+   "p": "lab:assertedIn",
+   "o": "lab:work/rosenblatt1958perceptron",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/minsky-papert-xor",
+   "p": "lab:supports",
+   "o": "lab:limitation/xor",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/minsky-papert-xor",
+   "p": "lab:assertedIn",
+   "o": "lab:work/minsky1969perceptrons",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/backprop-1986",
+   "p": "lab:supports",
+   "o": "lab:method/backpropagation",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/backprop-1986",
+   "p": "lab:assertedIn",
+   "o": "lab:work/rumelhart1986learning",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/lenet-cheques",
+   "p": "lab:supports",
+   "o": "lab:method/cnn",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/lenet-cheques",
+   "p": "lab:assertedIn",
+   "o": "lab:work/lecun1998gradient",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/alexnet-15-3",
+   "p": "lab:supports",
+   "o": "lab:concept/deep-learning",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/alexnet-15-3",
+   "p": "lab:assertedIn",
+   "o": "lab:work/krizhevsky2012imagenet",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/cat-neuron",
+   "p": "lab:supports",
+   "o": "lab:concept/learned-features",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/cat-neuron",
+   "p": "lab:assertedIn",
+   "o": "lab:work/le2012building",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/visualizing-filters",
+   "p": "lab:supports",
+   "o": "lab:concept/learned-features",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/visualizing-filters",
+   "p": "lab:assertedIn",
+   "o": "lab:work/zeiler2014visualizing",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/adversarial",
+   "p": "lab:supports",
+   "o": "lab:limitation/adversarial-examples",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/adversarial",
+   "p": "lab:assertedIn",
+   "o": "lab:work/goodfellow2015explaining",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/tacit",
+   "p": "lab:supports",
+   "o": "lab:concept/tacit-knowledge",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/tacit",
+   "p": "lab:assertedIn",
+   "o": "lab:work/polanyi1966tacit",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/xor",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/xor-plane",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/mlp",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/xor-plane",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/learned-features",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/digit-filters",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/tacit-knowledge",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/chihuahua-muffin",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-3-check-1",
+   "p": "lab:assesses",
+   "o": "lab:limitation/xor",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-3-check-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/deep-learning",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-3-check-3",
+   "p": "lab:assesses",
+   "o": "lab:method/backpropagation",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/perceptron",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/perceptron",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

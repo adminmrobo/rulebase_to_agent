@@ -1,0 +1,38 @@
+{
+ "title": "프롬프트 → 컨텍스트 → 하네스",
+ "number": "2-2",
+ "series": "플로우 차트의 rule base에서 일하는 AI까지",
+ "about": [
+  "lab:concept/context-engineering",
+  "lab:concept/harness",
+  "lab:concept/permission-gate",
+  "lab:limitation/prompt-injection"
+ ],
+ "basedOn": [
+  "liu2023lost"
+ ],
+ "educationalLevel": "중급",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "date": "2026-11-05",
+ "version": "1.1",
+ "language": [
+  "ko"
+ ],
+ "license": "",
+ "url": "",
+ "registry": "KG_00_registry 0.2",
+ "learningResourceType": "interactive explainer",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). 프롬프트 → 컨텍스트 → 하네스. 플로우 차트의 rule base에서 일하는 AI까지 2-2, v1.1."
+}

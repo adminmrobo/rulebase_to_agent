@@ -1,0 +1,864 @@
+{
+ "version": "1.0",
+ "page": "2-2_context_harness",
+ "nodes": [
+  {
+   "id": "lab:concept/prompt",
+   "type": "Concept",
+   "label": {
+    "ko": "프롬프트",
+    "en": "Prompt"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/context-engineering",
+   "type": "Concept",
+   "label": {
+    "ko": "컨텍스트",
+    "en": "Context (engineering)"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "모델이 한 번에 보는 모든 것(지시, 대화, 문서, 도구 결과)을 고르고 배치하는 일."
+   }
+  },
+  {
+   "id": "lab:limitation/lost-in-the-middle",
+   "type": "Limitation",
+   "label": {
+    "ko": "가운데에 둔 정보를 놓침",
+    "en": "Lost in the middle"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/rag",
+   "type": "Method",
+   "label": {
+    "ko": "RAG",
+    "en": "Retrieval-augmented generation"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/harness",
+   "type": "Concept",
+   "label": {
+    "ko": "하네스",
+    "en": "Agent harness"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems",
+   "definition": {
+    "ko": "도구, 권한, 기억, 실행 환경까지 모델이 일하는 환경 전체."
+   }
+  },
+  {
+   "id": "lab:concept/permission-gate",
+   "type": "Concept",
+   "label": {
+    "ko": "권한 문지기",
+    "en": "Permission gate"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible"
+  },
+  {
+   "id": "lab:limitation/prompt-injection",
+   "type": "Limitation",
+   "label": {
+    "ko": "프롬프트 인젝션",
+    "en": "Prompt injection"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "responsible",
+   "definition": {
+    "ko": "문서나 웹페이지에 숨겨 둔 지시가 모델을 움직이는 공격."
+   }
+  },
+  {
+   "id": "lab:method/harness-engineering",
+   "type": "Method",
+   "label": {
+    "ko": "하네스 엔지니어링",
+    "en": "Harness engineering"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "medium",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "systems"
+  },
+  {
+   "id": "lab:claim/lost-middle-538",
+   "type": "Claim",
+   "label": {
+    "ko": "정답 문서를 20개 중 가운데 두면 정답률이 53.8%로 문서 없음(56.1%)보다 낮았다.",
+    "en": "Middle placement 53.8% vs none 56.1%."
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "liu2023lost",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/rag-2020",
+   "type": "Claim",
+   "label": {
+    "ko": "RAG는 찾은 문서를 넣어 지식 집약 과제를 푼다.",
+    "en": "RAG for knowledge-intensive tasks."
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "lewis2020retrieval",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/karpathy-context",
+   "type": "Claim",
+   "label": {
+    "ko": "카파시는 컨텍스트를 AI 코딩의 중심으로 놓았다.",
+    "en": "Karpathy centered context."
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "pureai2025karpathy",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/openai-harness-2026",
+   "type": "Claim",
+   "label": {
+    "ko": "2026년 2월 OpenAI는 하네스 엔지니어링이라는 이름의 글을 냈다.",
+    "en": "OpenAI harness engineering post, Feb 2026."
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "infoq2026openai",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/harness-matters",
+   "type": "Claim",
+   "label": {
+    "ko": "같은 모델이라도 하네스에 따라 성능이 크게 달라질 수 있다는 보도.",
+    "en": "Harness design changes performance."
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "aitimes2026hermes",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/enterprise-harness",
+   "type": "Claim",
+   "label": {
+    "ko": "기업에는 권한·감사·되돌리기를 맡는 운영 하네스가 따로 필요하다는 시각.",
+    "en": "Enterprise needs an operational harness."
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s8",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "puppyone2026hermes",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/hermes-guide",
+   "type": "Claim",
+   "label": {
+    "ko": "모델을 바꿔 끼워도 하네스는 그대로인 범용 하네스.",
+    "en": "Model-agnostic harness."
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "wikidocshermesguide",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/loop-intro",
+   "type": "Claim",
+   "label": {
+    "ko": "루프 엔지니어링은 하네스 위에서 돈다.",
+    "en": "Loop engineering runs on the harness."
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s9",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mlmastery2026loop",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/context-window",
+   "type": "Simulation",
+   "label": {
+    "ko": "직접 꾸리는 컨텍스트 창",
+    "en": "Context window packer"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/gatekeeper",
+   "type": "Simulation",
+   "label": {
+    "ko": "권한 문지기 정책",
+    "en": "Permission gate simulator"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p2-2-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "프롬프트·컨텍스트·하네스 가운데 가장 바깥에서 나머지를 감싸는 것은?",
+    "en": ""
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-2-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "Lost in the Middle 실험에서 정답 문서를 20개 중 한가운데 두었을 때 정답률은?",
+    "en": ""
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p2-2-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "에이전트가 읽은 웹페이지에 숨어 있던 '이 계좌로 송금하라'는 문장을 무엇이라 하나?",
+    "en": ""
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/lewis2020retrieval",
+   "type": "Work",
+   "label": {
+    "ko": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "en": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/liu2023lost",
+   "type": "Work",
+   "label": {
+    "ko": "Lost in the Middle: How Language Models Use Long Contexts",
+    "en": "Lost in the Middle: How Language Models Use Long Contexts"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/pureai2025karpathy",
+   "type": "Work",
+   "label": {
+    "ko": "Karpathy Puts Context at the Core of AI Coding",
+    "en": "Karpathy Puts Context at the Core of AI Coding"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/infoq2026openai",
+   "type": "Work",
+   "label": {
+    "ko": "OpenAI 하네스 엔지니어링 보도",
+    "en": "OpenAI 하네스 엔지니어링 보도"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/puppyone2026hermes",
+   "type": "Work",
+   "label": {
+    "ko": "Hermes Harness vs Agent Harness: 기업용 AI 에이전트 운영 레이어",
+    "en": "Hermes Harness vs Agent Harness: 기업용 AI 에이전트 운영 레이어"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/wikidocshermesguide",
+   "type": "Work",
+   "label": {
+    "ko": "Hermes Agent: 성장하는 AI 에이전트 실전 가이드, 01-2",
+    "en": "Hermes Agent: 성장하는 AI 에이전트 실전 가이드, 01-2"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mlmastery2026loop",
+   "type": "Work",
+   "label": {
+    "ko": "An Introduction to Loop Engineering",
+    "en": "An Introduction to Loop Engineering"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/aitimes2026hermes",
+   "type": "Work",
+   "label": {
+    "ko": "헤르메스, 신규 기여자 수에서 오픈클로 역전…'하네스' 최적화의 승리",
+    "en": "헤르메스, 신규 기여자 수에서 오픈클로 역전…'하네스' 최적화의 승리"
+   },
+   "page": "2-2_context_harness",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:concept/prompt",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/context-engineering",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/lost-in-the-middle",
+   "p": "lab:broader",
+   "o": "lab:topic/prompting",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rag",
+   "p": "lab:broader",
+   "o": "lab:topic/rag",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/harness",
+   "p": "lab:broader",
+   "o": "lab:topic/deployment",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:broader",
+   "o": "lab:topic/rule-vs-learning",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/prompt-injection",
+   "p": "lab:broader",
+   "o": "lab:topic/ai-safety",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/harness-engineering",
+   "p": "lab:broader",
+   "o": "lab:topic/deployment",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/prompt",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/context-engineering",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/context-engineering",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/harness",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/context-engineering",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/lost-in-the-middle",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/rag",
+   "p": "lab:partOf",
+   "o": "lab:concept/context-engineering",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:partOf",
+   "o": "lab:concept/harness",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/harness",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/prompt-injection",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/prompt-injection",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/permission-gate",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/harness-engineering",
+   "p": "lab:partOf",
+   "o": "lab:concept/harness",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/lost-middle-538",
+   "p": "lab:supports",
+   "o": "lab:limitation/lost-in-the-middle",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/lost-middle-538",
+   "p": "lab:assertedIn",
+   "o": "lab:work/liu2023lost",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rag-2020",
+   "p": "lab:supports",
+   "o": "lab:method/rag",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/rag-2020",
+   "p": "lab:assertedIn",
+   "o": "lab:work/lewis2020retrieval",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/karpathy-context",
+   "p": "lab:supports",
+   "o": "lab:concept/context-engineering",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/karpathy-context",
+   "p": "lab:assertedIn",
+   "o": "lab:work/pureai2025karpathy",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/openai-harness-2026",
+   "p": "lab:supports",
+   "o": "lab:method/harness-engineering",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/openai-harness-2026",
+   "p": "lab:assertedIn",
+   "o": "lab:work/infoq2026openai",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/harness-matters",
+   "p": "lab:supports",
+   "o": "lab:concept/harness",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/harness-matters",
+   "p": "lab:assertedIn",
+   "o": "lab:work/aitimes2026hermes",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/enterprise-harness",
+   "p": "lab:supports",
+   "o": "lab:concept/harness",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/enterprise-harness",
+   "p": "lab:assertedIn",
+   "o": "lab:work/puppyone2026hermes",
+   "anchor": "#s8",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hermes-guide",
+   "p": "lab:supports",
+   "o": "lab:concept/harness",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/hermes-guide",
+   "p": "lab:assertedIn",
+   "o": "lab:work/wikidocshermesguide",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/loop-intro",
+   "p": "lab:supports",
+   "o": "lab:concept/harness",
+   "anchor": "#s9",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/loop-intro",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mlmastery2026loop",
+   "anchor": "#s9",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/context-engineering",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/context-window",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/lost-in-the-middle",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/context-window",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/gatekeeper",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/prompt-injection",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/gatekeeper",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-2-check-1",
+   "p": "lab:assesses",
+   "o": "lab:concept/harness",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-2-check-2",
+   "p": "lab:assesses",
+   "o": "lab:limitation/lost-in-the-middle",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p2-2-check-3",
+   "p": "lab:assesses",
+   "o": "lab:limitation/prompt-injection",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/permission-gate",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

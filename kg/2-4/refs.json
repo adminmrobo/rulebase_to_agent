@@ -1,0 +1,226 @@
+[
+ {
+  "type": "webpage",
+  "title": "Building Effective Agents",
+  "author": [
+   {
+    "family": "Schluntz",
+    "given": "E."
+   },
+   {
+    "family": "Zhang",
+    "given": "B."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2024
+    ]
+   ]
+  },
+  "container-title": "Anthropic",
+  "id": "schluntz2024building",
+  "lab": {
+   "work": "lab:work/schluntz2024building",
+   "role": "background",
+   "supports": [
+    "lab:claim/effective-agents"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "How we built our multi-agent research system",
+  "author": [
+   {
+    "literal": "Anthropic"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "id": "anthropic2025how",
+  "lab": {
+   "work": "lab:work/anthropic2025how",
+   "role": "primary",
+   "supports": [
+    "lab:claim/anthropic-902"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Don't Build Multi-Agents",
+  "author": [
+   {
+    "family": "Yan",
+    "given": "W."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "container-title": "Cognition",
+  "id": "yan2025dont",
+  "lab": {
+   "work": "lab:work/yan2025dont",
+   "role": "primary",
+   "supports": [
+    "lab:claim/dont-build"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "Why Do Multi-Agent LLM Systems Fail? arXiv:2503.13657",
+  "author": [
+   {
+    "family": "Cemri",
+    "given": "M."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2025
+    ]
+   ]
+  },
+  "id": "cemri2025why",
+  "lab": {
+   "work": "lab:work/cemri2025why",
+   "role": "background",
+   "supports": [
+    "lab:claim/mast"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Loop Engineering",
+  "author": [
+   {
+    "family": "Osmani",
+    "given": "A."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "(서브에이전트 검증 원칙; 요약: AI Builder Club)",
+  "id": "osmani2026loop",
+  "lab": {
+   "work": "lab:work/osmani2026loop",
+   "role": "background",
+   "supports": [
+    "lab:claim/subagent-verify"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Agent 완벽 정리 — Hermes vs OpenClaw 비교",
+  "author": [
+   {
+    "literal": "GPTers"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "gpters2026hermes",
+  "lab": {
+   "work": "lab:work/gpters2026hermes",
+   "role": "background",
+   "supports": [
+    "lab:claim/hermes-subagents"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

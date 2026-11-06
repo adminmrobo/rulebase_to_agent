@@ -1,0 +1,356 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 2. 인공지능과 정보",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture2",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture2",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Rank Analysis of Incomplete Block Designs: I",
+  "author": [
+   {
+    "family": "Bradley",
+    "given": "R. A."
+   },
+   {
+    "family": "Terry",
+    "given": "M. E."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     1952
+    ]
+   ]
+  },
+  "container-title": "The Method of Paired Comparisons",
+  "id": "bradley1952rank",
+  "lab": {
+   "work": "lab:work/bradley1952rank",
+   "role": "background",
+   "supports": [
+    "lab:claim/bt-1952"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Deep Reinforcement Learning from Human Preferences",
+  "author": [
+   {
+    "family": "Christiano",
+    "given": "P."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2017
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2017",
+  "id": "christiano2017deep",
+  "lab": {
+   "work": "lab:work/christiano2017deep",
+   "role": "background",
+   "supports": [
+    "lab:claim/human-pref-rl"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Training Language Models to Follow Instructions with Human Feedback",
+  "author": [
+   {
+    "family": "Ouyang",
+    "given": "L."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2022",
+  "id": "ouyang2022training",
+  "lab": {
+   "work": "lab:work/ouyang2022training",
+   "role": "primary",
+   "supports": [
+    "lab:claim/instructgpt-3steps"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "Scaling Laws for Reward Model Overoptimization. arXiv:2210.10760",
+  "author": [
+   {
+    "family": "Gao",
+    "given": "L."
+   },
+   {
+    "family": "Schulman",
+    "given": "J."
+   },
+   {
+    "family": "Hilton",
+    "given": "J."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "id": "gao2022scaling",
+  "lab": {
+   "work": "lab:work/gao2022scaling",
+   "role": "background",
+   "supports": [
+    "lab:claim/overoptimization"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "Constitutional AI: Harmlessness from AI Feedback. arXiv:2212.08073",
+  "author": [
+   {
+    "family": "Bai",
+    "given": "Y."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "id": "bai2022constitutional",
+  "lab": {
+   "work": "lab:work/bai2022constitutional",
+   "role": "background",
+   "supports": [
+    "lab:claim/constitutional"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Direct Preference Optimization: Your Language Model is Secretly a Reward Model",
+  "author": [
+   {
+    "family": "Rafailov",
+    "given": "R."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2023",
+  "id": "rafailov2023direct",
+  "lab": {
+   "work": "lab:work/rafailov2023direct",
+   "role": "background",
+   "supports": [
+    "lab:claim/dpo-2023"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "Towards Understanding Sycophancy in Language Models. arXiv:2310.13548",
+  "author": [
+   {
+    "family": "Sharma",
+    "given": "M."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "id": "sharma2023towards",
+  "lab": {
+   "work": "lab:work/sharma2023towards",
+   "role": "background",
+   "supports": [
+    "lab:claim/sycophancy"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Introducing ChatGPT",
+  "author": [
+   {
+    "literal": "OpenAI"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "(RLHF로 InstructGPT와 같은 방법으로 학습했다는 설명)",
+  "id": "openai2022introducing",
+  "lab": {
+   "work": "lab:work/openai2022introducing",
+   "role": "background",
+   "supports": [
+    "lab:claim/chatgpt-rlhf"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

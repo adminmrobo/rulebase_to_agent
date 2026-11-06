@@ -1,0 +1,368 @@
+[
+ {
+  "type": "speech",
+  "title": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+  "container-title": "한국능률협회·핀테크지원센터 2021 핀테크 리더스 아카데미 모듈5 '인공지능과 딥러닝' 강의자료",
+  "id": "ahn2021lecture1",
+  "author": [
+   {
+    "literal": "안상선"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2021
+    ]
+   ]
+  },
+  "URL": "https://app.notion.com/p/mrobo2016/5-2dd8afc04aee4ac6af3b583d0f2a567c",
+  "lab": {
+   "work": "lab:work/ahn2021lecture1",
+   "role": "background",
+   "supports": [],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Improving Language Understanding by Generative Pre-Training",
+  "author": [
+   {
+    "family": "Radford",
+    "given": "A."
+   },
+   {
+    "family": "Narasimhan",
+    "given": "K."
+   },
+   {
+    "family": "Salimans",
+    "given": "T."
+   },
+   {
+    "family": "Sutskever",
+    "given": "I."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2018
+    ]
+   ]
+  },
+  "container-title": "OpenAI",
+  "id": "radford2018improving",
+  "lab": {
+   "work": "lab:work/radford2018improving",
+   "role": "background",
+   "supports": [
+    "lab:claim/gpt1-2018"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Language Models are Unsupervised Multitask Learners",
+  "author": [
+   {
+    "family": "Radford",
+    "given": "A."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2019
+    ]
+   ]
+  },
+  "container-title": "OpenAI",
+  "id": "radford2019language",
+  "lab": {
+   "work": "lab:work/radford2019language",
+   "role": "background",
+   "supports": [
+    "lab:claim/gpt2"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "Scaling Laws for Neural Language Models. arXiv:2001.08361",
+  "author": [
+   {
+    "family": "Kaplan",
+    "given": "J."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "(식 정리: 요약 노트)",
+  "id": "kaplan2020scaling",
+  "lab": {
+   "work": "lab:work/kaplan2020scaling",
+   "role": "primary",
+   "supports": [
+    "lab:claim/kaplan-alpha"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Language Models are Few-Shot Learners",
+  "author": [
+   {
+    "family": "Brown",
+    "given": "T. B."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2020
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2020",
+  "id": "brown2020language",
+  "lab": {
+   "work": "lab:work/brown2020language",
+   "role": "background",
+   "supports": [
+    "lab:claim/gpt3-compute",
+    "lab:claim/few-shot"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article",
+  "title": "Training Compute-Optimal Large Language Models. arXiv:2203.15556",
+  "author": [
+   {
+    "family": "Hoffmann",
+    "given": "J."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "(Chinchilla)",
+  "id": "hoffmann2022training",
+  "lab": {
+   "work": "lab:work/hoffmann2022training",
+   "role": "primary",
+   "supports": [
+    "lab:claim/chinchilla-20"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "article-journal",
+  "title": "Emergent Abilities of Large Language Models",
+  "author": [
+   {
+    "family": "Wei",
+    "given": "J."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2022
+    ]
+   ]
+  },
+  "container-title": "Transactions on Machine Learning Research",
+  "id": "wei2022emergent",
+  "lab": {
+   "work": "lab:work/wei2022emergent",
+   "role": "background",
+   "supports": [
+    "lab:claim/emergent-abilities"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Are Emergent Abilities of Large Language Models a Mirage?",
+  "author": [
+   {
+    "family": "Schaeffer",
+    "given": "R."
+   },
+   {
+    "family": "Miranda",
+    "given": "B."
+   },
+   {
+    "family": "Koyejo",
+    "given": "S."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2023",
+  "id": "schaeffer2023emergent",
+  "lab": {
+   "work": "lab:work/schaeffer2023emergent",
+   "role": "background",
+   "supports": [
+    "lab:claim/mirage"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "ChatGPT sets record for fastest-growing user base - analyst note",
+  "author": [
+   {
+    "literal": "Reuters"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "(전재 기사)",
+  "id": "reuters2023chatgpt",
+  "lab": {
+   "work": "lab:work/reuters2023chatgpt",
+   "role": "background",
+   "supports": [
+    "lab:claim/chatgpt-users"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]

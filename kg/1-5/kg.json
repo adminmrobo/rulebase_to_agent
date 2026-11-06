@@ -1,0 +1,994 @@
+{
+ "version": "1.0",
+ "page": "1-5_word_vectors",
+ "nodes": [
+  {
+   "id": "lab:limitation/symbol-grounding",
+   "type": "Limitation",
+   "label": {
+    "ko": "기호 접지 문제",
+    "en": "Symbol grounding problem"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/language-model",
+   "type": "Concept",
+   "label": {
+    "ko": "언어모델",
+    "en": "Language model"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s2",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "앞의 말을 보고 다음 단어(토큰)를 맞히도록 학습한 모델."
+   }
+  },
+  {
+   "id": "lab:method/ngram",
+   "type": "Method",
+   "label": {
+    "ko": "n-그램(바이그램) 모델",
+    "en": "N-gram model"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/one-hot",
+   "type": "Concept",
+   "label": {
+    "ko": "원-핫 표현",
+    "en": "One-hot encoding"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s4",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:limitation/one-hot-no-similarity",
+   "type": "Limitation",
+   "label": {
+    "ko": "원-핫은 비슷함을 못 나타냄",
+    "en": "One-hot has no similarity"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s4",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/distributional-hypothesis",
+   "type": "Concept",
+   "label": {
+    "ko": "분포 가설",
+    "en": "Distributional hypothesis"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s5",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "함께 다니는 단어가 뜻을 알려 준다는 생각."
+   }
+  },
+  {
+   "id": "lab:concept/word-embedding",
+   "type": "Concept",
+   "label": {
+    "ko": "단어 벡터(임베딩)",
+    "en": "Word embedding"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "함께 쓰이는 단어를 보고 단어마다 붙인 숫자 좌표."
+   }
+  },
+  {
+   "id": "lab:concept/vector-analogy",
+   "type": "Concept",
+   "label": {
+    "ko": "단어 계산기(벡터 유추)",
+    "en": "Vector analogy"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:concept/token",
+   "type": "Concept",
+   "label": {
+    "ko": "토큰",
+    "en": "Token"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s7",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language"
+  },
+  {
+   "id": "lab:method/bpe",
+   "type": "Method",
+   "label": {
+    "ko": "BPE(바이트 쌍 인코딩)",
+    "en": "Byte-pair encoding"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s7",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "family": "language",
+   "definition": {
+    "ko": "가장 자주 붙어 나오는 두 조각을 합치는 규칙을 반복해 토큰 사전을 만드는 방법."
+   }
+  },
+  {
+   "id": "lab:claim/shannon-ngram",
+   "type": "Claim",
+   "label": {
+    "ko": "섀넌은 1948년 다음 글자 확률로 문장을 만들어 보였다.",
+    "en": "Shannon generated text from n-gram statistics."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s2",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "shannon1948mathematical",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/firth-company",
+   "type": "Claim",
+   "label": {
+    "ko": "\"단어는 함께 다니는 단어로 알 수 있다.\"",
+    "en": "You shall know a word by the company it keeps."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "firth1957synopsis",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/harnad-grounding",
+   "type": "Claim",
+   "label": {
+    "ko": "기호를 기호로만 정의하면 뜻이 땅에 닿지 않는다.",
+    "en": "Symbols defined only by symbols lack grounding."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s1",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "harnad1990symbol",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/neural-lm-2003",
+   "type": "Claim",
+   "label": {
+    "ko": "2003년 신경망 언어모델이 단어 벡터를 함께 배웠다.",
+    "en": "Neural LM learned word vectors."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s5",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "bengio2003neural",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/word2vec",
+   "type": "Claim",
+   "label": {
+    "ko": "워드투벡은 큰 말뭉치에서 단어 벡터를 빠르게 배웠다.",
+    "en": "word2vec learned vectors efficiently."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mikolov2013efficient",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/king-queen-0852",
+   "type": "Claim",
+   "label": {
+    "ko": "GloVe에서 king − man + woman의 1등은 queen(유사도 0.852)이다.",
+    "en": "king - man + woman nearest is queen (0.852)."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "pennington2014glove",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/linguistic-regularities",
+   "type": "Claim",
+   "label": {
+    "ko": "벡터 차이가 남성→여성 같은 관계를 담는다.",
+    "en": "Vector offsets capture relations."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s6",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "mikolov2013linguistic",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/bpe-2016",
+   "type": "Claim",
+   "label": {
+    "ko": "BPE는 드문 단어를 조각으로 나눠 번역 문제를 풀었다.",
+    "en": "BPE solved rare words with subwords."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s7",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "sennrich2016neural",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:claim/slp-ngram",
+   "type": "Claim",
+   "label": {
+    "ko": "n-그램 언어모델의 교과서 정리.",
+    "en": "Textbook treatment of n-gram LMs."
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s3",
+   "level": 3,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ],
+   "source": [
+    {
+     "ref": "jurafskyslp3",
+     "loc": ""
+    }
+   ]
+  },
+  {
+   "id": "lab:sim/next-word",
+   "type": "Simulation",
+   "label": {
+    "ko": "다음 단어 맞히기 게임",
+    "en": "Next-word game"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s3",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:sim/word-map",
+   "type": "Simulation",
+   "label": {
+    "ko": "단어 지도와 단어 계산기",
+    "en": "Word map and calculator"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#s6",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": [],
+   "domain": [
+    "ai"
+   ]
+  },
+  {
+   "id": "lab:quiz/p1-5-check-1",
+   "type": "QuizItem",
+   "label": {
+    "ko": "원-핫 표현의 가장 큰 문제는?",
+    "en": ""
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-5-check-2",
+   "type": "QuizItem",
+   "label": {
+    "ko": "GloVe 단어 벡터에서 king − man + woman과 가장 가까운 단어와 유사도는?",
+    "en": ""
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:quiz/p1-5-check-3",
+   "type": "QuizItem",
+   "label": {
+    "ko": "BPE(바이트 쌍 인코딩)가 반복하는 규칙은?",
+    "en": ""
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#check",
+   "level": 1,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture1",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 1. 인공지능이란 무엇인가요?",
+    "en": "인공지능 입문 : 1. 인공지능이란 무엇인가요?"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/ahn2021lecture2",
+   "type": "Work",
+   "label": {
+    "ko": "인공지능 입문 : 2. 인공지능과 정보",
+    "en": "인공지능 입문 : 2. 인공지능과 정보"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/shannon1948mathematical",
+   "type": "Work",
+   "label": {
+    "ko": "A Mathematical Theory of Communication",
+    "en": "A Mathematical Theory of Communication"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/firth1957synopsis",
+   "type": "Work",
+   "label": {
+    "ko": "A Synopsis of Linguistic Theory, 1930–1955",
+    "en": "A Synopsis of Linguistic Theory, 1930–1955"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/harnad1990symbol",
+   "type": "Work",
+   "label": {
+    "ko": "The Symbol Grounding Problem",
+    "en": "The Symbol Grounding Problem"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/bengio2003neural",
+   "type": "Work",
+   "label": {
+    "ko": "A Neural Probabilistic Language Model",
+    "en": "A Neural Probabilistic Language Model"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mikolov2013efficient",
+   "type": "Work",
+   "label": {
+    "ko": "Efficient Estimation of Word Representations in Vector Space. arXiv:1301.3781",
+    "en": "Efficient Estimation of Word Representations in Vector Space. arXiv:1301.3781"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/mikolov2013linguistic",
+   "type": "Work",
+   "label": {
+    "ko": "Linguistic Regularities in Continuous Space Word Representations",
+    "en": "Linguistic Regularities in Continuous Space Word Representations"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/pennington2014glove",
+   "type": "Work",
+   "label": {
+    "ko": "GloVe: Global Vectors for Word Representation",
+    "en": "GloVe: Global Vectors for Word Representation"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/sennrich2016neural",
+   "type": "Work",
+   "label": {
+    "ko": "Neural Machine Translation of Rare Words with Subword Units",
+    "en": "Neural Machine Translation of Rare Words with Subword Units"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  },
+  {
+   "id": "lab:work/jurafskyslp3",
+   "type": "Work",
+   "label": {
+    "ko": "Speech and Language Processing (3rd ed. draft), 3장 N-gram Language Models",
+    "en": "Speech and Language Processing (3rd ed. draft), 3장 N-gram Language Models"
+   },
+   "page": "1-5_word_vectors",
+   "anchor": "#export",
+   "level": 2,
+   "status": "known",
+   "confidence": "high",
+   "coverage": "explained",
+   "match": []
+  }
+ ],
+ "edges": [
+  {
+   "s": "lab:limitation/symbol-grounding",
+   "p": "lab:broader",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/language-model",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/ngram",
+   "p": "lab:broader",
+   "o": "lab:topic/pretrained-lm",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/one-hot",
+   "p": "lab:broader",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/one-hot-no-similarity",
+   "p": "lab:broader",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/distributional-hypothesis",
+   "p": "lab:broader",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/word-embedding",
+   "p": "lab:broader",
+   "o": "lab:topic/word-embedding",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/word-embedding",
+   "p": "lab:broader",
+   "o": "lab:topic/embedding-space",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/vector-analogy",
+   "p": "lab:broader",
+   "o": "lab:topic/embedding-space",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/token",
+   "p": "lab:broader",
+   "o": "lab:topic/tokenization",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bpe",
+   "p": "lab:broader",
+   "o": "lab:topic/tokenization",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/language-model",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:method/ngram",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/one-hot",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/one-hot-no-similarity",
+   "anchor": "#s4",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:limitation/one-hot-no-similarity",
+   "p": "lab:addressedBy",
+   "o": "lab:concept/word-embedding",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/distributional-hypothesis",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/word-embedding",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/word-embedding",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/vector-analogy",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/token",
+   "p": "lab:prerequisiteOf",
+   "o": "lab:concept/language-model",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/bpe",
+   "p": "lab:partOf",
+   "o": "lab:concept/token",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/word-embedding",
+   "p": "lab:hasLimitation",
+   "o": "lab:limitation/symbol-grounding",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/shannon-ngram",
+   "p": "lab:supports",
+   "o": "lab:method/ngram",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/shannon-ngram",
+   "p": "lab:assertedIn",
+   "o": "lab:work/shannon1948mathematical",
+   "anchor": "#s2",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/firth-company",
+   "p": "lab:supports",
+   "o": "lab:concept/distributional-hypothesis",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/firth-company",
+   "p": "lab:assertedIn",
+   "o": "lab:work/firth1957synopsis",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/harnad-grounding",
+   "p": "lab:supports",
+   "o": "lab:limitation/symbol-grounding",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/harnad-grounding",
+   "p": "lab:assertedIn",
+   "o": "lab:work/harnad1990symbol",
+   "anchor": "#s1",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/neural-lm-2003",
+   "p": "lab:supports",
+   "o": "lab:concept/word-embedding",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/neural-lm-2003",
+   "p": "lab:assertedIn",
+   "o": "lab:work/bengio2003neural",
+   "anchor": "#s5",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/word2vec",
+   "p": "lab:supports",
+   "o": "lab:concept/word-embedding",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/word2vec",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mikolov2013efficient",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/king-queen-0852",
+   "p": "lab:supports",
+   "o": "lab:concept/vector-analogy",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/king-queen-0852",
+   "p": "lab:assertedIn",
+   "o": "lab:work/pennington2014glove",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/linguistic-regularities",
+   "p": "lab:supports",
+   "o": "lab:concept/vector-analogy",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/linguistic-regularities",
+   "p": "lab:assertedIn",
+   "o": "lab:work/mikolov2013linguistic",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bpe-2016",
+   "p": "lab:supports",
+   "o": "lab:method/bpe",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/bpe-2016",
+   "p": "lab:assertedIn",
+   "o": "lab:work/sennrich2016neural",
+   "anchor": "#s7",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/slp-ngram",
+   "p": "lab:supports",
+   "o": "lab:method/ngram",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:claim/slp-ngram",
+   "p": "lab:assertedIn",
+   "o": "lab:work/jurafskyslp3",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:method/ngram",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/next-word",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/language-model",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/next-word",
+   "anchor": "#s3",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/word-embedding",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/word-map",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/vector-analogy",
+   "p": "lab:demonstratedBy",
+   "o": "lab:sim/word-map",
+   "anchor": "#s6",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-5-check-1",
+   "p": "lab:assesses",
+   "o": "lab:limitation/one-hot-no-similarity",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-5-check-2",
+   "p": "lab:assesses",
+   "o": "lab:concept/vector-analogy",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:quiz/p1-5-check-3",
+   "p": "lab:assesses",
+   "o": "lab:method/bpe",
+   "anchor": "#check",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/language-model",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture1",
+   "anchor": "#refs",
+   "confidence": "high"
+  },
+  {
+   "s": "lab:concept/language-model",
+   "p": "lab:explainedIn",
+   "o": "lab:work/ahn2021lecture2",
+   "anchor": "#refs",
+   "confidence": "high"
+  }
+ ]
+}

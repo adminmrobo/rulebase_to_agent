@@ -1,0 +1,38 @@
+{
+ "title": "ChatGPT의 순간: 사람의 선호로 길들이기",
+ "number": "1-8",
+ "series": "플로우 차트의 rule base에서 일하는 AI까지",
+ "about": [
+  "lab:method/rlhf",
+  "lab:method/reward-model",
+  "lab:concept/kl-rein",
+  "lab:limitation/sycophancy"
+ ],
+ "basedOn": [
+  "ouyang2022training"
+ ],
+ "educationalLevel": "중급",
+ "creator": [
+  {
+   "name": "안상선",
+   "role": "author"
+  }
+ ],
+ "contributor": [
+  {
+   "name": "AI 보조 제작",
+   "role": "assistant"
+  }
+ ],
+ "date": "2026-11-05",
+ "version": "1.1",
+ "language": [
+  "ko"
+ ],
+ "license": "",
+ "url": "",
+ "registry": "KG_00_registry 0.2",
+ "learningResourceType": "interactive explainer",
+ "seeAlso": "",
+ "suggestedCitation": "안상선 (2026). ChatGPT의 순간: 사람의 선호로 길들이기. 플로우 차트의 rule base에서 일하는 AI까지 1-8, v1.1."
+}

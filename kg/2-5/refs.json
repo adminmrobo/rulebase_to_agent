@@ -1,0 +1,363 @@
+[
+ {
+  "type": "software",
+  "title": "hermes-agent 저장소 README",
+  "id": "nousresearchhermesreadme",
+  "author": [
+   {
+    "literal": "Nous Research"
+   }
+  ],
+  "container-title": "GitHub NousResearch/hermes-agent",
+  "lab": {
+   "work": "lab:work/nousresearchhermesreadme",
+   "role": "primary",
+   "supports": [
+    "lab:claim/hermes-readme"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Agent 문서 \"Persistent Memory\"",
+  "container-title": "Hermes Agent 문서 \"Persistent Memory\" (website/docs/user-guide/features/memory.md)",
+  "id": "nousresearchhermesmemory",
+  "author": [
+   {
+    "literal": "Nous Research"
+   }
+  ],
+  "lab": {
+   "work": "lab:work/nousresearchhermesmemory",
+   "role": "background",
+   "supports": [
+    "lab:claim/memory-2200"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Agent 문서 \"Security\"",
+  "container-title": "Hermes Agent 문서 \"Security\" (website/docs/user-guide/security.md)",
+  "id": "nousresearchhermessecurity",
+  "author": [
+   {
+    "literal": "Nous Research"
+   }
+  ],
+  "lab": {
+   "work": "lab:work/nousresearchhermessecurity",
+   "role": "background",
+   "supports": [
+    "lab:claim/security-8"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "헤르메스, 신규 기여자 수에서 오픈클로 역전…'하네스' 최적화의 승리",
+  "author": [
+   {
+    "literal": "AI타임스"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "aitimes2026hermes",
+  "lab": {
+   "work": "lab:work/aitimes2026hermes",
+   "role": "background",
+   "supports": [
+    "lab:claim/contributors"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Agent Hits 140K GitHub Stars",
+  "author": [
+   {
+    "literal": "gentic_news"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "container-title": "DEV Community",
+  "id": "genticnews2026hermes",
+  "lab": {
+   "work": "lab:work/genticnews2026hermes",
+   "role": "background",
+   "supports": [
+    "lab:claim/stars-140k"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Agent 완벽 정리 — Hermes vs OpenClaw 비교",
+  "author": [
+   {
+    "literal": "GPTers"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "gpters2026hermes",
+  "lab": {
+   "work": "lab:work/gpters2026hermes",
+   "role": "background",
+   "supports": [
+    "lab:claim/stars-72k"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "OpenClaw VS Hermes Agent",
+  "author": [
+   {
+    "literal": "브런치"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "brunch2026openclaw",
+  "lab": {
+   "work": "lab:work/brunch2026openclaw",
+   "role": "background",
+   "supports": [
+    "lab:claim/weekly-audit"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Agent: 성장하는 AI 에이전트 실전 가이드, 01-2",
+  "container-title": "Hermes Agent: 성장하는 AI 에이전트 실전 가이드",
+  "id": "wikidocshermesguide",
+  "author": [
+   {
+    "literal": "위키독스"
+   }
+  ],
+  "lab": {
+   "work": "lab:work/wikidocshermesguide",
+   "role": "background",
+   "supports": [
+    "lab:claim/guide"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Agent, \"쓸수록 똑똑해지는\" 자율 AI 에이전트의 등장. 과연 실체는?",
+  "container-title": "위키독스 블로그",
+  "id": "parkhermesreview",
+  "author": [
+   {
+    "literal": "박재홍"
+   }
+  ],
+  "lab": {
+   "work": "lab:work/parkhermesreview",
+   "role": "background",
+   "supports": [
+    "lab:claim/critique"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": false,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "webpage",
+  "title": "Hermes Harness vs Agent Harness: 기업용 AI 에이전트 운영 레이어",
+  "author": [
+   {
+    "literal": "PuppyOne"
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2026
+    ]
+   ]
+  },
+  "id": "puppyone2026hermes",
+  "lab": {
+   "work": "lab:work/puppyone2026hermes",
+   "role": "background",
+   "supports": [
+    "lab:claim/enterprise-layer"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ },
+ {
+  "type": "paper-conference",
+  "title": "Reflexion: Language Agents with Verbal Reinforcement Learning",
+  "author": [
+   {
+    "family": "Shinn",
+    "given": "N."
+   },
+   {
+    "literal": "et al."
+   }
+  ],
+  "issued": {
+   "date-parts": [
+    [
+     2023
+    ]
+   ]
+  },
+  "container-title": "NeurIPS 2023",
+  "id": "shinn2023reflexion",
+  "lab": {
+   "work": "lab:work/shinn2023reflexion",
+   "role": "background",
+   "supports": [
+    "lab:claim/verbal-rl"
+   ],
+   "locs": [],
+   "verified": {
+    "title": true,
+    "author": true,
+    "year": true,
+    "container": false,
+    "pages": false,
+    "doi": false
+   },
+   "checkedBy": "페이지 참고문헌 목록에서 옮김 (외부 대조 안 함)",
+   "checkedSource": "page"
+  }
+ }
+]
