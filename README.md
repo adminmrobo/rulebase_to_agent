@@ -1,3 +1,5 @@
+<p align="center"><img src="covers/index.webp" alt="" width="100%"></p>
+
 **[한국어](#ko) · [English](#en) · [中文](#zh) · [日本語](#ja) · [Oʻzbekcha](#uz) · [Русский](#ru) · [Tiếng Việt](#vi)**
 
 ---
